@@ -17,7 +17,7 @@
       <pubDate>Sat, 13 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>/posts/day05/</guid>
-      <description>day 05 tl;dr : week summary  Quicksort Stack / Queue TCP / UDP (가래떡) OSI 7 Layers Coockie  브라우저상에 남는 것  Session  몇분동안 유지해서 정보를 잡아두는 것 연속적인 정보를 쌓기위해 쓰는 것  Client vs Server URI / URL / URN RESTFul : URI + Method  주소로 요청을 할 수 있다. 표준이 없고 method 4개뿐   Teacher says  Hand Coding! Brain Compile! Eye Debugging!</description>
+      <description>day 05 tl;dr : week summary Quicksort Stack / Queue TCP / UDP (가래떡) OSI 7 Layers Coockie 브라우저상에 남는 것 Session 몇분동안 유지해서 정보를 잡아두는 것 연속적인 정보를 쌓기위해 쓰는 것 Client vs Server URI / URL / URN</description>
     </item>
     
     <item>
@@ -26,10 +26,7 @@
       <pubDate>Fri, 12 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>/posts/day04/</guid>
-      <description>NetWork 802.11 != wifi  802.11 는 와이파이가 아니다. 와이파이는 802 기술을 사용한 상품  normal wifi is 2.4hz 2.4g hz -&amp;gt; 2.4g per 1second 주파수 높을수록 거리는 짧고 FM 주파수 짧을수록 거리는 넓고 품질은 저하 AM
-wifi/블루투스 잘 안될때 서로 엉켜서 그럴 수 있어 그럴때는 wifi 채널을 바꿔봐라 192.168.
-wifi 요즘은 ac(공유기 안테나 보통 4개..) 여러사람 쓸수록 나눠서 써야하죠
-Lifi : light 빛으로 무선통신!!! awesome Power line Networking : 기존 전력선을 가지고 네트워킹 해보자 -&amp;gt; 망함 (더힘듬)</description>
+      <description>NetWork 802.11 != wifi 802.11 는 와이파이가 아니다. 와이파이는 802 기술을 사용한 상품 normal wifi is 2.4hz 2.4g hz -&amp;gt; 2.4g per 1second 주파수 높을수록 거리는 짧고 FM 주파수 짧을수록 거리는 넓고 품질은 저하 AM</description>
     </item>
     
     <item>
@@ -38,10 +35,7 @@ Lifi : light 빛으로 무선통신!!! awesome Power line Networking : 기존 �
       <pubDate>Thu, 11 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>/posts/day03/</guid>
-      <description>day 03 #fastcamp
-CLI : Command line interface terminal Getting to Know the Command Line | David Baumgold
-$ : ready to shell 쉘커맨드 입력 준비 됬음 $ npm install ~~~~ : shell을 이용해서 nom install입력해라 ~$ : login user’s top priority folder (최상위폴더) **root@~ : super user / 갓 역할 / 다 해치울 수 있어**
-- up arrow : go through past lines. - ls : List -&amp;gt; show all the files and folders.</description>
+      <description>day 03 #fastcamp CLI : Command line interface terminal Getting to Know the Command Line | David Baumgold $ : ready to shell 쉘커맨드 입력 준비 됬음 $ npm install ~~~~ : shell을 이용해서 nom install입력해라 ~$ : login user’s top</description>
     </item>
     
     <item>
@@ -50,12 +44,7 @@ $ : ready to shell 쉘커맨드 입력 준비 됬음 $ npm install ~~~~ : shell�
       <pubDate>Wed, 10 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>/posts/day02/</guid>
-      <description>day 02 #fastcamp
-Markdown readme.md Markdown Cheatsheet · adam-p/markdown-here Wiki · GitHub Mastering Markdown · GitHub Guides
-의사코드 . 알고리즘 . 자료구조  Pseudocode / Algorithm / Data Structure
- Pseudocode  like coding ideation , sketch
-Pseudocode - Wikipedia
-  no guide line but your own guide line is needed (i think)  1. 올드폰 == true 2. 폰이 망가졌다면, 1. 100만원 이상 있을 때, 1. 애플을 좋아한다면, 아이폰을 산다.</description>
+      <description>day 02 #fastcamp Markdown readme.md Markdown Cheatsheet · adam-p/markdown-here Wiki · GitHub Mastering Markdown · GitHub Guides 의사코드 . 알고리즘 . 자료구조 Pseudocode / Algorithm / Data Structure Pseudocode like coding ideation , sketch Pseudocode - Wikipedia no guide line but your own guide line is needed (i think) 1. 올드폰 == true 2. 폰이 망가졌</description>
     </item>
     
     <item>
@@ -64,11 +53,7 @@ Pseudocode - Wikipedia
       <pubDate>Tue, 09 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>/posts/day01/</guid>
-      <description>day 01 link  최우영 선생님 강의자료 초보몽키의 개발공부로그 ::매일매일 글 쓰고 정리하는것 중요.::  컴퓨터 설계 -&amp;gt; 전자 공학 컴퓨터의 활용 -&amp;gt; 컴퓨터 공학 CS
-ALU -&amp;gt; Arithmetic Logic Unit? + - * /
-중앙처리장치 -&amp;gt; CPU : Central Processing Unit
-80 3 86 -&amp;gt; 32bit 80 4 86 80 5 86 -&amp;gt; 팬티엄
-::intel meltdown:: How Meltdown and Spectre Were Independently Discovered By Four Research Teams At Once | WIRED</description>
+      <description>day 01 link 최우영 선생님 강의자료 초보몽키의 개발공부로그 ::매일매일 글 쓰고 정리하는것 중요.:: 컴퓨터 설계 -&amp;gt; 전자 공학 컴퓨터의 활용 -&amp;gt; 컴퓨터 공학 CS ALU -&amp;gt; Arithmetic Logic</description>
     </item>
     
     <item>

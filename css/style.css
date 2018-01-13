@@ -282,7 +282,9 @@ ul>li {
 
 
 /* Line Height */
-
+#post-body  {
+    margin: 0 1.3em;
+}
 #post-body, p {
     line-height: 1.7;
 }
