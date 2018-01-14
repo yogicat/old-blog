@@ -6,28 +6,10 @@
     <description>Recent content in Posts on today i learned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 13 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jan 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Day 05</title>
-      <link>/posts/day05/</link>
-      <pubDate>Sat, 13 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/day05/</guid>
-      <description>day 05 tl;dr : week summary Quicksort Stack / Queue TCP / UDP (가래떡) OSI 7 Layers Coockie 브라우저상에 남는 것 Session 몇분동안 유지해서 정보를 잡아두는 것 연속적인 정보를 쌓기위해 쓰는 것 Client vs Server URI / URL / URN</description>
-    </item>
-    
-    <item>
-      <title>Day 04</title>
-      <link>/posts/day04/</link>
-      <pubDate>Fri, 12 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/day04/</guid>
-      <description>NetWork 802.11 != wifi 802.11 는 와이파이가 아니다. 와이파이는 802 기술을 사용한 상품 normal wifi is 2.4hz 2.4g hz -&amp;gt; 2.4g per 1second 주파수 높을수록 거리는 짧고 FM 주파수 짧을수록 거리는 넓고 품질은 저하 AM</description>
-    </item>
     
     <item>
       <title>Day 03</title>
@@ -63,6 +45,24 @@
       
       <guid>/posts/my-first-post/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>lecture 4-network</title>
+      <link>/posts/day04/</link>
+      <pubDate>Thu, 12 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/day04/</guid>
+      <description>NetWork 802.11 != wifi - 802.11 는 와이파이가 아니다. - 와이파이는 802 기술을 사용한 상품 normal wifi is 2.4hz 2.4g hz -&amp;gt; 2.4g per 1second 주파수 높을수록 거리는 짧고 FM 주파수 짧을수록 거리는 넓고 품질은 저</description>
+    </item>
+    
+    <item>
+      <title>lecture 5-web</title>
+      <link>/posts/day05/</link>
+      <pubDate>Thu, 12 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/day05/</guid>
+      <description>tl;dr : week summary Quicksort Stack / Queue TCP / UDP (가래떡) OSI 7 Layers Coockie 브라우저상에 남는 것 Session 몇분동안 유지해서 정보를 잡아두는 것 연속적인 정보를 쌓기위해 쓰는 것 Client vs Server URI / URL / URN RESTFul :</description>
     </item>
     
     <item>
