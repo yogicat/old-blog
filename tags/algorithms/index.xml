@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Algorithms on today i learned</title>
+    <link>/tags/algorithms/</link>
+    <description>Recent content in Algorithms on today i learned</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 09 Jan 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/algorithms/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>lecture 2-algorithms</title>
+      <link>/posts/day02/</link>
+      <pubDate>Mon, 09 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/day02/</guid>
+      <description>Markdown readme.md Markdown Cheatsheet · adam-p/markdown-here Wiki · GitHub Mastering Markdown · GitHub Guides 의사코드 . 알고리즘 . 자료구조 Pseudocode / Algorithm / Data Structure Pseudocode like coding ideation , sketch Pseudocode - Wikipedia no guide line but your own guide line is needed (i think) 1. 올드폰 == true 2. 폰이 망가졌다면,</description>
+    </item>
+    
+  </channel>
+</rss>

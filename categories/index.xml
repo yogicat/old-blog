@@ -20,29 +20,11 @@
     </item>
     
     <item>
-      <title>Front End</title>
-      <link>/categories/front-end/</link>
-      <pubDate>Thu, 11 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/front-end/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Golang</title>
       <link>/categories/golang/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
       <guid>/categories/golang/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Study</title>
-      <link>/categories/study/</link>
-      <pubDate>Thu, 11 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/study/</guid>
       <description></description>
     </item>
     
