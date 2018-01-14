@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on yogicat</title>
+    <title>Categories on today i learned</title>
     <link>/categories/</link>
-    <description>Recent content in Categories on yogicat</description>
+    <description>Recent content in Categories on today i learned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     
@@ -20,11 +20,29 @@
     </item>
     
     <item>
+      <title>Front End</title>
+      <link>/categories/front-end/</link>
+      <pubDate>Thu, 11 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/front-end/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Golang</title>
       <link>/categories/golang/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
       <guid>/categories/golang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Study</title>
+      <link>/categories/study/</link>
+      <pubDate>Thu, 11 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/study/</guid>
       <description></description>
     </item>
     
