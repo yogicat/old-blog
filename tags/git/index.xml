@@ -6,7 +6,7 @@
     <description>Recent content in Git on today i learned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 10 Jan 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/git/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>lecture 3-git</title>
       <link>/posts/day03/</link>
-      <pubDate>Tue, 10 Jan 2017 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 10 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>/posts/day03/</guid>
       <description>CLI : Command line interface terminal Getting to Know the Command Line | David Baumgold $ : ready to shell 쉘커맨드 입력 준비 됬음 $ npm install ~~~~ : shell을 이용해서 nom install입력해라 ~$ : login user’s top priority folder (</description>

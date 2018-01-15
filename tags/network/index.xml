@@ -6,7 +6,7 @@
     <description>Recent content in Network on today i learned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 11 Jan 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jan 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/network/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>lecture 4-network</title>
       <link>/posts/day04/</link>
-      <pubDate>Wed, 11 Jan 2017 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 11 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>/posts/day04/</guid>
       <description>NetWork 802.11 != wifi - 802.11 는 와이파이가 아니다. - 와이파이는 802 기술을 사용한 상품 normal wifi is 2.4hz 2.4g hz -&amp;gt; 2.4g per 1second 주파수 높을수록 거리는 짧고 FM 주파수 짧을수록 거리는 넓고 품질은 저</description>
