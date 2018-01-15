@@ -137,10 +137,9 @@ h1 {
 }
 
 h2 {
-    font-size: 25px;
+    font-size: 23px;
     font-weight: 400;
     color: #333;
-    margin: 20px 0 10px 0;
 }
 
 .profile #wrapper {
@@ -199,13 +198,12 @@ nav.main-nav a.cta {
 #wrapper {
     max-width: 640px;
     margin: 0 auto;
-    padding: 80px 10px 100px 20px;
+    padding: 40px 20px 100px 20px;
 }
 
 #wrapper.home {
     max-width: 640px;
     margin: 0 auto;
-    /* padding: 0px 40px 20px 40px;     */
 }
 
 .home #avatar {
@@ -265,7 +263,7 @@ ul>li {
     max-width: 640px;
 }
 #post-body, p {
-    line-height: 1.7;
+    line-height: 1.6;
 }
 #post-body p > a {
   word-break: break-word;
@@ -318,9 +316,8 @@ em, i {
 }
 
 .post h2 {
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom: 10px;
-    
 }
 
 .post h2.headline {
@@ -344,7 +341,7 @@ em, i {
 }
 
 #post-list h2 {
-    font: normal 14px/1.5em "Roboto", 'Apple SD Gothic Neo',Arial, sans-serif;
+    font: normal 16px/1.5em "Roboto", 'Apple SD Gothic Neo',Arial, sans-serif;
     color: #aaa;
     margin-top: 2px;
 }
@@ -479,7 +476,7 @@ Post List
 #post-list a {
     color: #333;
     display: block;
-    font: bold 19px/1.7 "Roboto", 'Apple SD Gothic Neo',Arial, sans-serif;
+    font: 400 24px "Roboto", 'Apple SD Gothic Neo',Arial, sans-serif;
 }
 
 #post-list .dates {
@@ -749,7 +746,7 @@ h2.month {
 
 @media screen and (max-width: 540px) {
     #wrapper {
-        padding: 80px 20px 20px 20px;
+        padding: 60px 20px 20px 20px;
     }
     #header {
         margin-bottom: 60px;
