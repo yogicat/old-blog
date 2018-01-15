@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Html on today i learned</title>
+    <link>/tags/html/</link>
+    <description>Recent content in Html on today i learned</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 15 Jan 2018 18:47:11 +0900</lastBuildDate>
+    
+	<atom:link href="/tags/html/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Markup for all</title>
+      <link>/posts/20180115/</link>
+      <pubDate>Mon, 15 Jan 2018 18:47:11 +0900</pubDate>
+      
+      <guid>/posts/20180115/</guid>
+      <description>The importance of meaninfulness in Web 의미있는 이름짓기의 중요성(네이밍&amp;amp;마크업) There are only two hard problems in Computer Science: cache invalidation and naming things — Phil Karlton Web technologies for all Accessibility &amp;amp; Web Standards = BETTER WORLD 웹표준과 접근성 그리고 호</description>
+    </item>
+    
+  </channel>
+</rss>
