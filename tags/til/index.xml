@@ -5,19 +5,28 @@
     <link>/tags/til/</link>
     <description>Recent content in Til on today i learned</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>kr</language>
-    <lastBuildDate>Mon, 15 Jan 2018 10:09:11 +0900</lastBuildDate>
+    <language>en</language>
+    <lastBuildDate>Mon, 15 Jan 2018 18:47:11 +0900</lastBuildDate>
     
 	<atom:link href="/tags/til/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>how to attend Harvard</title>
+      <title>Markup for all</title>
       <link>/posts/20180115/</link>
-      <pubDate>Mon, 15 Jan 2018 10:09:11 +0900</pubDate>
+      <pubDate>Mon, 15 Jan 2018 18:47:11 +0900</pubDate>
       
       <guid>/posts/20180115/</guid>
-      <description>going to Harvard at my home I&amp;rsquo;ve been studying web development since last week.and I had a chance to learn some of the basics of computer science. It got me interested and throughout the weekend I wanted to study more CS so I look up what the actual computer science class teaches. In fact, you don&amp;rsquo;t have to really attend university to see the lectures. Because we are living in</description>
+      <description>The importance of meaninfulness in Web 의미있는 이름짓기의 중요성(네이밍&amp;amp;마크업) There are only two hard problems in Computer Science: cache invalidation and naming things — Phil Karlton Web technologies for all Accessibility &amp;amp; Web Standards = BETTER WORLD 웹표준과 접근성 그리고 호</description>
+    </item>
+    
+    <item>
+      <title>Harvard CS50</title>
+      <link>/posts/20180114/</link>
+      <pubDate>Mon, 15 Jan 2018 18:30:11 +0900</pubDate>
+      
+      <guid>/posts/20180114/</guid>
+      <description>going to Harvard at night. I&amp;rsquo;ve been studying computer science since last week and while I was looking for some stuff I found great foundation lectures on CS at Harvard.In fact I was able to watch the whole lectures throughout the weekend and It was really helpful for someone like me(no background in computer science). 하버드에 가지않고 하버드에 다녀오</description>
     </item>
     
   </channel>

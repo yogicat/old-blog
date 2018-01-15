@@ -5,7 +5,7 @@
     <link>/tags/</link>
     <description>Recent content in Tags on today i learned</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>kr</language>
+    <language>en</language>
     <lastBuildDate>Tue, 09 Jan 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
@@ -23,7 +23,7 @@
     <item>
       <title>Computer</title>
       <link>/tags/computer/</link>
-      <pubDate>Mon, 15 Jan 2018 10:09:11 +0900</pubDate>
+      <pubDate>Mon, 08 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/computer/</guid>
       <description></description>
@@ -41,9 +41,18 @@
     <item>
       <title>Harvard</title>
       <link>/tags/harvard/</link>
-      <pubDate>Mon, 15 Jan 2018 10:09:11 +0900</pubDate>
+      <pubDate>Mon, 15 Jan 2018 18:30:11 +0900</pubDate>
       
       <guid>/tags/harvard/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Html</title>
+      <link>/tags/html/</link>
+      <pubDate>Mon, 15 Jan 2018 18:47:11 +0900</pubDate>
+      
+      <guid>/tags/html/</guid>
       <description></description>
     </item>
     
@@ -53,6 +62,15 @@
       <pubDate>Fri, 12 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/lecture/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Markup</title>
+      <link>/tags/markup/</link>
+      <pubDate>Mon, 15 Jan 2018 18:47:11 +0900</pubDate>
+      
+      <guid>/tags/markup/</guid>
       <description></description>
     </item>
     
@@ -68,7 +86,7 @@
     <item>
       <title>Til</title>
       <link>/tags/til/</link>
-      <pubDate>Mon, 15 Jan 2018 10:09:11 +0900</pubDate>
+      <pubDate>Mon, 15 Jan 2018 18:47:11 +0900</pubDate>
       
       <guid>/tags/til/</guid>
       <description></description>
@@ -80,6 +98,15 @@
       <pubDate>Fri, 12 Jan 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/web/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Youtube</title>
+      <link>/tags/youtube/</link>
+      <pubDate>Mon, 15 Jan 2018 18:30:11 +0900</pubDate>
+      
+      <guid>/tags/youtube/</guid>
       <description></description>
     </item>
     
