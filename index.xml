@@ -6,10 +6,19 @@
     <description>Recent content on today i learned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 15 Jan 2018 09:51:48 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jan 2018 10:09:11 +0900</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>how to attend Harvard</title>
+      <link>/posts/20180115/</link>
+      <pubDate>Mon, 15 Jan 2018 10:09:11 +0900</pubDate>
+      
+      <guid>/posts/20180115/</guid>
+      <description>going to Harvard at my home I&amp;rsquo;ve been studying web development since last week.and I had a chance to learn some of basics of computer science. It got me interested and through out the weekend I wanted to study more CS so I look up what the actual computer scrience class teaches. In fact you don&amp;rsquo;t have to really attend university to see the lectures. Because we are living in</description>
+    </item>
     
     <item>
       <title>add some Emojis!</title>

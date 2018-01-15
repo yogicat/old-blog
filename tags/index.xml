@@ -23,7 +23,7 @@
     <item>
       <title>Computer</title>
       <link>/tags/computer/</link>
-      <pubDate>Sun, 08 Jan 2017 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 15 Jan 2018 10:09:11 +0900</pubDate>
       
       <guid>/tags/computer/</guid>
       <description></description>
@@ -62,6 +62,15 @@
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
       <guid>/tags/golang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Harvard</title>
+      <link>/tags/harvard/</link>
+      <pubDate>Mon, 15 Jan 2018 10:09:11 +0900</pubDate>
+      
+      <guid>/tags/harvard/</guid>
       <description></description>
     </item>
     
@@ -107,6 +116,15 @@
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
       <guid>/tags/themes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Til</title>
+      <link>/tags/til/</link>
+      <pubDate>Mon, 15 Jan 2018 10:09:11 +0900</pubDate>
+      
+      <guid>/tags/til/</guid>
       <description></description>
     </item>
     
