@@ -104,7 +104,7 @@ table {
 
 /* Spacing */
 h2.subtitle {
-    font-size: 16px;
+    font-size: 1.2em;;
     margin: 0;
 }
 .post h1, h3, h4, h5, p, #post-body ul, #post-list li, #post-body ol, pre {
@@ -113,7 +113,6 @@ h2.subtitle {
 
 p {
     margin: 15px 0px 15px 0;
-    font-size: 17px;
 }
 
 /* Base */
@@ -124,20 +123,21 @@ html, body {
 
 body {
     font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
+    font-size: 16px;
     color: #666;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
 }
 
 h1 {
-    font-size: 30px;
+    font-size: 1.5em;
     letter-spacing: -1px;
     color: #222;
     font-weight: bold;
 }
 
 h2 {
-    font-size: 23px;
+    font-size: 1.4em;
     font-weight: 400;
     color: #333;
 }
@@ -247,9 +247,8 @@ ul {
 li {
     list-style-position: outside;
     /* text-indent: -1.5em; */
-    margin: 10px 0;
     margin-left: 2em;
-    font-size: 18px;
+    line-height: 2;
 }
 
 ul>li {
@@ -260,10 +259,10 @@ ul>li {
 /* Line Height */
 #post-body  {
     margin: 0 auto;
-    max-width: 640px;
+    max-width: 560px;
 }
 #post-body, p {
-    line-height: 1.6;
+    line-height: 1.7;
 }
 #post-body p > a {
   word-break: break-word;
@@ -283,7 +282,7 @@ em, i {
     display: inline-block;
     line-height: 100%;
     font-weight: 500;
-    font-size: 19px;
+    font-size: 2em;
     margin: 0;
     padding-bottom: 20px;
 }
@@ -356,22 +355,21 @@ h3, h4, h5 {
 }
 
 h3 {
-    font-size: 20px;
+    font-size: 1.3em;
     font-weight: 400;
 }
 
 h4 {
-    font-size: 16px;
+    font-size: 1.2em;
     font-weight: bold;
 }
 
 h5 {
-    font-size: 15px;
+    font-size: 1.1em;
     font-weight: bold;
 }
 
 h6 {
-    font-size: 13px;
     font-weight: bold;
     color: #666;
     margin-bottom: 6px;
@@ -389,6 +387,9 @@ p.small {
 blockquote {
     padding-left: 15px;
     border-left: 3px solid #eee;
+    font-size: 0.9em;
+    font-style:italic;
+
 }
 
 hr {
