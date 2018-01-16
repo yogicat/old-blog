@@ -1,9 +1,9 @@
 /* Reset */
-
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
     border: 0;
     font-size: 100%;
-    font: inherit;
+    font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
     vertical-align: baseline;
     margin: 0;
     padding: 0
@@ -123,7 +123,7 @@ html, body {
 }
 
 body {
-    font: 16px "Roboto", 'Apple SD Gothic Neo',Arial, sans-serif;
+    font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', 'Sans-serif';
     color: #666;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
@@ -321,7 +321,8 @@ em, i {
 }
 
 .post h2.headline {
-    font: normal 13px/1.5em "Roboto", 'Apple SD Gothic Neo',Arial, sans-serif;
+    font-weight: normal;
+    font-size: 13px/1.5em;
     margin: -5px 0 0 0;
     color: #b2b9be;
     font-size: 13px;
@@ -330,7 +331,8 @@ em, i {
 }
 
 .post h2.headline .tags {
-    font: normal 13px/1.5em "Roboto", 'Apple SD Gothic Neo',Arial, sans-serif;
+    font-weight: normal; 
+    font-size: 13px/1.5em;
     margin: -5px 0 40px 0;
     color: #b2b9be;
     font-size: 13px;
@@ -341,7 +343,9 @@ em, i {
 }
 
 #post-list h2 {
-    font: normal 16px/1.5em "Roboto", 'Apple SD Gothic Neo',Arial, sans-serif;
+    font-weight: normal; 
+    font-size: 0.6em;
+    line-height: 1.4;
     color: #aaa;
     margin-top: 2px;
 }
@@ -476,14 +480,16 @@ Post List
 #post-list a {
     color: #333;
     display: block;
-    font: 400 24px "Roboto", 'Apple SD Gothic Neo',Arial, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
 }
 
 #post-list .dates {
     float: right;
     position: relative;
     top: 1px;
-    font: 300 17px/1.8 "Roboto", 'Apple SD Gothic Neo',Arial, sans-serif;
+    font-weight: 300;
+    font-size: 17px/1.8;
     color: #bbb;
 }
 
@@ -636,7 +642,8 @@ h1.archive {
 
 h2.month {
     width: 100%;
-    font: bold 13px/1 "Roboto", helvetica, Arial, sans-serif;
+    font-weight: bold;
+    font-size: 13px;
     text-transform: uppercase;
     margin-top: 40px;
     margin-bottom: 10px;
@@ -650,7 +657,7 @@ h2.month {
 
 #archive-list a {
     display: block;
-    font: bold 17px/1.7 "Roboto", 'Apple SD Gothic Neo',Arial, sans-serif;
+    font: bold 17px/1.7;
     color: #333;
 }
 
@@ -658,7 +665,7 @@ h2.month {
     float: right;
     position: relative;
     top: 1px;
-    font: 300 17px/1.7 "Roboto", 'Apple SD Gothic Neo',Arial, sans-serif;
+    font: 300 17px/1.7;
     color: #bbb;
 }
 
@@ -683,12 +690,12 @@ h2.month {
     margin-bottom: 0px;
 }
 #post-list.archive.readmore h3 {
-    font: 400 20px "Roboto", 'Apple SD Gothic Neo',Arial, sans-serif;
+    font: 400 20px;
     margin-bottom: 30px;
 }
 
 #post-list.archive.readmore a {
-    font: 400 16px/1.6 "Roboto", 'Apple SD Gothic Neo',Arial, sans-serif;
+    font: 400 16px/1.6;
     color: #333;
 }
 
@@ -697,7 +704,7 @@ h2.month {
 }
 
 #post-list.archive.readmore .dates {
-    font: 300 16px/1.6 "Roboto", 'Apple SD Gothic Neo',Arial, sans-serif;
+    font: 300 16px/1.6;
 }
 
 #disqus_thread, #ds-thread {
@@ -734,19 +741,19 @@ h2.month {
         display: block;
     }
     .post header {
-         margin-left: 20px;
+         /* margin-left: 20px; */
     }
     .post h1 {
         font-size: 30px;
     }
-    .profile #wrapper {
-        margin: 0 20px
-    }
+    /* .profile #wrapper {
+        margin: 0 20px 
+    } */
 }
 
 @media screen and (max-width: 540px) {
     #wrapper {
-        padding: 60px 20px 20px 20px;
+        /* padding: 60px 20px 20px 20px; */
     }
     #header {
         margin-bottom: 60px;
