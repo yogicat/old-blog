@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Box Model on today i learned</title>
+    <link>/tags/box-model/</link>
+    <description>Recent content in Box Model on today i learned</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 16 Jan 2018 18:47:11 +0900</lastBuildDate>
+    
+	<atom:link href="/tags/box-model/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Road to flexbox</title>
+      <link>/posts/20180116/</link>
+      <pubDate>Tue, 16 Jan 2018 18:47:11 +0900</pubDate>
+      
+      <guid>/posts/20180116/</guid>
+      <description>CSS:Cascade Style Sheet 오늘은 기본적인 CSS를 공부했다. 특히 그중에서도 중요하게 여겨지는 css box model과 flexbox에 대해 정리하고자 한다. The CSS Box Model HTML의 요</description>
+    </item>
+    
+  </channel>
+</rss>
