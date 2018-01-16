@@ -6,18 +6,27 @@
     <description>Recent content in Css on today i learned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 16 Jan 2018 18:47:11 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 17 Jan 2018 01:00:11 +0900</lastBuildDate>
     
 	<atom:link href="/tags/css/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Road to flexbox</title>
+      <title>Road to Flexbox 1</title>
+      <link>/posts/20180116-1/</link>
+      <pubDate>Wed, 17 Jan 2018 01:00:11 +0900</pubDate>
+      
+      <guid>/posts/20180116-1/</guid>
+      <description>What is Flexbox? Flexbox를 정복하자. 내용은 각종 블로그, 동영상, 그리고 W3C에 명시된 Flexbox스펙을 참고하였음.(링크는 하단 참조) Flexbo</description>
+    </item>
+    
+    <item>
+      <title>CSS Box Model</title>
       <link>/posts/20180116/</link>
       <pubDate>Tue, 16 Jan 2018 18:47:11 +0900</pubDate>
       
       <guid>/posts/20180116/</guid>
-      <description>CSS:Cascading Style Sheets 오늘은 기본적인 CSS를 공부했다. 특히 그중에서도 중요하게 여겨지는 css box model과 flexbox에 대해 정리하고자 한다. The CSS Box Model HTML의 요</description>
+      <description>CSS:Cascading Style Sheets 오늘은 기본적인 CSS를 공부했다. 특히 그중에서도 기본으로 짚고 넘어갈 css box model에 대해 정리하고자 한다. The CSS Box Model HTML의 요소들은 하나의 박</description>
     </item>
     
   </channel>
