@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<meta name="author" content="yogicat">
+		<meta name="description" content="today I learned">
+		<meta name="generator" content="Hugo 0.32.3" />
+		<title>Road to Flexbox 1 &middot; today i learned</title>
+		<link rel="shortcut icon" href="/images/favicon.ico">
+		<link rel="stylesheet" href="/css/style.css">
+		<link rel="stylesheet" href="/css/highlight.css">
+
+		
+		<link rel="stylesheet" href="/css/font-awesome.min.css">
+		
+
+		
+
+		
+	</head>
+
+    <body>
+       <nav class="main-nav">
+	
+	
+		<a href='/'> <span class="arrow">←  </span>Home</a>
+	
+	<a href='/posts'>Archive</a>
+	<a href='/tags'>Tags</a>
+	<a href='/about'>About/Now</a>
+
+	
+
+	
+</nav>
+
+
+        <section id="wrapper" class="post">
+            <article>
+                <header>
+                    <h1>
+                        Road to Flexbox 1
+                    </h1>
+                    <h2 class="headline">
+                    Jan 17, 2018 01:00
+                    · 1124 words
+                    · 3 minute read
+                      <span class="tags">
+                      
+                      
+                          
+                              <a href="/tags/css">css</a>
+                          
+                              <a href="/tags/til">til</a>
+                          
+                              <a href="/tags/flexbox">flexbox</a>
+                          
+                              <a href="/tags/box-model">box model</a>
+                          
+                      
+                      
+                      </span>
+                    </h2>
+                </header>
+                
+                <section id="post-body">
+                    
+
+<h2 id="what-is-flexbox">What is Flexbox?</h2>
+
+<p>Flexbox를 정복하자. 내용은 각종 블로그, 동영상, 그리고 W3C에 명시된 Flexbox스펙을 참고하였음.(링크는 하단 참조)</p>
+
+<p>Flexbox모델은 요소들의 레이아웃, 정렬, 도큐먼트 내에서의 공간 배치를 효과적으로 할 수 있게 해준다. 특히 뷰포트와 요소의 크기가 명확하지 않거나 dynamic할 경우에 유용하다.Floxbox를 사용하기 위해서는 반드시 parent element와 children elements가 필요하다.</p>
+
+<hr />
+
+<h3 id="container-properties">Container Properties</h3>
+
+<p>flexbox container = 부모 영역에 적용되는 속성들</p>
+
+<pre><code class="language-css">.container {
+    flex-direction : row || column || row-reverse || column-reverse;
+    flex-wrap : wrap || nowrap || wrap-reverse;
+    flex-flow : flex-direction flex-wrap;
+    justify-content : flex-start || flex-end || center || space-between || space-around;
+    align-items : flex-start || flex-end || center || stretch || baseline;
+    align-content
+}
+</code></pre>
+
+<hr />
+
+<h3 id="direction">direction</h3>
+
+<ul>
+<li>아이템들을 <strong>가로(row)</strong>로 나열할 것인가</li>
+<li><strong>세로(column)</strong>로 나열할 것인가?</li>
+<li>가로로 뒤에서부터 나열할 것인가 <strong>row-reverse</strong></li>
+<li>세로로 뒤에서부터 나열할 것인가 <strong>column-reverse</strong></li>
+</ul>
+
+<hr />
+
+<h3 id="wrap-or-nowrap">wrap or nowrap</h3>
+
+<p>wrap?랩?씌우다?감싸다?그렇다면 wrap이면 container안에 감싸겠다는 건가?
+어라 <code>flex-wrap:wrap</code>을 주니까 다음행으로 넘어가네? 무슨 일이지? 이해가 안가 우선 wrap의 사전적 의미를 찾아보았다.</p>
+
+<blockquote>
+<p>Wrap <br>
+    &gt; verb (wraps, wrapping, wrapped or archaic wrapt) <br>
+    &gt; 2 Computing [with object] cause (a word or unit of text) to be carried over to a <strong>new line</strong> automatically as the margin is reached, or to fit around embedded features such as pictures.  <br>
+    &gt; 6.〔컴퓨터〕 〈텍스트를〉 다음 행으로 넘기다.</p>
+</blockquote>
+
+<p>CSS에서 말하는 <code>wrap</code>은 내가 알고있던 뜻이 아닌, <strong>다음 행으로 넘기다</strong>라는 사전에서의 2번째(혹은 6번째)의미를 나타냄을 알게되었다. 따라서 <code>flex-wrap</code>에서 디폴트 값인 <code>nowrap</code>의 의미는 flex items(children)를 다음 행으로 넘기지 않고 한줄에 다 넣겠다는 뜻!그러므로 아이템들을 구겨넣지 않고 크기를 그대로 표현하고 싶다면 wrap을 적용해야 한다.</p>
+
+<hr />
+
+<h3 id="justify-content">justify-content</h3>
+
+<blockquote>
+<p>flex-start || flex-end || center || space-between || space-around</p>
+</blockquote>
+
+<p>중심 축(row일 경우 x축 | column일 경우 y축)을 기준으로 아이템을 컨테이너안에서 어떻게 정렬할 것인지 정할 수 있다.<code>text-align</code>을 생각하면 쉽다.(언제 x축이고 y축일지 헷갈릴땐 item들이 100% stretch된 경우로 생각자 -for me)</p>
+
+<hr />
+
+<h3 id="align-items-aling-self">align-items | aling-self</h3>
+
+<blockquote>
+<p>Flex items can be aligned in the cross axis of the current line of the flex container, similar to justify-content but in the perpendicular direction. (W3C Spec)</p>
+</blockquote>
+
+<p>아이템들은 컨테이너의 cross axis(교차되는 축: x일때는 y, y일때는 x)를 기준으로 정렬가능하다. justify-content와 비슷하지만 반대의 방향이라고 생각하면 이해하기 쉽다.</p>
+
+<hr />
+
+<h3 id="align-content">align-content</h3>
+
+<p><code>align-content</code>는 <code>align-items</code>와 비슷한 개념인데 쉽게 말하면 아이템들이 많아져서 wrap으로 여러줄로 나타날 경우에 쓸 수 있는 property이다.따라서 한 줄로 나타내는 컨테이너에는 적용되지 않는다.(아무런 변화 없음)</p>
+
+<blockquote>
+<p>The align-content property aligns a flex container’s lines within the flex container <strong>when there is extra space in the cross-axis</strong>, similar to how justify-content aligns individual items within the main-axis.<strong>Note, this property has no effect on a single-line flex container.</strong> (W3C Spec)</p>
+</blockquote>
+
+<hr />
+
+<p>디음에는 item에 적용될 수 있는 속성을 알아보기로 하자.
+to be continued&hellip;</p>
+
+<hr />
+
+<h4 id="참고한-자료링크">참고한 자료링크</h4>
+
+<ul>
+<li><a href="https://www.w3.org/TR/css-flexbox-1/">CSS Flexbox Module Spec</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox">MDN Flexbox</a></li>
+<li><a href="https://medium.freecodecamp.org/understanding-flexbox-everything-you-need-to-know-b4013d4dc9af">Understanding Flexbox: Everything you need to know</a></li>
+<li><a href="https://youtu.be/G7EIAgfkhmg">DevTips:Flexbox Essentials Youtube</a></li>
+<li><a href="https://flexbox.webflow.com/">flexbox그래픽툴</a></li>
+<li><a href="https://hackernoon.com/11-things-i-learned-reading-the-flexbox-spec-5f0c799c776b">11things I learned reading flexbox spec</a></li>
+</ul>
+
+                </section>
+            </article>
+
+            
+
+            
+                <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'yogicat'; 
+
+     
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+            
+
+            
+
+            <footer id="footer">
+    
+        <div id="social">
+
+	
+	
+    <a class="symbol" href="https://www.facebook.com">
+        <i class="fa fa-facebook-square"></i>
+    </a>
+    
+    <a class="symbol" href="https://www.github.com/yogicat">
+        <i class="fa fa-github-square"></i>
+    </a>
+    
+
+
+</div>
+
+    
+    <p class="small">
+    
+       © Copyright 2018 <i class="fa fa-heart" aria-hidden="true"></i> yogicat
+    
+    </p>
+    
+</footer>
+
+        </section>
+
+        <script src="/js/jquery-2.2.4.min.js"></script>
+<script src="/js/main.js"></script>
+<script src="/js/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+  
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-112494454-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+
+
+
+    </body>
+</html>
