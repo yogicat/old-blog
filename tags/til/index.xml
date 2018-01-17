@@ -6,10 +6,19 @@
     <description>Recent content in Til on today i learned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 17 Jan 2018 01:00:11 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 17 Jan 2018 23:00:00 +0900</lastBuildDate>
     
 	<atom:link href="/tags/til/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>World a better place</title>
+      <link>/posts/20180117/</link>
+      <pubDate>Wed, 17 Jan 2018 23:00:00 +0900</pubDate>
+      
+      <guid>/posts/20180117/</guid>
+      <description>Git-it 검색 중 알게된 git을 재밌게 배울 수 있는 레포 GIT-IT 데스크탑용 앱을 다운로드해서 따라 하다 보니까 금세 깃이랑 친해질 수 있었다. 예전에 건축, 인테리어 일을 할 때도</description>
+    </item>
     
     <item>
       <title>Road to Flexbox 1</title>

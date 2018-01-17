@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Git on today i learned</title>
-    <link>/tags/git/</link>
-    <description>Recent content in Git on today i learned</description>
+    <title>Accessibility on today i learned</title>
+    <link>/tags/accessibility/</link>
+    <description>Recent content in Accessibility on today i learned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Wed, 17 Jan 2018 23:00:00 +0900</lastBuildDate>
     
-	<atom:link href="/tags/git/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/accessibility/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,15 +18,6 @@
       
       <guid>/posts/20180117/</guid>
       <description>Git-it 검색 중 알게된 git을 재밌게 배울 수 있는 레포 GIT-IT 데스크탑용 앱을 다운로드해서 따라 하다 보니까 금세 깃이랑 친해질 수 있었다. 예전에 건축, 인테리어 일을 할 때도</description>
-    </item>
-    
-    <item>
-      <title>lecture 3-git</title>
-      <link>/posts/day03/</link>
-      <pubDate>Wed, 10 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/posts/day03/</guid>
-      <description>CLI : Command line interface terminal Getting to Know the Command Line | David Baumgold $ : ready to shell 쉘커맨드 입력 준비 됬음 $ npm install ~~~~ : shell을 이용해서 nom install입력해라 ~$ : login user’s top priority folder (</description>
     </item>
     
   </channel>
