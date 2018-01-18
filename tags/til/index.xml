@@ -6,10 +6,19 @@
     <description>Recent content in Til on today i learned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 17 Jan 2018 23:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 18 Jan 2018 23:00:00 +0900</lastBuildDate>
     
 	<atom:link href="/tags/til/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>css menu study 101</title>
+      <link>/posts/20180118/</link>
+      <pubDate>Thu, 18 Jan 2018 23:00:00 +0900</pubDate>
+      
+      <guid>/posts/20180118/</guid>
+      <description>Stuff I should know about Headings 웹페이지의 기본적이고 중요한 헤딩영역을 배웠다.우리가 무심코 방문하는 웹사이트에는 눈에는 보이지 않는 스크린 리더기와 키보드접근성을 위한 요소</description>
+    </item>
     
     <item>
       <title>World a better place</title>
