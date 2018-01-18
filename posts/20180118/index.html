@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta property="og:title" content="Today I learned | Yogicat" />
+		<meta name="description" content="Yogicat Today I Learned Github Repo Blog. Everyday learning from front-end-development 매일 매일 개발하며 배운것들을 기록합니다."
+		/>
+		<meta property="og:description" content="Yogicat Today I Learned Github Repo Blog. Everyday learning from front-end-development 매일 매일 개발하며 배운것들을 기록합니다."
+		/>
+		<meta property="og:url" content="https://yogicat.github.io" />
+		<meta property="og:type" content="blog" />
+		<meta property="og:site_name" content="Yogicat TIL" />
+	
+
+		
+		<meta name="author" content="yogicat">
+		<meta name="description" content="today I learned in dev | 매일 매일 개발하며 배운것을 기록합니다.">
+		<meta name="generator" content="Hugo 0.32.3" />
+		<title>css menu study 101 &middot; today i learned</title>
+		<link rel="shortcut icon" href="/images/favicon.ico">
+		<link rel="stylesheet" href="/css/style.css">
+		<link rel="stylesheet" href="/css/highlight.css">
+
+		
+		<link rel="stylesheet" href="/css/font-awesome.min.css">
+		
+
+		
+
+		
+	</head>
+
+    <body>
+       <nav class="main-nav">
+	
+	
+		<a href='/'> <span class="arrow">←  </span>Home</a>
+	
+	<a href='/posts'>Archive</a>
+	<a href='/tags'>Tags</a>
+	<a href='/about'>About/Now</a>
+
+	
+
+	
+</nav>
+
+
+        <section id="wrapper" class="post">
+            <article>
+                <header>
+                    <h1>
+                        css menu study 101
+                    </h1>
+                    <h2 class="headline">
+                    Jan 18, 2018 23:00
+                    · 575 words
+                    · 2 minute read
+                      <span class="tags">
+                      
+                      
+                          
+                              <a href="/tags/til">til</a>
+                          
+                              <a href="/tags/html">html</a>
+                          
+                              <a href="/tags/css">css</a>
+                          
+                              <a href="/tags/markup">markup</a>
+                          
+                              <a href="/tags/menu">menu</a>
+                          
+                      
+                      
+                      </span>
+                    </h2>
+                </header>
+                
+                <section id="post-body">
+                    
+
+<h2 id="stuff-i-should-know-about-headings">Stuff I should know about Headings</h2>
+
+<p>웹페이지의 기본적이고 중요한 헤딩영역을 배웠다.우리가 무심코 방문하는 웹사이트에는 눈에는 보이지 않는 스크린 리더기와 키보드접근성을 위한 요소들도 존재한다는 걸 알게 되었다. 접근성을 고려하는 것은 필수적이라는 것을 잊지 말자.</p>
+
+<p><strong>오늘의 키워드</strong><br>
+    - <code>float:left | right</code> <br>
+    - empty element <code>::after</code> <code>::before</code><br>
+    - <code>overflow: hidden</code> <br>
+    - <code>.skip-nav</code> | <code>go to content</code> <br>
+    - keyboard &amp; mouse accessibility</p>
+
+<h2 id="menu-study-101">Menu Study 101</h2>
+
+<p>셀프 스터디 float를 이용해 menu를 표현해보자.
+메뉴 리스트 아이템에 float사용시 parent element에서 벗어나 떠다니는 현상이 발생한다. 이때 몇가지 해결책 중에 최대한 <strong>markup과 CSS를 분리</strong>해서 해결하는 방법을 찾도록 한다. 부모요소에 고정 높이 값이 있을때는 메뉴 리스트가 둥둥 뜨지않고 정상적으로 작동한다. 높이값이 없을경우 해결하는 방법들은 다양하다. <code>flexbox</code>를 이용하면 손쉽게 해결할 수 있지만 올드패션으로 배워보았다.(float는 아직까지도 많은 곳에서 사용하고 있는 보편적인 방식이기도 하니까.)</p>
+
+<ul>
+<li>parent element에 <code>overflow:hidden</code>을 주어 넘치는 현상 해결한다</li>
+<li>parent element에 psuedo element <code>::after</code>를 주어 크기를 인지하게 한다.</li>
+<li>empty element를 만들어 <code>clear:both</code> 를 적용한다.</li>
+</ul>
+
+<hr />
+
+<p>parent element에 <code>::after</code>를 사용해 <code>clearfix</code>로 하는 방법을 연습했다. 여기에 하위 메뉴까지 추가하는 연습은 내일로 미루기로. <code>flexbox</code>를 사용하면 이렇게 복잡하고 난감하지 않게 쉽게 해결할 수 있다니 불행 중 다행이다.</p>
+
+<hr />
+
+<script async src="//jsfiddle.net/daheoh/vmm6ye7a/embed/html,css,result/"></script>
+
+<hr />
+
+<h3 id="useful-links">useful links</h3>
+
+<ul>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/float">MDN float</a></li>
+<li><a href="https://medium.freecodecamp.org/css-floats-explained-by-riding-an-escalator-57fa55232333">css floats explained</a></li>
+<li><a href="https://www.w3.org/wiki/CSS/Training/floating">css training floating</a></li>
+</ul>
+
+                </section>
+            </article>
+
+            
+
+            
+                <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'yogicat'; 
+
+     
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+            
+
+            
+
+            <footer id="footer">
+    
+        <div id="social">
+
+	
+	
+    <a class="symbol" href="https://www.facebook.com">
+        <i class="fa fa-facebook-square"></i>
+    </a>
+    
+    <a class="symbol" href="https://www.github.com/yogicat">
+        <i class="fa fa-github-square"></i>
+    </a>
+    
+
+
+</div>
+
+    
+    <p class="small">
+    
+       © Copyright 2018 <i class="fa fa-heart" aria-hidden="true"></i> yogicat
+    
+    </p>
+    
+</footer>
+
+        </section>
+
+        <script src="/js/jquery-2.2.4.min.js"></script>
+<script src="/js/main.js"></script>
+<script src="/js/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+  
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-112494454-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+
+
+
+    </body>
+</html>
