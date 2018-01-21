@@ -1,0 +1,155 @@
+@charset "utf-8";
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css");
+@import url('https://fonts.googleapis.com/css?family=VT323');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+/* @import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css); */
+/* @import url("https://cdnjs.cloudflare.com/ajax/libs/marx/2.0.7/marx.min.css"); */
+/* @import url("https://cdnjs.cloudflare.com/ajax/libs/marx/2.0.7/marx.styl.min.css"); */
+/* 
+1.charset
+2.normalize
+3.reset stuff 
+*/
+* {
+  padding: 0;
+  margin: 0;
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+html {
+    font-size: 10px;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #181818;
+    background-color: #fff;
+    font-size: 1.4rem;
+}
+
+.wrapper {
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.skip-link {
+  /* Remove item from normal flow */
+  position: absolute;
+  top: 8px;
+  left: 8px;
+}
+
+.skip-link:not(:focus) {
+  /* Workaround for falsely pronounced, smushed text */
+  white-space: nowrap;
+  /* Set it to the smallest possible size (some screen readers ignore elements with zero height and width) */
+  width: 1px;
+  height: 1px;
+  /* Hide overflowing content after resizing */
+  overflow: hidden;
+  /* Reset any property that may change the elements size */
+  border: 0;
+  padding: 0;
+  /* Clipping defines what part of an element should be displayed. */
+  /* Deprecated clip property for older browsers */
+  clip: rect(0 0 0 0);
+  /* clip-path for newer browsers. inset(50%) defines an inset rectangle that makes the content disappear. */
+  clip-path: inset(50%); 
+  /* It seems like at the moment nobody is quite sure why margin: -1px is there. On top of that it seems to cause issues (see: https://github.com/h5bp/html5-boilerplate/issues/1985). */
+  margin: -1px;
+}
+.header {
+    position: relative;
+    border-bottom: 1px solid rgba(116, 116, 116, 0.466);
+}
+
+.logo {
+    font-family: 'VT323' ,monospace;
+    position: absolute;
+    margin: 0;
+    top: -5px;;
+    font-size: 3.5rem;
+}
+
+.main-menu {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+.main-menu li{
+    margin:0 10px;
+    line-height: 40px;
+}
+.main-menu li a{
+    font-size: 1.7rem;
+    padding: 10px 20px;
+}
+.main-menu li:hover a {
+    color: rgba(182, 182, 182, 0.5);
+    border-bottom: 2px solid salmon;
+}
+
+.main {
+    max-width: 1200px;
+    margin:0 auto;
+}
+.main__slogan {
+    padding: 40px 0px;
+}
+
+.slogan-quote {
+    font-size: 9rem;
+    text-transform: capitalize;
+    text-align: left;
+
+}
+.section--hidden {
+    display: none;
+}
+
+.main__post {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-post {
+    padding: 20px 10px;
+    width: 33.33333%;
+    height: auto;
+    font-size:2rem;
+    line-height: 1.5;
+}
+.blog-post:nth-child(1){
+    background-color: tomato;
+}
+.blog-post:nth-child(2){
+    background-color:greenyellow;
+}
+.blog-post:nth-child(3){
+    background-color: steelblue;
+}
+
+.blog-post h2 {
+    font-size:2.4rem;
+}
+
+.footer {
+    border-top: 1px solid rgba(116, 116, 116, 0.466);
+    display: flex;
+    justify-content: center;
+}
+.footer a {
+    font-size: 2rem;
+    padding: 40px 20px;
+}
+.footer .copy {
+}
+.link {
+
+}
