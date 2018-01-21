@@ -1,7 +1,7 @@
 @charset "utf-8";
 @import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css");
 @import url('https://fonts.googleapis.com/css?family=VT323');
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
 /* @import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css); */
 /* @import url("https://cdnjs.cloudflare.com/ajax/libs/marx/2.0.7/marx.min.css"); */
 /* @import url("https://cdnjs.cloudflare.com/ajax/libs/marx/2.0.7/marx.styl.min.css"); */
@@ -25,8 +25,8 @@ html {
     font-size: 10px;
 }
 body {
-    font-family: 'Roboto', sans-serif;
-    color: #181818;
+    font-family: 'Lato', 'Noto Sans', sans-serif;
+    color: #333;
     background-color: #fff;
     font-size: 1.4rem;
 }
@@ -34,7 +34,7 @@ body {
 .wrapper {
     background-color: #ffffff;
     width: 100%;
-    max-width: 1200px;
+    /* max-width: 1200px; */
     margin: 0 auto;
 }
 .skip-link {
@@ -62,6 +62,11 @@ body {
   clip-path: inset(50%); 
   /* It seems like at the moment nobody is quite sure why margin: -1px is there. On top of that it seems to cause issues (see: https://github.com/h5bp/html5-boilerplate/issues/1985). */
   margin: -1px;
+}
+.header, .main__slogan, .main__post, .main__mail, .works, .footer {
+    max-width: 1200px;
+    width: 100%;
+    margin:0 auto;
 }
 .header {
     position: relative;
@@ -95,22 +100,29 @@ body {
     border-bottom: 2px solid salmon;
 }
 
-.main {
-    max-width: 1200px;
-    margin:0 auto;
-}
+
 .main__slogan {
-    padding: 40px 0px;
+    padding: 100px 0px;
 }
 
 .slogan-quote {
-    font-size: 9rem;
-    text-transform: capitalize;
+    margin: 20px 0;
+}
+.slogan-quote h2{
+    margin-right: 45%;
+    font-weight: 400;
+    font-size: 5.5rem;
+    text-transform: uppercase;
     text-align: left;
-
+    line-height: 1.5;
+}
+.slogan-quote p{
+    margin-top: 100px;
+    font-size: 5rem;
+    font-weight: 300;
 }
 .section--hidden {
-    display: none;
+    /* display: none; */
 }
 
 .main__post {
@@ -119,13 +131,17 @@ body {
 }
 
 .blog-post {
-    padding: 20px 10px;
-    width: 33.33333%;
+    padding: 20px 0;
+    width: 28%;
     height: auto;
     font-size:2rem;
     line-height: 1.5;
+    margin: 100px 0;
 }
-.blog-post:nth-child(1){
+.blog-post h2{
+    margin: 10px 0 20px 0;
+}
+/* .blog-post:nth-child(1){
     background-color: tomato;
 }
 .blog-post:nth-child(2){
@@ -133,10 +149,47 @@ body {
 }
 .blog-post:nth-child(3){
     background-color: steelblue;
-}
+} */
 
 .blog-post h2 {
     font-size:2.4rem;
+}
+.blog-post p {
+    font-weight: 300;
+}
+.main__works {
+    background-color: yellow;
+}
+.works {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 0;
+}
+.work__section {
+    width:40%;
+}
+.work__section h2{
+    font-size:2.4rem;
+    padding-bottom: 20px;
+}
+.work__section p {
+    font-size:2rem;
+    line-height: 1.5;
+    font-weight: 300;
+}
+
+.main__mail {
+    padding: 60px 0;
+}
+.signup-heading{
+    text-align: center;
+    font-weight: 300;
+    font-size: 1.7rem;
+}
+.signup-form {
+    text-align: center;
+    font-size: 2rem;
+    padding: 20px 0;
 }
 
 .footer {
@@ -145,11 +198,7 @@ body {
     justify-content: center;
 }
 .footer a {
-    font-size: 2rem;
+    font-size: 1.7rem;
     padding: 40px 20px;
-}
-.footer .copy {
-}
-.link {
-
+    margin: 0 20px;
 }
