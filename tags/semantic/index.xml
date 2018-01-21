@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Semantic on ohda works</title>
+    <link>/tags/semantic/</link>
+    <description>Recent content in Semantic on ohda works</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 21 Jan 2018 20:30:00 +0900</lastBuildDate>
+    
+	<atom:link href="/tags/semantic/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>semantic marup</title>
+      <link>/posts/20180121/</link>
+      <pubDate>Sun, 21 Jan 2018 20:30:00 +0900</pubDate>
+      
+      <guid>/posts/20180121/</guid>
+      <description>Semantic Markups Semantics is the use of HTML tags for their meaning rather than their aesthetics. It’s also useful for making sure that your web page is easily understood by both search engine machines and people browsing without stylesheets, such as the viably impaired.
+Easy way to make sure that your markup has proper structure is to write it without a stylesheet.
+Benefits  more accessibility good for search engine optimization.</description>
+    </item>
+    
+  </channel>
+</rss>

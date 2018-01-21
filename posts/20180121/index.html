@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+		
+		<meta name="author" content="ohda">
+		<meta name="description" content="오다의 개발디자인 기록">
+		<meta name="generator" content="Hugo 0.32.3" />
+		<title>semantic marup &middot; ohda works</title>
+		<link rel="shortcut icon" href="/images/favicon.ico">
+		<link rel="stylesheet" href="/css/style.css">
+		<link rel="stylesheet" href="/css/highlight.css">
+
+		
+		<link rel="stylesheet" href="/css/font-awesome.min.css">
+		
+
+		
+
+		
+	</head>
+
+    <body>
+       <nav class="main-nav">
+	
+	
+		<a href='/'> <span class="arrow">←  </span>Home</a>
+	
+	<a href='/posts'>Archive</a>
+	<a href='/tags'>Tags</a>
+	<a href='/about'>About/Now</a>
+
+	
+
+	
+</nav>
+
+
+        <section id="wrapper" class="post">
+            <article>
+                <header>
+                    <h1>
+                        semantic marup
+                    </h1>
+                    <h2 class="headline">
+                    Jan 21, 2018 20:30
+                    · 247 words
+                    · 2 minute read
+                      <span class="tags">
+                      
+                      
+                          
+                              <a href="/tags/til">til</a>
+                          
+                              <a href="/tags/html">html</a>
+                          
+                              <a href="/tags/semantic">semantic</a>
+                          
+                              <a href="/tags/markup">markup</a>
+                          
+                      
+                      
+                      </span>
+                    </h2>
+                </header>
+                
+                <section id="post-body">
+                    
+
+<h2 id="semantic-markups">Semantic Markups</h2>
+
+<p>Semantics is the use of HTML tags for their meaning rather than their aesthetics. It’s also useful for making sure that your web page is easily understood by both search engine machines and people browsing without stylesheets, such as the viably impaired.</p>
+
+<p><strong>Easy way to make sure that your markup has proper structure is to write it without a stylesheet.</strong></p>
+
+<h3 id="benefits">Benefits</h3>
+
+<ul>
+<li>more accessibility</li>
+<li>good for search engine optimization.</li>
+<li>easier to style if it is marked up correctly.</li>
+</ul>
+
+<hr />
+
+<h3 id="main">Main</h3>
+
+<blockquote>
+<p><code>&lt;main&gt;</code> represents the main content of the <code>body</code> of a document. Helpful when you design a single-page web.</p>
+</blockquote>
+
+<h3 id="article">Article</h3>
+
+<blockquote>
+<p><code>&lt;article&gt;</code><br />
+element represents a <strong>self-contained composition</strong> in a document, page, application, or site. Examples include: a forum post, a magazine or newspaper article, or a blog entry.</p>
+</blockquote>
+
+<h3 id="section">Section</h3>
+
+<blockquote>
+<p><code>&lt;section&gt;</code> represents a standalone section - which doesn’t have a more specific semantic element to represent it. Such as chapters, or just areas that are broken up visually.</p>
+</blockquote>
+
+<h3 id="aside">Aside</h3>
+
+<blockquote>
+<p>Content related to the main content but in an area like a sidebar. (side navigation should use the <code>&lt;nav&gt;</code></p>
+</blockquote>
+
+<hr />
+
+<h3 id="examples">examples</h3>
+
+<pre><code class="language-html">&lt;section&gt; | &lt;article&gt;
+  &lt;h1&gt;Heading&lt;/h1&gt;
+  &lt;p&gt;Bunch of awesome content&lt;/p&gt;
+&lt;/section&gt; | &lt;/article&gt;
+</code></pre>
+
+<pre><code class="language-html">&lt;section&gt;
+  &lt;h1&gt;Harry Potter&lt;/h1&gt;
+   &lt;section&gt;
+		  &lt;h2&gt;Meet Harry&lt;/h2&gt;
+		  &lt;p&gt;Bunch of awesome content&lt;/p&gt;
+	 &lt;/section&gt;
+
+	 &lt;section&gt;
+		 &lt;h2&gt;Meet Ron&lt;/h2&gt;
+		 &lt;p&gt;Bunch of awesome content&lt;/p&gt;
+	 &lt;/section&gt;
+&lt;/section&gt;
+</code></pre>
+
+<blockquote>
+<p>Elements are meant to be meaningful but also flexible in their usage. They don’t have any inherent styles of their own and can be used in any combination that makes sense to you.
+&gt;
+from <a href="https://robots.thoughtbot.com/writing-semantic-markup">thoughtbot : Writing Semantic Markup</a></p>
+</blockquote>
+
+                </section>
+            </article>
+
+            
+
+            
+                <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'yogicat'; 
+
+     
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+            
+
+            
+
+            <footer id="footer">
+    
+        <div id="social">
+
+	
+	
+    <a class="symbol" href="https://www.facebook.com">
+        <i class="fa fa-facebook-square"></i>
+    </a>
+    
+    <a class="symbol" href="https://www.github.com/yogicat">
+        <i class="fa fa-github-square"></i>
+    </a>
+    
+
+
+</div>
+
+    
+    <p class="small">
+    
+       © Copyright 2018 <i class="fa fa-heart" aria-hidden="true"></i> ohda
+    
+    </p>
+    
+</footer>
+
+        </section>
+
+        <script src="/js/jquery-2.2.4.min.js"></script>
+<script src="/js/main.js"></script>
+<script src="/js/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+  
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-112494454-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+
+
+
+    </body>
+</html>

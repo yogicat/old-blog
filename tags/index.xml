@@ -86,7 +86,7 @@
     <item>
       <title>Html</title>
       <link>/tags/html/</link>
-      <pubDate>Thu, 18 Jan 2018 23:00:00 +0900</pubDate>
+      <pubDate>Sun, 21 Jan 2018 20:30:00 +0900</pubDate>
       
       <guid>/tags/html/</guid>
       <description></description>
@@ -104,7 +104,7 @@
     <item>
       <title>Markup</title>
       <link>/tags/markup/</link>
-      <pubDate>Thu, 18 Jan 2018 23:00:00 +0900</pubDate>
+      <pubDate>Sun, 21 Jan 2018 20:30:00 +0900</pubDate>
       
       <guid>/tags/markup/</guid>
       <description></description>
@@ -138,9 +138,18 @@
     </item>
     
     <item>
+      <title>Semantic</title>
+      <link>/tags/semantic/</link>
+      <pubDate>Sun, 21 Jan 2018 20:30:00 +0900</pubDate>
+      
+      <guid>/tags/semantic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Til</title>
       <link>/tags/til/</link>
-      <pubDate>Thu, 18 Jan 2018 23:00:00 +0900</pubDate>
+      <pubDate>Sun, 21 Jan 2018 20:30:00 +0900</pubDate>
       
       <guid>/tags/til/</guid>
       <description></description>
