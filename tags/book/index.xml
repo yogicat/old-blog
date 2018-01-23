@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Book on ohda works</title>
+    <link>/tags/book/</link>
+    <description>Recent content in Book on ohda works</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 23 Jan 2018 23:13:33 +0900</lastBuildDate>
+    
+	<atom:link href="/tags/book/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>No Interface</title>
+      <link>/posts/20180123/</link>
+      <pubDate>Tue, 23 Jan 2018 23:13:33 +0900</pubDate>
+      
+      <guid>/posts/20180123/</guid>
+      <description>The Best Interface is No Interface by Golden Krishna (The simple path to brilliant technology.) Kindle E-book으로 읽음 / 5 stars for me / 많은 부분 나에게 생각할거리와 공감을 안겨준 책이다. UX,UI 분야에서 일을 할때, Krish</description>
+    </item>
+    
+  </channel>
+</rss>
