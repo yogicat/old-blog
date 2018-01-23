@@ -6,10 +6,21 @@
     <description>Recent content in Css on ohda works</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 18 Jan 2018 23:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 22 Jan 2018 23:00:00 +0900</lastBuildDate>
     
 	<atom:link href="/tags/css/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>margin collapsing</title>
+      <link>/posts/20180122/</link>
+      <pubDate>Mon, 22 Jan 2018 23:00:00 +0900</pubDate>
+      
+      <guid>/posts/20180122/</guid>
+      <description>What is margin collapsing? When two elements are touching each other in a vertical way, margin collapsing occurs.
+let&amp;rsquo;s assume there are two box elements vertically aligned. Box A - margin bottom : 20px Box B - margin top : 60px
+It’s easy to think that the outcome would be 80px but that’s not correct. The resulting margin would be 60px. The largest margin remains the same and smallest margin collapses to 0.</description>
+    </item>
     
     <item>
       <title>css menu study 101</title>
