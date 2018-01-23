@@ -3,12 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/posts/20180122/</loc>
-    <lastmod>2018-01-22T23:00:00+09:00</lastmod>
+    <loc>/posts/20180123/</loc>
+    <lastmod>2018-01-23T23:13:33+09:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/20180123/</loc>
+    <loc>/posts/20180122/</loc>
     <lastmod>2018-01-22T23:00:00+09:00</lastmod>
   </url>
   
@@ -95,6 +95,12 @@
   </url>
   
   <url>
+    <loc>/tags/book/</loc>
+    <lastmod>2018-01-23T23:13:33+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/box-model/</loc>
     <lastmod>2018-01-16T18:47:11+09:00</lastmod>
     <priority>0</priority>
@@ -114,6 +120,12 @@
   <url>
     <loc>/tags/css/</loc>
     <lastmod>2018-01-22T23:00:00+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/design/</loc>
+    <lastmod>2018-01-23T23:13:33+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -167,7 +179,7 @@
   
   <url>
     <loc>/posts/</loc>
-    <lastmod>2018-01-22T23:00:00+09:00</lastmod>
+    <lastmod>2018-01-23T23:13:33+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -191,7 +203,7 @@
   
   <url>
     <loc>/tags/til/</loc>
-    <lastmod>2018-01-22T23:00:00+09:00</lastmod>
+    <lastmod>2018-01-23T23:13:33+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -209,7 +221,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2018-01-22T23:00:00+09:00</lastmod>
+    <lastmod>2018-01-23T23:13:33+09:00</lastmod>
     <priority>0</priority>
   </url>
   
