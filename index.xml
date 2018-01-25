@@ -6,10 +6,31 @@
     <description>Recent content on ohda works</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 23 Jan 2018 23:13:33 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jan 2018 22:10:33 +0900</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>100Challenge:day01</title>
+      <link>/posts/20180125/</link>
+      <pubDate>Thu, 25 Jan 2018 22:10:33 +0900</pubDate>
+      
+      <guid>/posts/20180125/</guid>
+      <description>100 days of code Day 01 I made simple &amp;lsquo;sign in&amp;rsquo; form using &amp;lt;form&amp;gt; element. I was having hard time understanding and using proper form element</description>
+    </item>
+    
+    <item>
+      <title>100 Days of Code</title>
+      <link>/posts/20180124/</link>
+      <pubDate>Wed, 24 Jan 2018 22:10:33 +0900</pubDate>
+      
+      <guid>/posts/20180124/</guid>
+      <description>100 days of code Main Commitment I will code for at least an hour every day for the next 100 days.
+For the next 100 days I will code and design something new everyday. The project goal is not only to become familiar with html/css/js but also to maintain my design abilities.
+Start Date 2018-01-25
+Additional Rules  I will tweet about my progress every day (using the hashtag #100DaysOfCode) I will push code to GitHub and Codepen every day.</description>
+    </item>
     
     <item>
       <title>No Interface</title>
