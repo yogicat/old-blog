@@ -6,7 +6,7 @@
     <description>Recent content in Tags on ohda works</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 25 Jan 2018 22:10:33 +0900</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jan 2018 23:10:33 +0900</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>100days</title>
       <link>/tags/100days/</link>
-      <pubDate>Thu, 25 Jan 2018 22:10:33 +0900</pubDate>
+      <pubDate>Thu, 25 Jan 2018 23:10:33 +0900</pubDate>
       
       <guid>/tags/100days/</guid>
       <description></description>
@@ -77,9 +77,18 @@
     <item>
       <title>Daily</title>
       <link>/tags/daily/</link>
-      <pubDate>Thu, 25 Jan 2018 22:10:33 +0900</pubDate>
+      <pubDate>Thu, 25 Jan 2018 23:10:33 +0900</pubDate>
       
       <guid>/tags/daily/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Day01</title>
+      <link>/tags/day01/</link>
+      <pubDate>Thu, 25 Jan 2018 23:10:33 +0900</pubDate>
+      
+      <guid>/tags/day01/</guid>
       <description></description>
     </item>
     
@@ -167,7 +176,7 @@
     <item>
       <title>Project</title>
       <link>/tags/project/</link>
-      <pubDate>Thu, 25 Jan 2018 22:10:33 +0900</pubDate>
+      <pubDate>Thu, 25 Jan 2018 23:10:33 +0900</pubDate>
       
       <guid>/tags/project/</guid>
       <description></description>
@@ -194,7 +203,7 @@
     <item>
       <title>Til</title>
       <link>/tags/til/</link>
-      <pubDate>Thu, 25 Jan 2018 22:10:33 +0900</pubDate>
+      <pubDate>Thu, 25 Jan 2018 23:10:33 +0900</pubDate>
       
       <guid>/tags/til/</guid>
       <description></description>

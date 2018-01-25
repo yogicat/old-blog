@@ -4,7 +4,7 @@
   
   <url>
     <loc>/posts/20180125/</loc>
-    <lastmod>2018-01-25T22:10:33+09:00</lastmod>
+    <lastmod>2018-01-25T23:10:33+09:00</lastmod>
   </url>
   
   <url>
@@ -94,7 +94,7 @@
   
   <url>
     <loc>/tags/100days/</loc>
-    <lastmod>2018-01-25T22:10:33+09:00</lastmod>
+    <lastmod>2018-01-25T23:10:33+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -141,7 +141,13 @@
   
   <url>
     <loc>/tags/daily/</loc>
-    <lastmod>2018-01-25T22:10:33+09:00</lastmod>
+    <lastmod>2018-01-25T23:10:33+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/day01/</loc>
+    <lastmod>2018-01-25T23:10:33+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -201,13 +207,13 @@
   
   <url>
     <loc>/posts/</loc>
-    <lastmod>2018-01-25T22:10:33+09:00</lastmod>
+    <lastmod>2018-01-25T23:10:33+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/project/</loc>
-    <lastmod>2018-01-25T22:10:33+09:00</lastmod>
+    <lastmod>2018-01-25T23:10:33+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -225,13 +231,13 @@
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2018-01-25T22:10:33+09:00</lastmod>
+    <lastmod>2018-01-25T23:10:33+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/til/</loc>
-    <lastmod>2018-01-25T22:10:33+09:00</lastmod>
+    <lastmod>2018-01-25T23:10:33+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -249,7 +255,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2018-01-25T22:10:33+09:00</lastmod>
+    <lastmod>2018-01-25T23:10:33+09:00</lastmod>
     <priority>0</priority>
   </url>
   

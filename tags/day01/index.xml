@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Project on ohda works</title>
-    <link>/tags/project/</link>
-    <description>Recent content in Project on ohda works</description>
+    <title>Day01 on ohda works</title>
+    <link>/tags/day01/</link>
+    <description>Recent content in Day01 on ohda works</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Thu, 25 Jan 2018 23:10:33 +0900</lastBuildDate>
     
-	<atom:link href="/tags/project/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/day01/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,18 +19,6 @@
       <guid>/posts/20180125/</guid>
       <description>100 Days Of Code Day 1 Today&amp;rsquo;s Progress Studied &amp;lt;form&amp;gt; element and made simple signin page.Inspired by Virgin America Airlines
 Thoughts I was having hard time understanding and using proper form element. I visited the W3c sites and went to so many websites just for looking for the well- designed form. I can&amp;rsquo;t say that I know all about the form but at least I am not afraid as I was before.</description>
-    </item>
-    
-    <item>
-      <title>100 Days of Code</title>
-      <link>/posts/20180124/</link>
-      <pubDate>Wed, 24 Jan 2018 22:10:33 +0900</pubDate>
-      
-      <guid>/posts/20180124/</guid>
-      <description>100 days of code Main Commitment I will code for at least an hour every day for the next 100 days.
-For the next 100 days I will code and design something new everyday. The project goal is not only to become familiar with html/css/js but also to maintain my design abilities.
-Start Date 2018-01-25
-Additional Rules  I will tweet about my progress every day (using the hashtag #100DaysOfCode) I will push code to GitHub and Codepen every day.</description>
     </item>
     
   </channel>
