@@ -6,10 +6,24 @@
     <description>Recent content in Project on ohda works</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 25 Jan 2018 23:10:33 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jan 2018 21:00:33 +0900</lastBuildDate>
     
 	<atom:link href="/tags/project/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>100Challenge:day01</title>
+      <link>/posts/20180126/</link>
+      <pubDate>Fri, 26 Jan 2018 21:00:33 +0900</pubDate>
+      
+      <guid>/posts/20180126/</guid>
+      <description>100 Days Of Code Day 2 Today&amp;rsquo;s Progress
+clone &amp;lt;form&amp;gt; element from Airbnb
+
+Link to work
+Codepen
+See the Pen Day02-form-box by ohda (@yogicat) on CodePen.</description>
+    </item>
     
     <item>
       <title>100Challenge:day01</title>
