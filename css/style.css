@@ -14,7 +14,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 body {
-    line-height: 1
+    line-height: 1;
+    word-break: keep-all;
 }
 
 blockquote, q {
@@ -260,12 +261,13 @@ ul>li {
 #post-body  {
     margin: 0 auto;
     max-width: 560px;
+    word-break: keep-all;
 }
 #post-body, p {
     line-height: 1.7;
 }
 #post-body p > a {
-  word-break: break-word;
+  word-break: keep-all;
   white-space: pre-wrap;
 }
 
@@ -387,7 +389,7 @@ p.small {
 blockquote {
     padding-left: 15px;
     border-left: 3px solid #eee;
-    font-size: 0.9em;
+    /* font-size: 1.1em; */
     font-style:italic;
 
 }
