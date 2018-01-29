@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Goal on ohda works</title>
+    <link>/tags/goal/</link>
+    <description>Recent content in Goal on ohda works</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 30 Jan 2018 00:05:33 +0900</lastBuildDate>
+    
+	<atom:link href="/tags/goal/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Who I Want To Become?</title>
+      <link>/posts/20180129-1/</link>
+      <pubDate>Tue, 30 Jan 2018 00:05:33 +0900</pubDate>
+      
+      <guid>/posts/20180129-1/</guid>
+      <description> My Goal These are the actual job requirements and responsibilities from various tech companies. and this list should be my own learning goals and inspirations as well. these will work as great daily mantra!
+ I know how to build user-friendly, data-rich JavaScript/HTML/CSS applications I have a deep understanding of current and emerging trends of the web platform I am experienced with modern JavaScript coding, testing, debugging and automation techniques I care about web technologies, exploring data, user experience and design and music I have insights on the tradeoffs between front-end JavaScript libraries I am experienced with modern graphing libraries I can tell you about projects I&amp;rsquo;ve worked on that helped people understand data I have excellent analytical and problem-solving skills, and can communicate my ideas I have a strong computer science fundamentals I have a strong interface design knowledge I know the awareness of cross-brower compatibility issues I have demonstrated design and UX sensibilities  </description>
+    </item>
+    
+  </channel>
+</rss>

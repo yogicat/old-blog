@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Day05 on ohda works</title>
+    <link>/tags/day05/</link>
+    <description>Recent content in Day05 on ohda works</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 29 Jan 2018 23:55:33 +0900</lastBuildDate>
+    
+	<atom:link href="/tags/day05/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>100Challenge:day05</title>
+      <link>/posts/20180129/</link>
+      <pubDate>Mon, 29 Jan 2018 23:55:33 +0900</pubDate>
+      
+      <guid>/posts/20180129/</guid>
+      <description>100 Days Of Code Day 5 Today&amp;rsquo;s Progress clone subscription form from oui will 폼과 친해지기 5 복습 예습하느라, 후딱 해치우기 급급한 데일리 챌린지 (하는데 의의를..) 노트 : [ 버튼 + 아이콘 ] 일때 pointer 영역</description>
+    </item>
+    
+  </channel>
+</rss>
