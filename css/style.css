@@ -197,7 +197,7 @@ nav.main-nav a.cta {
 }
 
 #wrapper {
-    max-width: 640px;
+    max-width:640px;
     margin: 0 auto;
     padding: 60px 20px 100px 20px;
 }
@@ -260,7 +260,7 @@ ul>li {
 /* Line Height */
 #post-body  {
     margin: 0 auto;
-    max-width: 560px;
+    max-width: 640px;
     word-break: keep-all;
 }
 #post-body, p {
