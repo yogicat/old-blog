@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/posts/20180130-1/</loc>
+    <lastmod>2018-01-31T01:00:33+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/20180130/</loc>
+    <lastmod>2018-01-30T22:05:33+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/posts/20180129-1/</loc>
     <lastmod>2018-01-30T00:05:33+09:00</lastmod>
   </url>
@@ -118,8 +128,14 @@
   </url>
   
   <url>
+    <loc>/tags/100-days-of-code/</loc>
+    <lastmod>2018-01-30T22:05:33+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/100days/</loc>
-    <lastmod>2018-01-29T23:55:33+09:00</lastmod>
+    <lastmod>2018-01-31T01:00:33+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -166,7 +182,7 @@
   
   <url>
     <loc>/tags/daily/</loc>
-    <lastmod>2018-01-29T23:55:33+09:00</lastmod>
+    <lastmod>2018-01-31T01:00:33+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -201,6 +217,12 @@
   </url>
   
   <url>
+    <loc>/tags/day06/</loc>
+    <lastmod>2018-01-31T01:00:33+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/design/</loc>
     <lastmod>2018-01-23T23:13:33+09:00</lastmod>
     <priority>0</priority>
@@ -209,6 +231,12 @@
   <url>
     <loc>/tags/flexbox/</loc>
     <lastmod>2018-01-17T01:00:11+09:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/form/</loc>
+    <lastmod>2018-01-30T22:05:33+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -232,7 +260,7 @@
   
   <url>
     <loc>/tags/html/</loc>
-    <lastmod>2018-01-22T23:00:00+09:00</lastmod>
+    <lastmod>2018-01-30T22:05:33+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -244,7 +272,7 @@
   
   <url>
     <loc>/tags/markup/</loc>
-    <lastmod>2018-01-21T20:30:00+09:00</lastmod>
+    <lastmod>2018-01-30T22:05:33+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -262,13 +290,13 @@
   
   <url>
     <loc>/posts/</loc>
-    <lastmod>2018-01-30T00:05:33+09:00</lastmod>
+    <lastmod>2018-01-31T01:00:33+09:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/project/</loc>
-    <lastmod>2018-01-29T23:55:33+09:00</lastmod>
+    <lastmod>2018-01-31T01:00:33+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -286,7 +314,7 @@
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2018-01-29T23:55:33+09:00</lastmod>
+    <lastmod>2018-01-30T22:05:33+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -298,7 +326,7 @@
   
   <url>
     <loc>/tags/til/</loc>
-    <lastmod>2018-01-30T00:05:33+09:00</lastmod>
+    <lastmod>2018-01-31T01:00:33+09:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -316,7 +344,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2018-01-30T00:05:33+09:00</lastmod>
+    <lastmod>2018-01-31T01:00:33+09:00</lastmod>
     <priority>0</priority>
   </url>
   

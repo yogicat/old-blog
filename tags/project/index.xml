@@ -6,10 +6,19 @@
     <description>Recent content in Project on ohda works</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 29 Jan 2018 23:55:33 +0900</lastBuildDate>
+    <lastBuildDate>Wed, 31 Jan 2018 01:00:33 +0900</lastBuildDate>
     
 	<atom:link href="/tags/project/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>100Challenge:day06</title>
+      <link>/posts/20180130-1/</link>
+      <pubDate>Wed, 31 Jan 2018 01:00:33 +0900</pubDate>
+      
+      <guid>/posts/20180130-1/</guid>
+      <description>100 Days Of Code Day 6 Today&amp;rsquo;s Progress clone survey form from one share house survey 폼과 친해지기 6 오늘은 시간을 들여서 폼 마크업을 공부했다.그리고 라디오 버튼 생김새를 바꾸는 것도 덤으로 배웠다. MDN:input radio type 은</description>
+    </item>
     
     <item>
       <title>100Challenge:day05</title>

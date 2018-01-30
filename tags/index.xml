@@ -6,15 +6,24 @@
     <description>Recent content in Tags on ohda works</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 29 Jan 2018 23:55:33 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 30 Jan 2018 22:05:33 +0900</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>100 Days of Code</title>
+      <link>/tags/100-days-of-code/</link>
+      <pubDate>Tue, 30 Jan 2018 22:05:33 +0900</pubDate>
+      
+      <guid>/tags/100-days-of-code/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>100days</title>
       <link>/tags/100days/</link>
-      <pubDate>Mon, 29 Jan 2018 23:55:33 +0900</pubDate>
+      <pubDate>Wed, 31 Jan 2018 01:00:33 +0900</pubDate>
       
       <guid>/tags/100days/</guid>
       <description></description>
@@ -77,7 +86,7 @@
     <item>
       <title>Daily</title>
       <link>/tags/daily/</link>
-      <pubDate>Mon, 29 Jan 2018 23:55:33 +0900</pubDate>
+      <pubDate>Wed, 31 Jan 2018 01:00:33 +0900</pubDate>
       
       <guid>/tags/daily/</guid>
       <description></description>
@@ -129,6 +138,15 @@
     </item>
     
     <item>
+      <title>Day06</title>
+      <link>/tags/day06/</link>
+      <pubDate>Wed, 31 Jan 2018 01:00:33 +0900</pubDate>
+      
+      <guid>/tags/day06/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Design</title>
       <link>/tags/design/</link>
       <pubDate>Tue, 23 Jan 2018 23:13:33 +0900</pubDate>
@@ -143,6 +161,15 @@
       <pubDate>Wed, 17 Jan 2018 01:00:11 +0900</pubDate>
       
       <guid>/tags/flexbox/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Form</title>
+      <link>/tags/form/</link>
+      <pubDate>Tue, 30 Jan 2018 22:05:33 +0900</pubDate>
+      
+      <guid>/tags/form/</guid>
       <description></description>
     </item>
     
@@ -176,7 +203,7 @@
     <item>
       <title>Html</title>
       <link>/tags/html/</link>
-      <pubDate>Mon, 22 Jan 2018 23:00:00 +0900</pubDate>
+      <pubDate>Tue, 30 Jan 2018 22:05:33 +0900</pubDate>
       
       <guid>/tags/html/</guid>
       <description></description>
@@ -194,7 +221,7 @@
     <item>
       <title>Markup</title>
       <link>/tags/markup/</link>
-      <pubDate>Sun, 21 Jan 2018 20:30:00 +0900</pubDate>
+      <pubDate>Tue, 30 Jan 2018 22:05:33 +0900</pubDate>
       
       <guid>/tags/markup/</guid>
       <description></description>
@@ -221,7 +248,7 @@
     <item>
       <title>Project</title>
       <link>/tags/project/</link>
-      <pubDate>Mon, 29 Jan 2018 23:55:33 +0900</pubDate>
+      <pubDate>Wed, 31 Jan 2018 01:00:33 +0900</pubDate>
       
       <guid>/tags/project/</guid>
       <description></description>
@@ -257,7 +284,7 @@
     <item>
       <title>Til</title>
       <link>/tags/til/</link>
-      <pubDate>Tue, 30 Jan 2018 00:05:33 +0900</pubDate>
+      <pubDate>Wed, 31 Jan 2018 01:00:33 +0900</pubDate>
       
       <guid>/tags/til/</guid>
       <description></description>
