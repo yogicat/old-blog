@@ -128,12 +128,6 @@
   </url>
   
   <url>
-    <loc>/tags/100-days-of-code/</loc>
-    <lastmod>2018-01-30T22:05:33+09:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/tags/100days/</loc>
     <lastmod>2018-01-31T01:00:33+09:00</lastmod>
     <priority>0</priority>
@@ -314,7 +308,7 @@
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2018-01-30T22:05:33+09:00</lastmod>
+    <lastmod>2018-01-31T01:00:33+09:00</lastmod>
     <priority>0</priority>
   </url>
   

@@ -47,7 +47,7 @@
                     </h1>
                     <h2 class="headline">
                     Jan 30, 2018 22:05
-                    · 1334 words
+                    · 1318 words
                     · 3 minute read
                       <span class="tags">
                       
@@ -61,10 +61,6 @@
                           
                               <a href="/tags/markup">markup</a>
                           
-                              <a href="/tags/100-days-of-code">100-days-of-code</a>
-                          
-                              <a href="/tags/day06">day06</a>
-                          
                       
                       
                       </span>
@@ -77,22 +73,19 @@
 <h2 id="form-markup-2">Form Markup 2</h2>
 
 <p>친구가 데일리 챌린지 중 마크업 잘못 사용된 부분의 올바른 사용법을 알려주었다.
-이론을 공부하고 정리하는 것과 실제로 만들어보고 배우는것은 정말 다른것 같다.</p>
+이론을 공부하고 정리하는 것과 실제로 만들어보고 배우는 것은 정말 다른 것 같다.</p>
 
-<p>&lsquo;일단 만드는것 먼저&rsquo;- 비주얼에 급급해 마크업을 등안시하는 오류를 자꾸 범하고 있다.
+<p>&lsquo;일단 만드는 것 먼저&rsquo;- 비주얼에 급급해 마크업을 등한시하는 오류를 자꾸 범하고 있다.
 정답과 설명서가 웹에 존재하고 쉽게 접근할 수 있는대도 불구하고
 그리고 열심히 봤다고 생각했는데도, 실제로는 전혀 제대로 익히지 못하고 있었다. 스튜핏!</p>
 
-<p>작은부분이라고 벌써부터 대충하려고 하고 소홀히 하면 전체를 망칠 수 있다.</p>
+<p>작은 부분이라고 벌써부터 대충하려고 하고 소홀히 하면 전체를 망칠 수 있다.
+&gt; how you do onething is how you do everything!!!</p>
 
-<blockquote>
-<p>how you do onething is how you do everything!!!</p>
-</blockquote>
+<p>앞으로는 꼼꼼하게 두 번 세 번 생각하고 공부하고, 그리고 했던 것도 꼭 시간을 내서 다시 복습하고 고치자.
+데일리 챌린지 - 폼 카피 작업을 통해 내가 무엇을 모르고 있었는지 알 수 있었다. 반성하고 form에 대해 다시 제대로 알아보는 시간을 갖자.</p>
 
-<p>앞으로는 꼼꼼하게 두번 세번 생각하고 공부하고, 그리고 했던 것도 꼭 시간을 내서 다시 복습하고 고치자.
-데일리 챌린지 - 폼카피 작업을 통해 내가 무엇을 모르고 있었는지 알 수 있었다.반성하고 form에 대해 다시 제대로 알아보는 시간을 갖자.</p>
-
-<p>아 그리고 W3C에 가면 처음에는 내용이 너무 많고 어려워 보이지만 시간을 들여 잘 읽어보면 대부분 알기쉽게 예제를 통해 설명되어있다. 나도 처음에는 대충 보고 넘겼는데 다시 제대로 읽고, 따라서 코딩해보고 실제로 만들어보니 이보다 더 좋은 공부 사이트는 없는 거 같다!!</p>
+<p>아 그리고 W3C에 가면 처음에는 내용이 너무 많고 어려워 보이지만 시간을 들여 잘 읽어보면 대부분 알기 쉽게 예제를 통해 설명되어있다. 나도 처음에는 대충 보고 넘겼는데 다시 제대로 읽고, 따라서 코딩해보고 실제로 만들어보니 이보다 더 좋은 공부 사이트는 없는 거 같다!!</p>
 
 <hr />
 
@@ -179,15 +172,25 @@
 &lt;/datalist&gt;
 </code></pre>
 
-<pre><code class="language-html">&lt;fieldset&gt;
-  &lt;legend&gt;Mail Account&lt;/legend&gt;
-  &lt;p&gt;&lt;label&gt;Name &lt;input type=&quot;text&quot; name=&quot;fullname&quot; placeholder=&quot;Elon Musk&quot;&gt;&lt;/label&gt;&lt;/p&gt;
-  &lt;p&gt;&lt;label&gt;Address &lt;input type=&quot;email&quot; name=&quot;address&quot; placeholder=&quot;musk@spacex.com&quot;&gt;&lt;/label&gt;&lt;/p&gt;
-  &lt;p&gt;&lt;label&gt;Password &lt;input type=&quot;password&quot; name=&quot;password&quot;&gt;&lt;/label&gt;&lt;/p&gt;
-  &lt;p&gt;&lt;label&gt;Description: &lt;input type=&quot;text&quot; name=&quot;desc&quot; placeholder=&quot;My Email Account&quot;&gt;&lt;/label&gt;&lt;/p&gt;
-&lt;/fieldset&gt;
+<p><br></p>
 
-</code></pre>
+<script async src="//jsfiddle.net/daheoh/Lfxvz0nh/embed/result/"></script>
+---
+
+
+```html
+<fieldset>
+  <legend>Mail Account</legend>
+  <p><label>Name <input type="text" name="fullname" placeholder="Elon Musk"></label></p>
+  <p><label>Address <input type="email" name="address" placeholder="musk@spacex.com"></label></p>
+  <p><label>Password <input type="password" name="password"></label></p>
+  <p><label>Description: <input type="text" name="desc" placeholder="My Email Account"></label></p>
+</fieldset>
+
+```
+
+<br>
+<script async src="//jsfiddle.net/daheoh/h5sdkxz8/embed/result/"></script>
 
 <hr />
 
