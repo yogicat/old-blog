@@ -6,7 +6,7 @@
     <description>Recent content in Tags on ohda works</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 31 Jan 2018 01:00:33 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 02 Feb 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>100days</title>
       <link>/tags/100days/</link>
-      <pubDate>Wed, 31 Jan 2018 01:00:33 +0900</pubDate>
+      <pubDate>Fri, 02 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/100days/</guid>
       <description></description>
@@ -77,7 +77,7 @@
     <item>
       <title>Daily</title>
       <link>/tags/daily/</link>
-      <pubDate>Wed, 31 Jan 2018 01:00:33 +0900</pubDate>
+      <pubDate>Fri, 02 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/daily/</guid>
       <description></description>
@@ -134,6 +134,15 @@
       <pubDate>Wed, 31 Jan 2018 01:00:33 +0900</pubDate>
       
       <guid>/tags/day06/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Day07</title>
+      <link>/tags/day07/</link>
+      <pubDate>Fri, 02 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/day07/</guid>
       <description></description>
     </item>
     
@@ -201,6 +210,24 @@
     </item>
     
     <item>
+      <title>Javascript</title>
+      <link>/tags/javascript/</link>
+      <pubDate>Sat, 03 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learning</title>
+      <link>/tags/learning/</link>
+      <pubDate>Sat, 03 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Lecture</title>
       <link>/tags/lecture/</link>
       <pubDate>Fri, 12 Jan 2018 00:00:00 +0000</pubDate>
@@ -239,7 +266,7 @@
     <item>
       <title>Project</title>
       <link>/tags/project/</link>
-      <pubDate>Wed, 31 Jan 2018 01:00:33 +0900</pubDate>
+      <pubDate>Fri, 02 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/project/</guid>
       <description></description>
@@ -275,7 +302,7 @@
     <item>
       <title>Til</title>
       <link>/tags/til/</link>
-      <pubDate>Wed, 31 Jan 2018 01:00:33 +0900</pubDate>
+      <pubDate>Sat, 03 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/til/</guid>
       <description></description>

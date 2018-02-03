@@ -6,10 +6,21 @@
     <description>Recent content in Daily on ohda works</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 31 Jan 2018 01:00:33 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 02 Feb 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/daily/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>100Challenge:day07</title>
+      <link>/posts/20180131/</link>
+      <pubDate>Fri, 02 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/20180131/</guid>
+      <description>100 Days Of Code Day 7 Today&amp;rsquo;s Progress
+
+Link to work</description>
+    </item>
     
     <item>
       <title>100Challenge:day06</title>

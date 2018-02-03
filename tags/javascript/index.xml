@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Javascript on ohda works</title>
+    <link>/tags/javascript/</link>
+    <description>Recent content in Javascript on ohda works</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 03 Feb 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>History of JS</title>
+      <link>/posts/20180203/</link>
+      <pubDate>Sat, 03 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/20180203/</guid>
+      <description>Brief history of JavaScript I started studying Javascript this week and the background story of development in javascript really got me interested. Most of the info came from the Wikipedia and it&amp;rsquo;s just a summary version for myself.
+Javascript Wikipedia Netscape vs NCSA Mosaic more about Netscape at Wikipedia
+NCSA Mosaic was the first popular graphical Web browser, which played an important part in expanding the growth of the nascent World Wide Web.</description>
+    </item>
+    
+  </channel>
+</rss>
