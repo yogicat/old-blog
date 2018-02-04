@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Guideline on ohda works</title>
+    <link>/tags/guideline/</link>
+    <description>Recent content in Guideline on ohda works</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 04 Feb 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/guideline/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>on writing well</title>
+      <link>/posts/20180204/</link>
+      <pubDate>Sun, 04 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/20180204/</guid>
+      <description>On writing well&amp;hellip; 코딩의 세계는 그동안 내가 거쳐온 세계들 중에서 discipline이 가장 중요시되는 세계인 거 같다. 그리고 그렇기 때문에 참 매력적인 것 같다. 어제 javascript 역</description>
+    </item>
+    
+  </channel>
+</rss>
