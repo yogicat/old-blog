@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Math on ohda works</title>
+    <link>/tags/math/</link>
+    <description>Recent content in Math on ohda works</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 05 Feb 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/math/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Becoming a math person</title>
+      <link>/posts/20180205/</link>
+      <pubDate>Mon, 05 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/20180205/</guid>
+      <description>I decided to become a math person “I’m just not a math person.” We hear it all the time. And we’ve had enough. Because we believe that the idea of “math people” is the most self-destructive idea in America today. The truth is, you probably are</description>
+    </item>
+    
+  </channel>
+</rss>
