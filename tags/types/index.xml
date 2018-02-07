@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Types on ohda works</title>
+    <link>/tags/types/</link>
+    <description>Recent content in Types on ohda works</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 07 Feb 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/types/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>converting types</title>
+      <link>/posts/20180206/</link>
+      <pubDate>Wed, 07 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/20180206/</guid>
+      <description>number to string, string to number 자바스크립트에는 타입을 변경시키는 다양한 방법들이 있다. 숫자를 문자로, 문자를 숫자로 바꾸는 여러가지 방법들을 알아보자 convert a string to a number num = Number(str) //</description>
+    </item>
+    
+  </channel>
+</rss>
