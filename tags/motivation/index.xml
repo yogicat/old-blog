@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Book on ohda works</title>
-    <link>/tags/book/</link>
-    <description>Recent content in Book on ohda works</description>
+    <title>Motivation on ohda works</title>
+    <link>/tags/motivation/</link>
+    <description>Recent content in Motivation on ohda works</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Thu, 08 Feb 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/book/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/motivation/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,15 +18,6 @@
       
       <guid>/posts/20180208/</guid>
       <description>Mindset: The New Psychology of Success by Carol S. Dweck Amazon link 번역본 : 마인드셋 이 책은 각종 팟캐스트와 책에서 수없이 언급된 책으로 아마존에서는 이미 오래된 스테디 베스트셀러로 유명한 책이었고 우</description>
-    </item>
-    
-    <item>
-      <title>No Interface</title>
-      <link>/posts/20180123/</link>
-      <pubDate>Tue, 23 Jan 2018 23:13:33 +0900</pubDate>
-      
-      <guid>/posts/20180123/</guid>
-      <description>The Best Interface is No Interface by Golden Krishna (The simple path to brilliant technology.) Kindle E-book으로 읽음 / 5 stars for me / 많은 부분 나에게 생각할거리와 공감을 안겨준 책이다. UX,UI 분야에서 일을 할때, Krish</description>
     </item>
     
   </channel>

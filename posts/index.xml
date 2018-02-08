@@ -6,10 +6,19 @@
     <description>Recent content in Posts on ohda works</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 07 Feb 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 08 Feb 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Growth Mindset</title>
+      <link>/posts/20180208/</link>
+      <pubDate>Thu, 08 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/20180208/</guid>
+      <description>Mindset: The New Psychology of Success by Carol S. Dweck Amazon link 번역본 : 마인드셋 이 책은 각종 팟캐스트와 책에서 수없이 언급된 책으로 아마존에서는 이미 오래된 스테디 베스트셀러로 유명한 책이었고 우</description>
+    </item>
     
     <item>
       <title>converting types</title>
@@ -84,10 +93,7 @@ Link to work</description>
       <pubDate>Tue, 30 Jan 2018 00:05:33 +0900</pubDate>
       
       <guid>/posts/20180129-1/</guid>
-      <description>My Goal These are the actual job requirements and responsibilities from various tech companies. and this list should be my own learning goals and inspirations as well. these will work as great daily mantra!
- I know how to build user-friendly, data-rich JavaScript/HTML/CSS applications
- I have a deep understanding of current and emerging trends of the web platform
- I am experienced with modern JavaScript coding, testing, debugging and automation techniques</description>
+      <description>My Goal These are the actual job requirements and responsibilities from various tech companies. and this list should be my own learning goals and inspirations as well. these will work as great daily mantra! 실제 내노라하는 실리콘벨리 스타트업의 구직란에서 요구하는 사항들을 찾아보았다.</description>
     </item>
     
     <item>
