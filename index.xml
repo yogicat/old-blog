@@ -6,10 +6,28 @@
     <description>Recent content on ohda works</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 08 Feb 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Feb 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Math, probability</title>
+      <link>/posts/20180212/</link>
+      <pubDate>Mon, 12 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/20180212/</guid>
+      <description>Permutations and combinations 지난주 부터 고등학교 수학을 다시 공부하고 있다. EBS인터넷 강의와 Khan Academy의 자료가 큰 도움이 되고 있다. 오늘은 코딩 알고리즘 과제 할때 특히 자</description>
+    </item>
+    
+    <item>
+      <title>Execution context and more..</title>
+      <link>/posts/20180211/</link>
+      <pubDate>Sun, 11 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/20180211/</guid>
+      <description>Execution context and more.. 시작에 앞서서.. execution context를 배우고 나서 나만의 언어로 다시 정리하고 싶었고, 주말 내내 계속 작업했지만 도무지 끝이 나질 않았다. 내 생각을 글로</description>
+    </item>
     
     <item>
       <title>Growth Mindset</title>

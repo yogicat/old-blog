@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+		
+		<meta name="author" content="ohda">
+		<meta name="description" content="오다의 개발디자인 기록">
+		<meta name="generator" content="Hugo 0.32.3" />
+		<title>Execution context and more.. &middot; ohda works</title>
+		<link rel="shortcut icon" href="/images/favicon.ico">
+		<link rel="stylesheet" href="/css/style.css">
+		<link rel="stylesheet" href="/css/highlight.css">
+
+		
+		<link rel="stylesheet" href="/css/font-awesome.min.css">
+		
+
+		
+
+		
+	</head>
+
+    <body>
+       <nav class="main-nav">
+	
+	
+		<a href='/'> <span class="arrow">←  </span>Home</a>
+	
+	<a href='/posts'>Archive</a>
+	<a href='/tags'>Tags</a>
+	<a href='/about'>About/Now</a>
+
+	
+
+	
+</nav>
+
+
+        <section id="wrapper" class="post">
+            <article>
+                <header>
+                    <h1>
+                        Execution context and more..
+                    </h1>
+                    <h2 class="headline">
+                    Feb 11, 2018 00:00
+                    · 501 words
+                    · 1 minute read
+                      <span class="tags">
+                      
+                      
+                          
+                              <a href="/tags/til">til</a>
+                          
+                              <a href="/tags/javascript">javascript</a>
+                          
+                              <a href="/tags/scope">scope</a>
+                          
+                      
+                      
+                      </span>
+                    </h2>
+                </header>
+                
+                <section id="post-body">
+                    
+
+<h3 id="execution-context-and-more">Execution context and more..</h3>
+
+<p>시작에 앞서서..
+<code>execution context</code>를 배우고 나서 나만의 언어로 다시 정리하고 싶었고, 주말 내내 계속 작업했지만 도무지 끝이 나질 않았다. 내 생각을 글로 쓰는건 쉬운데, 공부한 내용을 정리해서 쓰는건 정말 어려운 일이라는 걸 새삼 느꼈다. 일단 배우는 과정이기에 100% 확신이 없기 때문에 특히나 힘들었다. 외국 자료들을 해석하는 과정해서도 이미 안다고 생각한 단어들도 다양한 사전을 계속 찾아봐야 했다.(&lsquo;contain&rsquo;이라는 단어를 &lsquo;포함하다&rsquo; 라는 뜻으로 쓴건지, &lsquo;둘러싸다&rsquo; 라는 의미로 쓴건지, 아니면 실제로 &lsquo;들어있다&rsquo;는 의미인지&hellip;) 새삼 책을 번역하는 분들이 대단하다고 느껴졌다. (동시에, 반대로 얼마나 잘못된 번역들이 많을지도 생각하게 되었다..)</p>
+
+<p>그렇게 나의 주말은 이 하나의 포스트를 쓰는데 다 쓰였다.그림 자료를 만들면서도 손으로도 그려봤다가 테블릿으로도 그렸다가 결국엔 그냥 일러스트로 마무리하는 등의 다양한 삽질을 추가로 해야 했다. 덕분에 글과 이미지를 머릿속에 단단히 연결 지을 수 있게되었다.</p>
+
+<hr />
+
+<p><strong>참고 자료들</strong>
+- book: High Perfomance JavaScript | Nicholas C. Zakas
+- book: You Don&rsquo;t Know JS |
+- book: Professional JavaScript for Web Developers
+- book: Speaking JS |
+- link: [](<a href="http://davidshariff.com/blog/javascript-scope-chain-and-closures/">http://davidshariff.com/blog/javascript-scope-chain-and-closures/</a>)
+- link: [](<a href="http://davidshariff.com/blog/javascript-scope-chain-and-closures/#first-article">http://davidshariff.com/blog/javascript-scope-chain-and-closures/#first-article</a>)
+- link: [Poiema!!]()</p>
+
+<hr />
+
+                </section>
+            </article>
+
+            
+
+            
+                <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'yogicat'; 
+
+     
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+            
+
+            
+
+            <footer id="footer">
+    
+        <div id="social">
+
+	
+	
+    <a class="symbol" href="https://www.facebook.com">
+        <i class="fa fa-facebook-square"></i>
+    </a>
+    
+    <a class="symbol" href="https://www.github.com/yogicat">
+        <i class="fa fa-github-square"></i>
+    </a>
+    
+
+
+</div>
+
+    
+    <p class="small">
+    
+       © Copyright 2018 <i class="fa fa-heart" aria-hidden="true"></i> ohda
+    
+    </p>
+    
+</footer>
+
+        </section>
+
+        <script src="/js/jquery-2.2.4.min.js"></script>
+<script src="/js/main.js"></script>
+<script src="/js/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+  
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-112494454-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+
+
+
+    </body>
+</html>

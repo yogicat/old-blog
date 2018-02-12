@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+		
+		<meta name="author" content="ohda">
+		<meta name="description" content="오다의 개발디자인 기록">
+		<meta name="generator" content="Hugo 0.32.3" />
+		<title>Math, probability &middot; ohda works</title>
+		<link rel="shortcut icon" href="/images/favicon.ico">
+		<link rel="stylesheet" href="/css/style.css">
+		<link rel="stylesheet" href="/css/highlight.css">
+
+		
+		<link rel="stylesheet" href="/css/font-awesome.min.css">
+		
+
+		
+
+		
+	</head>
+
+    <body>
+       <nav class="main-nav">
+	
+	
+		<a href='/'> <span class="arrow">←  </span>Home</a>
+	
+	<a href='/posts'>Archive</a>
+	<a href='/tags'>Tags</a>
+	<a href='/about'>About/Now</a>
+
+	
+
+	
+</nav>
+
+
+        <section id="wrapper" class="post">
+            <article>
+                <header>
+                    <h1>
+                        Math, probability
+                    </h1>
+                    <h2 class="headline">
+                    Feb 12, 2018 00:00
+                    · 946 words
+                    · 2 minute read
+                      <span class="tags">
+                      
+                      
+                          
+                              <a href="/tags/til">til</a>
+                          
+                              <a href="/tags/math">math</a>
+                          
+                              <a href="/tags/statistics">statistics</a>
+                          
+                              <a href="/tags/probability">probability</a>
+                          
+                              <a href="/tags/%EC%88%9C%EC%97%B4%EA%B3%BC-%EC%A1%B0%ED%95%A9">순열과 조합</a>
+                          
+                              <a href="/tags/%EA%B2%BD%EC%9A%B0%EC%9D%98-%EC%88%98">경우의 수</a>
+                          
+                      
+                      
+                      </span>
+                    </h2>
+                </header>
+                
+                <section id="post-body">
+                    
+
+<h3 id="permutations-and-combinations">Permutations and combinations</h3>
+
+<p>지난주 부터 고등학교 수학을 다시 공부하고 있다. EBS인터넷 강의와 Khan Academy의 자료가 큰 도움이 되고 있다.
+오늘은 코딩 알고리즘 과제 할때 특히 자주 마주하는 경우의 수를 공부해보자.
+경우의 수를 계산하는 방법은 대표적으로 2가지가 있는데 순열(Permutation)과 조합(Combination)이다.</p>
+
+<p><img src="../images/symbol.png" alt="symbols" /></p>
+
+<hr />
+
+<h3 id="순열-permutation">순열 (Permutation)</h3>
+
+<ul>
+<li>서로 다른 n개에서 서로 다른 r개를 선택하여 일렬로 배열하는 것을 n개에서 r개를 택하는 순열 이라고하고, 기호로 <code>nPr</code>로 나타낸다.</li>
+<li>순서가 중요한 경우 (자리배정, 숫자조합, &hellip;)</li>
+</ul>
+
+<p>이미지로 쉽게 알아보자. 5명의 그룹중 3명만이 의자에 앉을 수 있고 의자는 각각 다른 모양이다. 이때 앉을 수 있는 경우의 수를 구해보자.
+의자가 각각 다르기 때문에 순서가 중요하다.</p>
+
+<p>그 아래의 경우처럼 3명이 3개에 앉는 순서를 구하는 경우 n개와 선택하는 r의 수가 같으므로 3 * 2 * 1이 된다.이렇게 1부터 n까지의 연속된 모든 수를 차례대로 곱한 것을 <strong>n 팩토리얼</strong> 이라고 한다.</p>
+
+<hr />
+
+<p><img src="../images/permutation.png" alt="permutation" /></p>
+
+<h2 id="br"><br></h2>
+
+<h3 id="조합-combination">조합 (Combination)</h3>
+
+<ul>
+<li>서로 다른 n개에서 순서를 생각하지 않고 r개를 택하는 것을 n개에서 r개를 택하는 조합이라 하고, 이 조합은 <code>nCr</code>로 나타낸다.</li>
+<li>순서가 중요하지 않은 경우 (대표선발, 악수, &hellip;)</li>
+</ul>
+
+<p>조합에서는 순서가 중요하지 않다.아래 그림의 예시처럼 5개의 각기 다른 맛의 사탕중 3개를 선택할 수 있다. 이때 딸기맛이 첫번째인지 두번째인지는 중요하지 않다. 4명의 사람이 악수를 하는 경우에도 A가 B와 악수를 하고 B가 A와 악수를 하는것은 차이가 없다. (특별한 규칙이 명시되지 않는 한.)</p>
+
+<p><img src="../images/combination.png" alt="combination" /></p>
+
+<hr />
+
+<h3 id="quiz">quiz</h3>
+
+<ol>
+<li><p>How many unique ways are there to arrange the letters in the word &lsquo;DEN&rsquo;?</p>
+
+<ul>
+<li>첫번째 올 수 있는 캐릭터 3개 * 두번째 올 수 있는 캐릭터 2개 * 1</li>
+<li>6가지</li>
+</ul>
+
+<p><br></p></li>
+
+<li><p>You have 4 reindeer, Baithazar, Quentin, Jebediah, and Prancer, and you want to have 3 fly your sleigh. You always have your reindeer fly in a <strong>single-file line</strong>.</p>
+
+<p>How many different ways can you arrange your reindeer?</p>
+
+<ul>
+<li>4마리 중 3마리를 골라야 한다 -&gt; 일렬로 탄다 -&gt; 순서중요 -&gt; 순열</li>
+<li>4 * 3 * 2 * 1 = 24 -&gt; 24 / 1 = 24가지 방법</li>
+</ul>
+
+<p><br></p></li>
+
+<li><p>You just got a free ticket for a boat ride, and you can bring along 2 friends. Unfortunately, you have 5 friends who want to come along.
+How many different groups of friends could you take with you?</p>
+
+<ul>
+<li>순서 중요하지 않으므로 조합 -&gt; 5명 중 2명 선택</li>
+<li>5명 중 2명 의 순열 / 2명의 경우의 수 -&gt; ( 5 * 4 ) / ( 2 * 1 ) -&gt; 10가지 방법</li>
+</ul>
+
+<p><br></p></li>
+
+<li><p>Michael is packing his bags for his vacation. He has 6 unique books, but only 4 fit in his bag.</p>
+
+<p>How many different groups of 4 books can he take?</p>
+
+<ul>
+<li>6개 중 4개의 조합</li>
+<li>( 6 * 5 * 4 * 3 ) / ( 4 * 3 * 2 * 1) = 15가지의 수
+<br></li>
+</ul></li>
+
+<li><p>How many unique ways are there to arrange the letters in the word &lsquo;PRIOR&rsquo;?</p>
+
+<ul>
+<li>전체 경우의수 5 * 4 * 3 * 2 * 1 = 120</li>
+<li>R이 두개이므로 겹치는 경우 제외해야 한다 -&gt; 전체의 수 / 겹치는 경우의 수</li>
+<li>120 / 2 = 60가지</li>
+</ul></li>
+</ol>
+
+<hr />
+
+                </section>
+            </article>
+
+            
+
+            
+                <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'yogicat'; 
+
+     
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+            
+
+            
+
+            <footer id="footer">
+    
+        <div id="social">
+
+	
+	
+    <a class="symbol" href="https://www.facebook.com">
+        <i class="fa fa-facebook-square"></i>
+    </a>
+    
+    <a class="symbol" href="https://www.github.com/yogicat">
+        <i class="fa fa-github-square"></i>
+    </a>
+    
+
+
+</div>
+
+    
+    <p class="small">
+    
+       © Copyright 2018 <i class="fa fa-heart" aria-hidden="true"></i> ohda
+    
+    </p>
+    
+</footer>
+
+        </section>
+
+        <script src="/js/jquery-2.2.4.min.js"></script>
+<script src="/js/main.js"></script>
+<script src="/js/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+  
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-112494454-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+
+
+
+    </body>
+</html>

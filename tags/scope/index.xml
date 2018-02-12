@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Scope on ohda works</title>
+    <link>/tags/scope/</link>
+    <description>Recent content in Scope on ohda works</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 11 Feb 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/scope/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Execution context and more..</title>
+      <link>/posts/20180211/</link>
+      <pubDate>Sun, 11 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/20180211/</guid>
+      <description>Execution context and more.. 시작에 앞서서.. execution context를 배우고 나서 나만의 언어로 다시 정리하고 싶었고, 주말 내내 계속 작업했지만 도무지 끝이 나질 않았다. 내 생각을 글로</description>
+    </item>
+    
+  </channel>
+</rss>

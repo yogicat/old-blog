@@ -230,7 +230,7 @@
     <item>
       <title>Javascript</title>
       <link>/tags/javascript/</link>
-      <pubDate>Wed, 07 Feb 2018 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 11 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/javascript/</guid>
       <description></description>
@@ -275,7 +275,7 @@
     <item>
       <title>Math</title>
       <link>/tags/math/</link>
-      <pubDate>Mon, 05 Feb 2018 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 12 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/math/</guid>
       <description></description>
@@ -318,6 +318,15 @@
     </item>
     
     <item>
+      <title>Probability</title>
+      <link>/tags/probability/</link>
+      <pubDate>Mon, 12 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/probability/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Project</title>
       <link>/tags/project/</link>
       <pubDate>Fri, 02 Feb 2018 00:00:00 +0000</pubDate>
@@ -336,11 +345,29 @@
     </item>
     
     <item>
+      <title>Scope</title>
+      <link>/tags/scope/</link>
+      <pubDate>Sun, 11 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/scope/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Semantic</title>
       <link>/tags/semantic/</link>
       <pubDate>Sun, 21 Jan 2018 20:30:00 +0900</pubDate>
       
       <guid>/tags/semantic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Statistics</title>
+      <link>/tags/statistics/</link>
+      <pubDate>Mon, 12 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/statistics/</guid>
       <description></description>
     </item>
     
@@ -356,7 +383,7 @@
     <item>
       <title>Til</title>
       <link>/tags/til/</link>
-      <pubDate>Thu, 08 Feb 2018 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 12 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/til/</guid>
       <description></description>
@@ -386,6 +413,24 @@
       <pubDate>Sun, 14 Jan 2018 22:30:11 +0900</pubDate>
       
       <guid>/tags/youtube/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>경우의 수</title>
+      <link>/tags/%EA%B2%BD%EC%9A%B0%EC%9D%98-%EC%88%98/</link>
+      <pubDate>Mon, 12 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/%EA%B2%BD%EC%9A%B0%EC%9D%98-%EC%88%98/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>순열과 조합</title>
+      <link>/tags/%EC%88%9C%EC%97%B4%EA%B3%BC-%EC%A1%B0%ED%95%A9/</link>
+      <pubDate>Mon, 12 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/%EC%88%9C%EC%97%B4%EA%B3%BC-%EC%A1%B0%ED%95%A9/</guid>
       <description></description>
     </item>
     
