@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Challenge on ohda works</title>
+    <link>/tags/challenge/</link>
+    <description>Recent content in Challenge on ohda works</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 14 Feb 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/challenge/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>make some sounds</title>
+      <link>/posts/20180214/</link>
+      <pubDate>Wed, 14 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/20180214/</guid>
+      <description>Make some sound : JavaScript30 이론공부와 수학공부로 두뇌에 과부하가 걸릴때 쯤, 쉬면서 해볼 수 있는 흥미로운 프로젝트를 발견했다. JavaScrip30이라는 무료 챌린지이고</description>
+    </item>
+    
+  </channel>
+</rss>
