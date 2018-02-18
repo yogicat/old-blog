@@ -47,7 +47,7 @@
                     </h1>
                     <h2 class="headline">
                     Feb 16, 2018 00:00
-                    · 1506 words
+                    · 1701 words
                     · 4 minute read
                       <span class="tags">
                       
@@ -76,14 +76,19 @@
 
 <h2 id="recursion-and-dp">Recursion and DP</h2>
 
-<p>알고리즘을 풀다가 알게된 recursion에 대해 공부해 보았다.</p>
+<p>알고리즘 과제를 풀다가 알게된 recursion에 대해 공부해 보았다. 나아가 Recursion과 함께 나오는 Dynamic Programming(DP)에 대해서도 알아보자.</p>
 
-<p>Recursion과 함께 나오는 Dynamic Programming(DP)에 대해서도 알아보자.</p>
+<p>알고리즘에 대해 찾아보면 온통 전문적이고 nerdy하고 칙칙한 정보들이 많아서 이해하고 정리하는데 오랜 시간이 걸렸다. 하나를 공부하면 꼬리에 꼬리를 물고 계속 연관된 새로운 것들이 나타나서 더 오래 걸렸지만, 조금이나마 이전에 배웠던 부분들이 언급될 때는 작은 아하! 순간들을 경험하기도 했다. 모든지 나만의 언어로 정리하는게 가장 훌륭한 복습방법이라는 생각이 들었다. 아직은 새롭게 배워야 할 것들이 너무 많지만 언젠간 나도 나만의 dictionary에 많은 정보들이 쌓이리라 생각하며&hellip;</p>
 
-<p>추천 참고 링크
-- <a href="https://medium.com/basecs/less-repetition-more-dynamic-programming-43d29830a630">Medium - Less Repetition, More DP</a>
-- <a href="https://youtu.be/WPSeyjX1-4s">MIT 6.0001 - 6.Recursion and Dictionaries</a>
-- <a href="https://youtu.be/OQ5jsbhAv_M">MIT 6.006 - Dynamic Programming : Fibonacci,Shortest Paths</a></p>
+<p><strong>추천 참고 링크</strong></p>
+
+<p>MIT 6.0001, 6.002는 어렵지만 한 5-6번정도 반복해서 봤더니 큰 도움이 되었다.(6.0001이 입문단계) 그리고 알고리즘등에 대해 예쁘게 알기쉽게 설명한 미디엄 포스트도 추천한다.</p>
+
+<ul>
+<li><a href="https://medium.com/basecs/less-repetition-more-dynamic-programming-43d29830a630">Medium - Less Repetition, More DP</a></li>
+<li><a href="https://youtu.be/WPSeyjX1-4s">MIT 6.0001 - 6.Recursion and Dictionaries</a></li>
+<li><a href="https://youtu.be/OQ5jsbhAv_M">MIT 6.006 - Dynamic Programming : Fibonacci,Shortest Paths</a></li>
+</ul>
 
 <hr />
 
@@ -95,23 +100,23 @@
 <li>문제를 작은 부분으로 쪼개서 그 부분의 해결에 의해서 전체를 해결하는 방법</li>
 </ul>
 
-<p>Recursion은 어릴때 봤던 러시아 인형처럼 계속해서 작은 버젼의 인형이 더이상 작아질 수 없을 때까지 나오는 그런 것과 비슷한? 개념이다.</p>
+<p>Recursion은 어릴때 봤던 러시아 인형처럼 큰 인형에서 계속해서 작은 버젼의 인형이 더이상 작아질 수 없을 때까지 나오는 그런 것과 비슷한? 개념이다.</p>
 
-<p>대부분의 컴퓨터 프로그래밍 언어는 자기 자신을 호출 수 있는 재귀를 허용 한다. 일반적인 접근 방법은, 전체 문제를 그 문제와 같은 방식의 작은 ‘sub-problem’으로 나눈다. 이 ‘sub-problem’을 해결하고 그 해결 결과들을 합친다. 이를 <strong>divide and conquer</strong>(알고리즘 방식-문제를 나눠서 해결-quick sort,merge sort) 라고 하기도 하고 이는 <strong>dynamic programming</strong>(복잡한 문제를 간단한 여러 개의 문제-sub problems-로 나누어 푸는 방식) 혹은 <strong>memoization</strong>(동일한 계산의 반복 수행을 제거 - 기억해두는 방식)이라고 하기도 한다.</p>
+<p>대부분의 컴퓨터 프로그래밍 언어는 자기 자신을 호출 수 있는 재귀를 허용 한다. 일반적인 접근 방법은, 전체 문제를 그 문제와 같은 방식의 작은 ‘sub-problem’으로 나눈다. 이렇게 나눈 ‘sub-problem’을 해결하고 그 해결 결과들을 합친다.</p>
 
 <h3 id="dynamic-programming">Dynamic Programming?</h3>
 
 <ul>
 <li>수학자 Richard Bellman에 의해 사용되기 시작한 용어</li>
 <li>주어진 문제를 풀기 위해서, 여러개의 &lsquo;sub problem&rsquo;으로 나누어 풀고 그 결과를 결합하여 최종 문제를 해결하는 것이다.</li>
-<li><code>sub problem</code>의 해결 결과를 저장하여 <strong>재사용</strong>함으로써 반복 계산 횟수를 줄인다.</li>
+<li>&lsquo;sub problem&rsquo;의 해결 결과를 <strong>저장</strong>하여 <strong>재사용</strong>함으로써 반복 계산 횟수를 줄인다.</li>
 <li><strong>Overlapping Sub-problem</strong>, <strong>Optimal Substructure</strong> 특징을 가진다.</li>
-<li>Divide and conquer와 비슷하지만 DP는 기억과 재사용 이라는 특징이 있다.</li>
+<li>Divide-and-conquer와 비슷하지만 DP는 기억과 재사용 이라는 특징이 있다.</li>
 </ul>
 
 <hr />
 
-<h3 id="recursion-function">Recursion function</h3>
+<h3 id="recursion-function-만들기">Recursion function 만들기</h3>
 
 <ul>
 <li>한개이상의 <strong>base case</strong>와 <strong>recursive case</strong>를 가지고 있다.</li>
@@ -154,7 +159,7 @@ mult_iter(5, 3);
 
 <h3 id="recursive-solution">Recursive Solution</h3>
 
-<p><img src="recursion/recursion.png" alt="" /></p>
+<p><img src="../images/recursion.png" alt="" /></p>
 
 <pre><code class="language-js">function mult(a, b) {
   if (b === 1) return a;
