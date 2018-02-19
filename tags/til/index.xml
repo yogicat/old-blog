@@ -17,7 +17,7 @@
       <pubDate>Mon, 19 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>/posts/20180218/</guid>
-      <description>What is DOM? The Document Object Model is a programming interface for HTML and XML documents. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects. That way, programming languages can connect to the page. A Web page is a document. Th DOM represents that same document so it can be manipulated. The DOM is an</description>
+      <description>What is DOM? Brief history of DOM 오늘은 그동안 배운 자바스크립트에서 한단계 더 나아가는, 기다리고 기다리던 DOM을 배웠다. DOM의 역사는 90대말 일어난 &amp;lsquo;브</description>
     </item>
     
     <item>
