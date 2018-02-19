@@ -47,7 +47,7 @@
                     </h1>
                     <h2 class="headline">
                     Feb 19, 2018 00:00
-                    · 1405 words
+                    · 1397 words
                     · 3 minute read
                       <span class="tags">
                       
@@ -76,13 +76,13 @@
 
 <p>DOM의 주요 표준화는 2004년까지 W3C에서 이루어 지다가 WHATWG(Web Hypertext Application Technology Working Group)가 작업을 이어받아 living document라는 명칭으로 공개하고 있으며 W3C는 WHATWG 표준의 안정화된 스냅샷(단편)을 발행하고 있다. WHATWG의 스냅샷인 DOM Level 4가 2015년 발행되었다.</p>
 
+<hr />
+
 <h3 id="dom">DOM</h3>
 
 <p>HTML 페이지와 같은 도큐먼트를 렌더링하기 위해서는 대부분의 브라우저는 내부적으로 DOM이라는 모델을 사용한다. 도큐먼트의 노드들은 트리 구조로 이루어져 있고 이는 DOM tree라고 하고 최상위 노드를 &lsquo;Document object&rsquo;라고 한다.</p>
 
 <p>웹페이지가 로드(load)되면, 브라우저는 HTML 도큐먼트를 바탕으로 DOM을 형성하고 이는 자바스트립트과 도큐먼트 사이를 이어주며 자바스트립트가 HTML요소나 속성을 조작할 수 있게 만들어 주는 인터페이스 역할을 한다.</p>
-
-<hr />
 
 <p>The Document Object Model is a programming interface for HTML and XML documents. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects. That way, programming languages can connect to the page.</p>
 
@@ -165,19 +165,28 @@ Node의 메서드나 프로퍼티를 상속?받는 인터페이스에는 <code>D
 
 <h3 id="traversing-the-dom">Traversing the DOM</h3>
 
-<p><strong>Find Parent</strong>
-- <code>itemList.parentNode.parentNode</code>
-- <code>itemList.parentElement</code></p>
+<p><strong>Find Parent</strong></p>
 
-<p><strong>Find Children</strong>
-- <code>itemList.childNodes</code> : white-space 텍스트까지 인식하므로 주의! <code>nodeList</code>
-- <code>itemList.children</code> : white-space 무시! <code>HTMLCOllection</code></p>
+<ul>
+<li><code>itemList.parentNode.parentNode</code></li>
+<li><code>itemList.parentElement</code></li>
+</ul>
 
-<p><strong>Find first,last child</strong>
-- <code>itemList.firstChild</code> : white-space 인식
-- <code>itemList.lastChild</code> : white-space 인식
-- <code>itemList.firstElementChild</code> :  on element
-- <code>itemList.lastElementChild</code>: on element</p>
+<p><strong>Find Children</strong></p>
+
+<ul>
+<li><code>itemList.childNodes</code> : white-space 텍스트까지 인식하므로 주의! <code>nodeList</code></li>
+<li><code>itemList.children</code> : white-space 무시! <code>HTMLCOllection</code></li>
+</ul>
+
+<p><strong>Find first,last child</strong></p>
+
+<ul>
+<li><code>itemList.firstChild</code> : white-space 인식</li>
+<li><code>itemList.lastChild</code> : white-space 인식</li>
+<li><code>itemList.firstElementChild</code> :  on element</li>
+<li><code>itemList.lastElementChild</code>: on element</li>
+</ul>
 
 <hr />
 
