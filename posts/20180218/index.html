@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+		
+		<meta name="author" content="ohda">
+		<meta name="description" content="오다의 개발디자인 기록">
+		<meta name="generator" content="Hugo 0.32.3" />
+		<title>DOM Intro &middot; ohda works</title>
+		<link rel="shortcut icon" href="/images/favicon.ico">
+		<link rel="stylesheet" href="/css/style.css">
+		<link rel="stylesheet" href="/css/highlight.css">
+
+		
+		<link rel="stylesheet" href="/css/font-awesome.min.css">
+		
+
+		
+
+		
+	</head>
+
+    <body>
+       <nav class="main-nav">
+	
+	
+		<a href='/'> <span class="arrow">←  </span>Home</a>
+	
+	<a href='/posts'>Archive</a>
+	<a href='/tags'>Tags</a>
+	<a href='/about'>About/Now</a>
+
+	
+
+	
+</nav>
+
+
+        <section id="wrapper" class="post">
+            <article>
+                <header>
+                    <h1>
+                        DOM Intro
+                    </h1>
+                    <h2 class="headline">
+                    Feb 19, 2018 00:00
+                    · 312 words
+                    · 1 minute read
+                      <span class="tags">
+                      
+                      
+                          
+                              <a href="/tags/til">til</a>
+                          
+                              <a href="/tags/js">js</a>
+                          
+                              <a href="/tags/dom">DOM</a>
+                          
+                      
+                      
+                      </span>
+                    </h2>
+                </header>
+                
+                <section id="post-body">
+                    
+
+<h3 id="what-is-dom">What is DOM?</h3>
+
+<p>The Document Object Model is a programming interface for HTML and XML documents. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects. That way, programming languages can connect to the page.</p>
+
+<p>A Web page is a document. Th DOM represents that same document so it can be manipulated. The DOM is an object-oriented representation of the web page, which can be modified with a scripting language such as javaScript.</p>
+
+<hr />
+
+<h3 id="dom-and-javascript">DOM and JavaScript</h3>
+
+<p>JavaScript uses the DOM to access the document and its elements. The DOM is not a programming language, but without it, the JavaScript language wouldn’t have any model or notion of web pages, HTML documents, XML documents, and their component parts(elements).</p>
+
+<p>Every element in a document is a part of the document object model for that document, so they can all be accessed and manipulated using the DOM and a scripting language like JavaScript.</p>
+
+<hr />
+
+<h3 id="document">Document</h3>
+
+<p>A document node represents every document as the root. The document element is the outermost element in the document within which all other elements exist. There can be only one document element per document. In HTML pages, the document element is always the <code>&lt;html&gt;</code> element.</p>
+
+<hr />
+
+<h3 id="selectors-api">Selectors API</h3>
+
+<ul>
+<li><code>title.textContent</code> : 텍스트로 인식 (마크업도 문자열로 인식)</li>
+<li><code>title.innerText</code> : CSS 영향 받는다 (display, visibility로 숨기면 조작할 수 없음)</li>
+<li><code>title.innerHTML</code> : html직접 입력 가능</li>
+</ul>
+
+<hr />
+
+<ul>
+<li><code>document.getElementById('header')</code></li>
+<li><code>document.getElementsByClassName('items red')</code> : 유사배열 live HTMLCollection</li>
+<li><code>document.getElementsByTagName('p')</code> : 유사배열 live HTMLCollection</li>
+</ul>
+
+<hr />
+
+<h3 id="links">Links</h3>
+
+<ul>
+<li><a href="https://www.w3.org/TR/selectors-api2/">W3C Selectors lv2</a></li>
+<li><a href="https://www.w3.org/TR/dom/">W3C DOM</a></li>
+<li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction">MDN : Introduction DOM</a></li>
+<li><a href="https://www.html5rocks.com/en/tutorials/internals/howbrowserswork/">how browsers work</a></li>
+</ul>
+
+                </section>
+            </article>
+
+            
+
+            
+                <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'yogicat'; 
+
+     
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+            
+
+            
+
+            <footer id="footer">
+    
+        <div id="social">
+
+	
+	
+    <a class="symbol" href="https://www.facebook.com">
+        <i class="fa fa-facebook-square"></i>
+    </a>
+    
+    <a class="symbol" href="https://www.github.com/yogicat">
+        <i class="fa fa-github-square"></i>
+    </a>
+    
+
+
+</div>
+
+    
+    <p class="small">
+    
+       © Copyright 2018 <i class="fa fa-heart" aria-hidden="true"></i> ohda
+    
+    </p>
+    
+</footer>
+
+        </section>
+
+        <script src="/js/jquery-2.2.4.min.js"></script>
+<script src="/js/main.js"></script>
+<script src="/js/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+  
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-112494454-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+
+
+
+    </body>
+</html>

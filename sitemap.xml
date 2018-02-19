@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/posts/20180218/</loc>
+    <lastmod>2018-02-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/posts/20180216/</loc>
     <lastmod>2018-02-16T00:00:00+00:00</lastmod>
   </url>
@@ -308,6 +313,12 @@
   </url>
   
   <url>
+    <loc>/tags/dom/</loc>
+    <lastmod>2018-02-19T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/dp/</loc>
     <lastmod>2018-02-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -369,7 +380,7 @@
   
   <url>
     <loc>/tags/js/</loc>
-    <lastmod>2018-02-16T00:00:00+00:00</lastmod>
+    <lastmod>2018-02-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -429,7 +440,7 @@
   
   <url>
     <loc>/posts/</loc>
-    <lastmod>2018-02-16T00:00:00+00:00</lastmod>
+    <lastmod>2018-02-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -489,7 +500,7 @@
   
   <url>
     <loc>/tags/til/</loc>
-    <lastmod>2018-02-16T00:00:00+00:00</lastmod>
+    <lastmod>2018-02-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -513,7 +524,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2018-02-16T00:00:00+00:00</lastmod>
+    <lastmod>2018-02-19T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
