@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Internet on ohda works</title>
+    <link>/tags/internet/</link>
+    <description>Recent content in Internet on ohda works</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 19 Feb 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/internet/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>IP and Bytes</title>
+      <link>/posts/20180219/</link>
+      <pubDate>Mon, 19 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/20180219/</guid>
+      <description>IP에 대해서 순수하게 나의 궁금증 해결을 위한 공부. 네트워크 공부를 하다가 IP주소를 보면서, 왜 0부터 255인지, 왜 바이트이고 8비트인지, 왜 ASCII 인지 궁금</description>
+    </item>
+    
+  </channel>
+</rss>
