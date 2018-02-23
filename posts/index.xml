@@ -21,6 +21,15 @@
     </item>
     
     <item>
+      <title>IP and Bytes</title>
+      <link>/posts/20180219/</link>
+      <pubDate>Mon, 19 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/20180219/</guid>
+      <description>IP에 대해서 순수하게 나의 궁금증 해결을 위한 공부. 네트워크 공부를 하다가 IP주소를 보면서, 왜 0부터 255인지, 왜 바이트이고 8비트인지, 왜 ASCII 인지 궁금</description>
+    </item>
+    
+    <item>
       <title>Recursion &amp; DP</title>
       <link>/posts/20180216/</link>
       <pubDate>Fri, 16 Feb 2018 00:00:00 +0000</pubDate>
