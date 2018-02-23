@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+		
+		<meta name="author" content="ohda">
+		<meta name="description" content="오다의 개발디자인 기록">
+		<meta name="generator" content="Hugo 0.36.1" />
+		<title>IP and Bytes &middot; ohda works</title>
+		<link rel="shortcut icon" href="/images/favicon.ico">
+		<link rel="stylesheet" href="/css/style.css">
+		<link rel="stylesheet" href="/css/highlight.css">
+
+		
+		<link rel="stylesheet" href="/css/font-awesome.min.css">
+		
+
+		
+
+		
+	</head>
+
+    <body>
+       <nav class="main-nav">
+	
+	
+		<a href='/'> <span class="arrow">←  </span>Home</a>
+	
+	<a href='/posts'>Archive</a>
+	<a href='/tags'>Tags</a>
+	<a href='/about'>About/Now</a>
+
+	
+
+	
+</nav>
+
+
+        <section id="wrapper" class="post">
+            <article>
+                <header>
+                    <h1>
+                        IP and Bytes
+                    </h1>
+                    <h2 class="headline">
+                    Feb 19, 2018 00:00
+                    · 907 words
+                    · 2 minute read
+                      <span class="tags">
+                      
+                      
+                          
+                              <a href="/tags/til">til</a>
+                          
+                              <a href="/tags/learning">learning</a>
+                          
+                              <a href="/tags/internet">internet</a>
+                          
+                      
+                      
+                      </span>
+                    </h2>
+                </header>
+                
+                <section id="post-body">
+                    
+
+<h3 id="ip에-대해서">IP에 대해서</h3>
+
+<p>순수하게 나의 궁금증 해결을 위한 공부.
+네트워크 공부를 하다가 IP주소를 보면서, 왜 0부터 255인지, 왜 바이트이고
+8비트인지, 왜 ASCII 인지 궁금증이 꼬리에 꼬리를 물고 생겨나 찾아보기 시작한것들이 겉잡을 수 없이 커져서 몇일 내내 공부해도 정리할 수 없는 지경에 이르렀지만 조금씩 조금씩 정리해서 포스팅해보자.</p>
+
+<h3 id="ip주소와-바이트">IP주소와 바이트</h3>
+
+<p>인터넷은 컴퓨터들의 네트워크이다. 따라서 인터넷에 연결된 각각의 컴퓨터는 고유의 주소를 반드시 갖는다. 이 고유 주소는 <code>nnn.nnn.nnn.nnn</code>의 형태로 이루어져 있고 (IPv4의 경우), 각각의 <code>nnn</code>은 1byte로 0부터 255사이의 수로 나타낸다.
+이런 형태의 주소를 IP Address (Internet Protocol) 라고 한다.</p>
+
+<p>왜 0부터 255일까?
+이를 이해하기 위해서 컴퓨터를 이루는 최소 단위인 bit 그리고 byte에 대해 먼저 알아보자. bit는 컴퓨터 프로그래밍에서 가장 작은 저장단위로 0 또는 1을 나타낼 수 있다. 그리고 이런 bit들이 8개가 모이면 1byte 라고 한다.(0 1 0 1 1 0 1 0) 그리고 1byte는 한개의 캐릭터(A, x, $)를 나타낼 수 있다.</p>
+
+<p>1개의 bit는 0또는1을 나타내므로 2가지 값을 나타낼 수 있고, 2-bit는 4개(2 * 2), 3-bit는 8개(2 * 2 * 2), 4-bit는 2 * 2 * 2 * 2 인 16개..이렇게 2의 배수로 늘어나게 된다. 따라서 8-bit는 2의 8제곱이 되고 이는 0부터 255까지의 256개의 값을 나타낼 수 있다.</p>
+
+<p>왜 byte인가?
+바이트는 50년대 후반 IBM에서 만들어져서 초반에는 특정 데이터 패스의 비트수를 표현하기 위해 사용되었지만, 1960년대 중반쯤 중형 컴퓨터 시스템의 개발과정에서 8비트를 묶어서 부르는 이름으로 굳어지게 되었다. (초기에는 다양한 비트들이 사용되었음) 8비트로 나타낼 수 있는 1바이트는 ( 0 0 0 0 0 0 0 0 )부터 ( 1 1 1 1 1 1 1 1 )까지의 값을 가질 수 있다. 이 값은 0부터 255까지의 양수를 표현할 수 있다. 바이트는 세계 대부분의 문자를 저장하는 데 아주 이상적인 크기이다.(한국,중국,일본어는 2바이트를 이용하여 표현한다) 또한 바이트는 흑백 사진에서 회색조를 표현하는 단계로 사용하기에도 이상적인데, 사람의 눈이 대략 256단계 정도의 명암을 구분할 수 있기 때문이다.(CODE,Charles Petzole)</p>
+
+<hr />
+
+<h3 id="links">links</h3>
+
+<ul>
+<li><a href="https://web.stanford.edu/class/cs101/bits-bytes.html">스탠포드 CS101</a></li>
+<li><a href="https://256stuff.com/256.html">The Story of 256</a></li>
+<li><a href="http://web.stanford.edu/class/msande91si/www-spr04/readings/week1/InternetWhitepaper.htm">How Does the Internet Work?</a></li>
+<li><a href="https://computer.howstuffworks.com/internet/basics/internet.htm">How does the Internet work? | HowStuffWorks</a></li>
+<li><a href="http://www.explainthatstuff.com/internet.html">How the Internet works: A simple introduction</a></li>
+</ul>
+
+                </section>
+            </article>
+
+            
+
+            
+                <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'yogicat'; 
+
+     
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+            
+
+            
+
+            <footer id="footer">
+    
+        <div id="social">
+
+	
+	
+    <a class="symbol" href="https://www.facebook.com">
+        <i class="fa fa-facebook-square"></i>
+    </a>
+    
+    <a class="symbol" href="https://www.github.com/yogicat">
+        <i class="fa fa-github-square"></i>
+    </a>
+    
+
+
+</div>
+
+    
+    <p class="small">
+    
+       © Copyright 2018 <i class="fa fa-heart" aria-hidden="true"></i> ohda
+    
+    </p>
+    
+</footer>
+
+        </section>
+
+        <script src="/js/jquery-2.2.4.min.js"></script>
+<script src="/js/main.js"></script>
+<script src="/js/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+  
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-112494454-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+
+
+
+    </body>
+</html>
