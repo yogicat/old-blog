@@ -6,18 +6,18 @@
     <description>Recent content in Learning on ohda works</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 19 Feb 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 23 Feb 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/learning/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>IP and Bytes</title>
+      <title>IP and Bytes and Human..</title>
       <link>/posts/20180219/</link>
-      <pubDate>Mon, 19 Feb 2018 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 23 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>/posts/20180219/</guid>
-      <description>IP에 대해서 순수하게 나의 궁금증 해결을 위한 공부. 네트워크 공부를 하다가 IP주소를 보면서, 왜 0부터 255인지, 왜 바이트이고 8비트인지, 왜 ASCII 인지 궁금</description>
+      <description>IP주소와 바이트와 &amp;hellip;인간이란 순수하게 나의 궁금증 해결을 위한 쉬는시간 틈새 공부. 네트워크 공부하다가 마주친 IP주소에서 시작된 .. IP주소</description>
     </item>
     
     <item>
