@@ -370,11 +370,20 @@ Benefits  more accessibility good for search engine optimization.</description>
     
     <item>
       <title></title>
+      <link>/posts/20180226/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/20180226/</guid>
+      <description>title = &amp;ldquo;most important question&amp;rdquo; description = &amp;ldquo;&amp;rdquo; tags = [ &amp;ldquo;til&amp;rdquo;, &amp;ldquo;thoughts&amp;rdquo;, &amp;ldquo;writing&amp;rdquo;, ] date = &amp;ldquo;2018-02-26&amp;rdquo; categories = [ ] menu = &amp;ldquo;main&amp;rdquo; hidden = &amp;ldquo;true&amp;rdquo; +++</description>
+    </item>
+    
+    <item>
+      <title></title>
       <link>/posts/20180227/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/posts/20180227/</guid>
-      <description>title = &amp;ldquo;Execution Context and Scope&amp;rdquo; description = &amp;ldquo;&amp;rdquo; tags = [ &amp;ldquo;til&amp;rdquo;, &amp;ldquo;JavaScript&amp;rdquo;, &amp;ldquo;Execution Context&amp;rdquo;, &amp;ldquo;Scope&amp;rdquo;, &amp;ldquo;Closure&amp;rdquo; ] date = &amp;ldquo;2018-02-27&amp;rdquo; categories = [ ] menu = &amp;ldquo;main&amp;rdquo; hidden = &amp;ldquo;false&amp;rdquo; +++ Execution Context 유용한 아티클과 동영상! 어려운부분은 동영상이 이해하는데 최고인것 같다. 한가</description>
+      <description>title = &amp;ldquo;Execution Context and Scope&amp;rdquo; description = &amp;ldquo;&amp;rdquo; tags = [ &amp;ldquo;til&amp;rdquo;, &amp;ldquo;JavaScript&amp;rdquo;, &amp;ldquo;Execution Context&amp;rdquo;, &amp;ldquo;Scope&amp;rdquo;, &amp;ldquo;Closure&amp;rdquo; ] date = &amp;ldquo;2018-02-27&amp;rdquo; categories = [ ] menu = &amp;ldquo;main&amp;rdquo; hidden = &amp;ldquo;true&amp;rdquo; +++ Execution Context 유용한 아티클과 동영상! 어려운부분은 동영상이 이해하는데 최고인것 같다. 한가</description>
     </item>
     
   </channel>
