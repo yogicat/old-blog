@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+		
+		<meta name="author" content="ohda">
+		<meta name="description" content="오다의 개발디자인 기록">
+		<meta name="generator" content="Hugo 0.36.1" />
+		<title>DOM Cheatsheet &middot; ohda works</title>
+		<link rel="shortcut icon" href="/images/favicon.ico">
+		<link rel="stylesheet" href="/css/style.css">
+		<link rel="stylesheet" href="/css/highlight.css">
+
+		
+		<link rel="stylesheet" href="/css/font-awesome.min.css">
+		
+
+		
+
+		
+	</head>
+
+    <body>
+       <nav class="main-nav">
+	
+	
+		<a href='/'> <span class="arrow">←  </span>Home</a>
+	
+	<a href='/posts'>Archive</a>
+	<a href='/tags'>Tags</a>
+	<a href='/about'>About/Now</a>
+
+	
+
+	
+</nav>
+
+
+        <section id="wrapper" class="post">
+            <article>
+                <header>
+                    <h1>
+                        DOM Cheatsheet
+                    </h1>
+                    <h2 class="headline">
+                    Feb 26, 2018 00:00
+                    · 758 words
+                    · 2 minute read
+                      <span class="tags">
+                      
+                      
+                          
+                              <a href="/tags/til">til</a>
+                          
+                              <a href="/tags/javascript">JavaScript</a>
+                          
+                              <a href="/tags/dom">DOM</a>
+                          
+                      
+                      
+                      </span>
+                    </h2>
+                </header>
+                
+                <section id="post-body">
+                    
+
+<h2 id="working-with-dom">Working with DOM</h2>
+
+<ul>
+<li>바닐라 자바스크립트로 DOM사용하기 치트시트</li>
+<li><a href="http://domenlightenment.com/">DOM Enligntment</a></li>
+<li><a href="https://gist.github.com/thegitfather/9c9f1a927cd57df14a59c268f118ce86">Vanilla JavaScript Quick Reference</a></li>
+<li><a href="https://www.digitalocean.com/community/tutorials/how-to-make-changes-to-the-dom">Understanding the DOM</a></li>
+</ul>
+
+<hr />
+
+<h3 id="basics">Basics</h3>
+
+<ul>
+<li>All items in the Dom are defined as <strong>nodes</strong></li>
+<li>DOM의 구성요소를 node라고 하고 node는 다양한 타입이 있다.</li>
+<li>HTMLCollection : live collection</li>
+<li>NodeList : non-live</li>
+</ul>
+
+<hr />
+
+<h3 id="node-object-types">Node object types</h3>
+
+<ul>
+<li><code>DOCUMENT_NODE</code> : window.document</li>
+<li><code>ELEMENT_NODE</code>  : <code>&lt;body&gt;</code>, <code>&lt;p&gt;</code>, <code>&lt;a&gt;</code>, <code>&lt;h1&gt;</code>, &hellip;</li>
+<li><code>ATTRIBUTE_NODE</code> : <code>class = &quot;list-group&quot;</code></li>
+<li><code>TEXT_NODE</code> : text in an html document</li>
+</ul>
+
+<hr />
+
+<h3 id="accessing-dom-elements">Accessing Dom Elements</h3>
+
+<pre><code class="language-js">// Returns a reference to the element by its ID.
+document.getElementById('someid');
+
+// Returns an array-like object of all child elements which have all of the given class names.
+document.getElementsByClassName('someclass');
+
+// Returns an HTMLCollection of elements with the given tag name.
+document.getElementsByTagName('LI');
+document.getElementsByTagName('article');
+
+// Returns the first element within the document that matches the specified group of selectors.
+document.querySelector('.someclass');
+document.querySelector('#demo-query');
+
+// Returns a list of the elements within the document (using depth-first pre-order traversal of the document's nodes)
+// that match the specified group of selectors.
+document.querySelectorAll('div.note, div.alert');
+</code></pre>
+
+<hr />
+
+<h3 id="get-parent">Get Parent</h3>
+
+<pre><code class="language-js">// Get parent node
+children.parentNode;
+children.parentElementNode;
+</code></pre>
+
+<h3 id="get-child-children">Get Child/Children</h3>
+
+<pre><code class="language-js">// Get child nodes
+parent.childNodes;
+parent.firstChild;
+parent.lastChild;
+
+// get child element nodes
+parent.children;
+parent.firstElementChild;
+parent.lastElementChild;
+</code></pre>
+
+<h3 id="get-sibling-nodes">Get Sibling Nodes</h3>
+
+<pre><code class="language-js">// get sibling node
+child.previousSibling;
+child.nextSibling;
+
+// get sibling element node
+child.previousElementSibling;
+child.nextElementSibling;
+</code></pre>
+
+<h3 id="get-the-tag-name-of-an-element">Get the tag name of an element</h3>
+
+<pre><code class="language-js">// logs A in UPPERCASE 
+document.querySelector('a').tagName;
+document.querySelector('a').nodeName;
+//
+</code></pre>
+
+<h3 id="get-the-class">Get the Class</h3>
+
+<pre><code class="language-js">// whole class 'glyphicon remove-circle something ...'
+document.querySelector('div').className; 
+
+// class list {0:&quot;glyphicon&quot;, 1:&quot;remove-circle&quot;, ...}
+document.querySelector('div').classList; 
+</code></pre>
+
+<hr />
+
+<h3 id="create-new-nodes">Create New Nodes</h3>
+
+<pre><code class="language-js">// create a new element node
+document.createElement('p');
+document.createElement('h1');
+
+// create a new text node
+// 생성자체로는 브라우저에는 보이지 않음 - insert해줘야 볼 수 있음
+document.createTextNode('This is a nice header text!');
+
+
+// get,set text content of an element node
+node.textContent;
+node.textContent = &quot;I'm a paragraph&quot;;
+// example
+const newTodo = document.createElement('li');
+newTodo.textContent = 'Do homework';
+
+
+// get,set html content of an element
+// XSS(cross-site scripting)위험이 있음
+node.innerHTML;
+node.innerHTML = &quot;I'm a paragraph with &lt;strong&gt;bold&lt;/strong&gt; text.&quot;;
+</code></pre>
+
+<hr />
+
+<h3 id="insert-nodes-into-the-dom">Insert Nodes into the DOM</h3>
+
+<pre><code class="language-js">// add a node as the last child of a parent element
+parent.appendChild(newChild);
+
+const todoList = document.querySelector('ul');
+const newTodo = document.createElement('li');
+todoList.appendChild(newTodo);
+
+// insert a node into the parent element before sibling
+parent.insertBefore(newNode, nextSibling);
+
+// replace an existing node with a new node
+parent.replaceChild(newNode, oldNode);
+
+//
+element.insertAdjacentHTML('beforebegin', '&lt;div&gt;this gets inserted.&lt;/div&gt;');
+
+- beforebegin : `element`바로 앞에 형제요소로 넣는다
+- afterbegin : `element` 안에 첫째자식 앞으로 넣는다
+- beforeend : `element` 안에 마지막 자식요소 다음으로 넣는다
+- afterend : `element`바로 뒤에 형제요소로 넣는다
+
+</code></pre>
+
+<hr />
+
+<h3 id="remove-nodes">Remove Nodes</h3>
+
+<pre><code class="language-js">parent.removeChild(childNode);
+childNode.remove();
+</code></pre>
+
+<hr />
+
+<h3 id="class-list">Class List</h3>
+
+<pre><code class="language-js">// grab element on page you want to use
+var firstHeading = document.getElementById('firstHeading');
+
+// will remove foo if it is a class of firstHeading
+firstHeading.classList.remove('foo');
+
+// will add the class 'anotherClass' if one does not already exist
+firstHeading.classList.add('anotherclass');
+
+// add or remove multiple classes
+firstHeading.classList.add('foo', 'bar');
+firstHeading.classList.remove('foo', 'bar');
+
+// if visible class is set remove it, otherwise add it
+firstHeading.classList.toggle('visible');
+
+// will return true if it has class of 'foo' or false if it does not
+firstHeading.classList.contains('foo');
+</code></pre>
+
+<hr />
+
+<h3 id="get-set-remove-attribute-value">Get, Set, Remove, Attribute Value</h3>
+
+<pre><code class="language-js">var atts = document.querySelector('a');
+atts.removeAttribute('title')';
+atts.removeAttribute('class')';
+
+atts.setAttribute('href', '#');
+atts.setAttribute('title', 'yes');
+atts.setAttribute('data-foo', 'name');
+atts.setAttribute('style', 'margin:0;');
+
+
+atts.getAttribute('href');
+atts.getAttribute('title');
+atts.getAttribute('data-foo');
+
+
+// verifying attribute - boolean (value없어도 true)
+atts.hasAttribute('href');
+atts.hasAttribute('title');
+
+</code></pre>
+
+<hr />
+
+<h3 id="check-the-nodes">Check the nodes</h3>
+
+<pre><code class="language-html">&lt;html&gt;
+&lt;input type=&quot;text&quot;&gt;
+&lt;input type=&quot;text&quot;&gt;
+
+&lt;textarea&gt;foo&lt;/textarea&gt;
+&lt;textarea&gt;bar&lt;/textarea&gt;
+&lt;/html&gt;
+</code></pre>
+
+<pre><code class="language-js">// if the two nodes are the same type
+var input = document.querySelectorAll('input');
+input[0].isEqualNode(input[1]);
+// returns true;
+
+var textarea = document.querySelectorAll('textarea');
+textarea[0].isEqualNode(textarea[1]);
+// returns false;
+</code></pre>
+
+<hr />
+
+<h3 id="get-set-data-attributes">Get, Set Data-* attributes</h3>
+
+<p>dataset contains camel case versions of data attributes.
+<code>data-foo-foo</code> will be listed as <code>fooFoo</code></p>
+
+<pre><code class="language-html">&lt;div data-foo-foo=&quot;foo&quot; data-bar-bar=&quot;bar&quot;&gt;&lt;/div&gt;​
+</code></pre>
+
+<pre><code class="language-js">var elm = document.querySelector('div');
+
+//get 
+console.log(elm.dataset.fooFoo); //logs 'foo'
+console.log(elm.dataset.barBar); //logs 'bar'
+
+//set
+elm.dataset.gooGoo = 'goo';
+</code></pre>
+
+<hr />
+
+                </section>
+            </article>
+
+            
+
+            
+                <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'yogicat'; 
+
+     
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+            
+
+            
+
+            <footer id="footer">
+    
+        <div id="social">
+
+	
+	
+    <a class="symbol" href="https://www.facebook.com">
+        <i class="fa fa-facebook-square"></i>
+    </a>
+    
+    <a class="symbol" href="https://www.github.com/yogicat">
+        <i class="fa fa-github-square"></i>
+    </a>
+    
+
+
+</div>
+
+    
+    <p class="small">
+    
+       © Copyright 2018 <i class="fa fa-heart" aria-hidden="true"></i> ohda
+    
+    </p>
+    
+</footer>
+
+        </section>
+
+        <script src="/js/jquery-2.2.4.min.js"></script>
+<script src="/js/main.js"></script>
+<script src="/js/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+  
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-112494454-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+
+
+
+    </body>
+</html>

@@ -6,10 +6,19 @@
     <description>Recent content in Posts on ohda works</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 23 Feb 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Feb 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>DOM Cheatsheet</title>
+      <link>/posts/20180224/</link>
+      <pubDate>Mon, 26 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/20180224/</guid>
+      <description>Working with DOM 바닐라 자바스크립트로 DOM사용하기 치트시트 DOM Enligntment Vanilla JavaScript Quick Reference Understanding the DOM Basics All items in the Dom are defined as nodes DOM의 구성요소를 node라고 하고 node는 다양한 타입</description>
+    </item>
     
     <item>
       <title>IP, Byte and Human..</title>
@@ -357,6 +366,15 @@ Benefits  more accessibility good for search engine optimization.</description>
       
       <guid>/posts/day01/</guid>
       <description>link 최우영 선생님 강의자료 초보몽키의 개발공부로그 ::매일매일 글 쓰고 정리하는것 중요.:: 컴퓨터 설계 -&amp;gt; 전자 공학 컴퓨터의 활용 -&amp;gt; 컴퓨터 공학 CS ALU -&amp;gt; Arithmetic Logic Unit? +</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>/posts/20180227/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/20180227/</guid>
+      <description>title = &amp;ldquo;Execution Context and Scope&amp;rdquo; description = &amp;ldquo;&amp;rdquo; tags = [ &amp;ldquo;til&amp;rdquo;, &amp;ldquo;JavaScript&amp;rdquo;, &amp;ldquo;Execution Context&amp;rdquo;, &amp;ldquo;Scope&amp;rdquo;, &amp;ldquo;Closure&amp;rdquo; ] date = &amp;ldquo;2018-02-27&amp;rdquo; categories = [ ] menu = &amp;ldquo;main&amp;rdquo; hidden = &amp;ldquo;false&amp;rdquo; +++ Execution Context 유용한 아티클과 동영상! 어려운부분은 동영상이 이해하는데 최고인것 같다. 한가</description>
     </item>
     
   </channel>
