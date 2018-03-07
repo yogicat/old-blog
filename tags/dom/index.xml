@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Dom on ohda blog</title>
-    <link>/tags/dom/</link>
+    <link>/blog/tags/dom/</link>
     <description>Recent content in Dom on ohda blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Mon, 26 Feb 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/dom/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/blog/tags/dom/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>DOM Cheatsheet</title>
-      <link>/posts/20180224/</link>
+      <link>/blog/posts/20180224/</link>
       <pubDate>Mon, 26 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/posts/20180224/</guid>
+      <guid>/blog/posts/20180224/</guid>
       <description>Working with DOM 바닐라 자바스크립트로 DOM사용하기 치트시트 DOM Enligntment Vanilla JavaScript Quick Reference Understanding the DOM Basics All items in the Dom are defined as nodes DOM의 구성요소를 node라고 하고 node는 다양한 타입</description>
     </item>
     
     <item>
       <title>DOM Intro</title>
-      <link>/posts/20180218/</link>
+      <link>/blog/posts/20180218/</link>
       <pubDate>Mon, 19 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/posts/20180218/</guid>
+      <guid>/blog/posts/20180218/</guid>
       <description>What is DOM? Brief history of DOM 오늘은 그동안 배운 자바스크립트에서 한단계 더 나아가는, 기다리고 기다리던 DOM을 배웠다. DOM의 역사는 90대말 일어난 &amp;lsquo;브</description>
     </item>
     

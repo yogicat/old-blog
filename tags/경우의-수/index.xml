@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>경우의 수 on ohda blog</title>
-    <link>/tags/%EA%B2%BD%EC%9A%B0%EC%9D%98-%EC%88%98/</link>
+    <link>/blog/tags/%EA%B2%BD%EC%9A%B0%EC%9D%98-%EC%88%98/</link>
     <description>Recent content in 경우의 수 on ohda blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Mon, 12 Feb 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/%EA%B2%BD%EC%9A%B0%EC%9D%98-%EC%88%98/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/blog/tags/%EA%B2%BD%EC%9A%B0%EC%9D%98-%EC%88%98/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Math, Countings</title>
-      <link>/posts/20180212/</link>
+      <link>/blog/posts/20180212/</link>
       <pubDate>Mon, 12 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/posts/20180212/</guid>
+      <guid>/blog/posts/20180212/</guid>
       <description>Permutations and combinations 지난주 부터 고등학교 수학을 다시 공부하고 있다. EBS인터넷 강의와 Khan Academy의 자료가 큰 도움이 되고 있다. 오늘은 코딩 알고리즘 과제 할때 특히 자</description>
     </item>
     
