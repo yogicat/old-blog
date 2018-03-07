@@ -1,9 +1,9 @@
 ## TIL Blogs
+
+
 This is my blog.
-
 You can read some of my writings from the TIL repos.
-
-[yogicat.github.io](https://yogicat.github.io)
+[ohda.fun/blog](https://ohda.fun/blog)
 
 :fire::poop::+1::relaxed:
 
