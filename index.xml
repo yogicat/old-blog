@@ -6,10 +6,19 @@
     <description>Recent content on ohda blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 26 Feb 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 Mar 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>HTTPS and TLS</title>
+      <link>/blog/posts/20180306/</link>
+      <pubDate>Tue, 06 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/posts/20180306/</guid>
+      <description>HTTPS 드디어 도메인을 구입해 깃헙페이지와 연결했다. 연결하는 방법은 간단한데 https로 연결하려면 공인 인증절차를 거쳐야 한다. 하지만 역시나 구글링을 통해 손</description>
+    </item>
     
     <item>
       <title>DOM Cheatsheet</title>
@@ -366,15 +375,6 @@ Benefits  more accessibility good for search engine optimization.</description>
       
       <guid>/blog/posts/day01/</guid>
       <description>link 최우영 선생님 강의자료 초보몽키의 개발공부로그 ::매일매일 글 쓰고 정리하는것 중요.:: 컴퓨터 설계 -&amp;gt; 전자 공학 컴퓨터의 활용 -&amp;gt; 컴퓨터 공학 CS ALU -&amp;gt; Arithmetic Logic Unit? +</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/blog/posts/20180226/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/posts/20180226/</guid>
-      <description>title = &amp;ldquo;most important question&amp;rdquo; description = &amp;ldquo;&amp;rdquo; tags = [ &amp;ldquo;til&amp;rdquo;, &amp;ldquo;thoughts&amp;rdquo;, &amp;ldquo;writing&amp;rdquo;, ] date = &amp;ldquo;2018-02-26&amp;rdquo; categories = [ ] menu = &amp;ldquo;main&amp;rdquo; hidden = &amp;ldquo;true&amp;rdquo; +++</description>
     </item>
     
     <item>
