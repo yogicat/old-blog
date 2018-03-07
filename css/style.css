@@ -402,13 +402,15 @@ em, i {
 }
 
 .post header {
-    text-align: center;
+    text-align: left;
 }
 
 .post h1 {
     margin-top: 40px;
     margin-bottom: 20px;
     /* color: #222; */
+    text-decoration-line: overline;
+    text-decoration-style: wavy;
     color: #37bd3c;
     font: 700 40px/1.4em 'Karla', 'Nanum Gothic', Helvetica, Arial, sans-serif;
 }
@@ -423,7 +425,7 @@ em, i {
 .post h2.headline {
     font: normal 13px/1.5em 'Karla', 'Nanum Gothic', Helvetica, Arial, sans-serif;
     margin: -5px 0 60px 0;
-    color: #b2b9be;
+    color: #666;
     font-size: 13px;
     letter-spacing: 1px;
     display: inline-block;
@@ -438,7 +440,15 @@ em, i {
     letter-spacing: 2px;
     margin-top: 5px;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
+}
+
+.post h2.headline .tags a {
+    color: #333;
+    margin-right: 12px;
+    padding: 0 10px;
+    background-color: #FFC107;
+    border-radius: 2px;
 }
 
 #post-list li {
