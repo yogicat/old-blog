@@ -13,10 +13,10 @@
     
     <item>
       <title></title>
-      <link>/blog/posts/20180311/</link>
+      <link>/blog/posts/20180312/</link>
       <pubDate>Mon, 12 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/posts/20180311/</guid>
+      <guid>/blog/posts/20180312/</guid>
       <description>&amp;lsquo;HTML attribute&amp;rsquo; and &amp;lsquo;DOM property&amp;rsquo; HTML을 작성할 때, attribute를 HTML요소에 직접 정의할 수 있다. 이렇게 작성한 코드를 브라우저는 파싱을 통해 그에 맞는 DOM노드를</description>
     </item>
     
