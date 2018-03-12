@@ -190,7 +190,7 @@ h2 {
     /* border-radius: 10px; */
     border-left: 0px solid transparent;
     border-right: 60px solid transparent;
-    border-top: 60px  solid #FF5722; */
+    border-top: 60px  solid #FF5722; 
 }
 
 
@@ -577,8 +577,6 @@ img {
 Post List
 =========================================== */
 
-#post-list, #archive-list {
-}
 
 #post-list li, #archive-list li {
     list-style-type: none;
@@ -645,8 +643,7 @@ Post List
 
 /* Post Page */
 
-#header {
-}
+
 #wrapper.post {
     max-width: 670px;
 }
