@@ -6,7 +6,7 @@
     <description>Recent content in Til on ohda blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 11 Mar 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Mar 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/blog/tags/til/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,10 +14,10 @@
     <item>
       <title></title>
       <link>/blog/posts/20180311/</link>
-      <pubDate>Sun, 11 Mar 2018 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 12 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>/blog/posts/20180311/</guid>
-      <description></description>
+      <description>&amp;lsquo;HTML attribute&amp;rsquo; and &amp;lsquo;DOM property&amp;rsquo; HTML을 작성할 때, attribute를 HTML요소에 직접 정의할 수 있다. 이렇게 작성한 코드를 브라우저는 파싱을 통해 그에 맞는 DOM노드를</description>
     </item>
     
     <item>
