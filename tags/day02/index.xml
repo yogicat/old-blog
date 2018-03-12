@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Day02 on ohda blog</title>
-    <link>/blog/tags/day02/</link>
+    <link>/tags/day02/</link>
     <description>Recent content in Day02 on ohda blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Fri, 26 Jan 2018 21:00:33 +0900</lastBuildDate>
     
-	<atom:link href="/blog/tags/day02/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/day02/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>100Challenge:day02</title>
-      <link>/blog/posts/20180126/</link>
+      <link>/posts/20180126/</link>
       <pubDate>Fri, 26 Jan 2018 21:00:33 +0900</pubDate>
       
-      <guid>/blog/posts/20180126/</guid>
+      <guid>/posts/20180126/</guid>
       <description>100 Days Of Code Day 2 Today&amp;rsquo;s Progress clone &amp;lt;form&amp;gt; element from Airbnb 폼과 친해지기 2 에어비앤비에 메인 검색 화면을 만들어 보았다. 오늘 배운 calc() 속성을 사용해서 input 상자를 조절했다. 아직도 어디에 wid</description>
     </item>
     

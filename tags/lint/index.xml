@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Lint on ohda blog</title>
-    <link>/blog/tags/lint/</link>
+    <link>/tags/lint/</link>
     <description>Recent content in Lint on ohda blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 04 Feb 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/blog/tags/lint/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/lint/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>on writing well</title>
-      <link>/blog/posts/20180204/</link>
+      <link>/posts/20180204/</link>
       <pubDate>Sun, 04 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/posts/20180204/</guid>
+      <guid>/posts/20180204/</guid>
       <description>On writing well&amp;hellip; 코딩의 세계는 그동안 내가 거쳐온 세계들 중에서 discipline 이 가장 중요시되는 세계인 거 같다. 그리고 그렇기 때문에 참 매력적인 것 같다. 어제 javascript 역사 관련된 글을 읽다가</description>
     </item>
     

@@ -4,6 +4,12 @@ github.com style (c) Vasily Polovnyov <vast@whiteants.net>
 
 */
 
+code {
+  background: #ededed;
+  border-radius: 2px;
+  /* color: #673AB7; */
+}
+
 .hljs {
   display: block;
   overflow-x: auto;

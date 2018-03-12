@@ -1,5 +1,5 @@
 /* Reset */
-@import url('https://fonts.googleapis.com/css?family=Karla:400,700|Nanum+Gothic');
+@import url('https://fonts.googleapis.com/css?family=Karla:400,600,700|Nanum+Gothic');
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
     border: 0;
@@ -365,8 +365,8 @@ ul>li {
 }
 
 b, strong {
-    font-weight: 500;
-    color: #1E2025;
+    font-weight: 600;
+    color: #5b5b5b; 
 }
 
 em, i {
@@ -1034,9 +1034,9 @@ a.symbol:hover {
 .page-tags ul li a:hover {
     color: #37bd3c;
 }
-
+/* 
 code {
     background: #e2e4da !important;
     border-radius: 2px !important;
     color: #673AB7 !important;
-}
+} */

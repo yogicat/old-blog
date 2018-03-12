@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Day04 on ohda blog</title>
-    <link>/blog/tags/day04/</link>
+    <link>/tags/day04/</link>
     <description>Recent content in Day04 on ohda blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 28 Jan 2018 23:55:33 +0900</lastBuildDate>
     
-	<atom:link href="/blog/tags/day04/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/day04/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>100Challenge:day04</title>
-      <link>/blog/posts/20180128/</link>
+      <link>/posts/20180128/</link>
       <pubDate>Sun, 28 Jan 2018 23:55:33 +0900</pubDate>
       
-      <guid>/blog/posts/20180128/</guid>
+      <guid>/posts/20180128/</guid>
       <description>100 Days Of Code Day 4 Today&amp;rsquo;s Progress clone subscription form from VICE 폼과 친해지기 4 You Don&amp;rsquo;t Know JS 읽고 모든 에너지를 뺏겨 오늘도 뒤늦게 시간해서 조급함으로 마무리 했다. text를 form에 넣어야하는</description>
     </item>
     

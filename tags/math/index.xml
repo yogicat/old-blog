@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Math on ohda blog</title>
-    <link>/blog/tags/math/</link>
+    <link>/tags/math/</link>
     <description>Recent content in Math on ohda blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Fri, 16 Feb 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/blog/tags/math/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/math/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Recursion &amp; DP</title>
-      <link>/blog/posts/20180216/</link>
+      <link>/posts/20180216/</link>
       <pubDate>Fri, 16 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/posts/20180216/</guid>
+      <guid>/posts/20180216/</guid>
       <description>Recursion and DP 알고리즘 과제를 풀다가 알게된 recursion에 대해 공부해 보았다. 나아가 Recursion과 함께 나오는 Dynamic Programming(DP)에</description>
     </item>
     
     <item>
       <title>Math, Countings</title>
-      <link>/blog/posts/20180212/</link>
+      <link>/posts/20180212/</link>
       <pubDate>Mon, 12 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/posts/20180212/</guid>
+      <guid>/posts/20180212/</guid>
       <description>Permutations and combinations 지난주 부터 고등학교 수학을 다시 공부하고 있다. EBS인터넷 강의와 Khan Academy의 자료가 큰 도움이 되고 있다. 오늘은 코딩 알고리즘 과제 할때 특히 자</description>
     </item>
     
     <item>
       <title>Becoming a math person</title>
-      <link>/blog/posts/20180205/</link>
+      <link>/posts/20180205/</link>
       <pubDate>Mon, 05 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/posts/20180205/</guid>
+      <guid>/posts/20180205/</guid>
       <description>I decided to become a math person “I’m just not a math person.” We hear it all the time. And we’ve had enough. Because we believe that the idea of “math people” is the most self-destructive idea in America today. The truth is, you probably are</description>
     </item>
     

@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Https on ohda blog</title>
-    <link>/blog/tags/https/</link>
+    <link>/tags/https/</link>
     <description>Recent content in Https on ohda blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 11 Mar 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/blog/tags/https/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/https/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>HTTPS and TLS</title>
-      <link>/blog/posts/20180311/</link>
+      <link>/posts/20180311/</link>
       <pubDate>Sun, 11 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/posts/20180311/</guid>
+      <guid>/posts/20180311/</guid>
       <description> HTTPS </description>
     </item>
     
     <item>
       <title>HTTPS and TLS</title>
-      <link>/blog/posts/20180306/</link>
+      <link>/posts/20180306/</link>
       <pubDate>Tue, 06 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/posts/20180306/</guid>
+      <guid>/posts/20180306/</guid>
       <description>HTTPS 드디어 도메인을 구입해 깃헙페이지와 연결했다. 연결하는 방법은 간단한데 https로 연결하려면 공인 인증절차를 거쳐야 한다. 하지만 역시나 구글링을 통해 손</description>
     </item>
     

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Internet on ohda blog</title>
-    <link>/blog/tags/internet/</link>
+    <link>/tags/internet/</link>
     <description>Recent content in Internet on ohda blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Fri, 23 Feb 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/blog/tags/internet/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/internet/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>IP, Byte and Human..</title>
-      <link>/blog/posts/20180219/</link>
+      <link>/posts/20180219/</link>
       <pubDate>Fri, 23 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/posts/20180219/</guid>
+      <guid>/posts/20180219/</guid>
       <description>IP주소와 바이트와 &amp;hellip; 순수하게 나의 궁금증 해결을 위한 쉬는시간 틈새 공부. 네트워크 공부하다가 마주친 IP주소에서 시작된 잡포스팅. IP주소는 Internet Proto</description>
     </item>
     

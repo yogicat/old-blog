@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Day03 on ohda blog</title>
-    <link>/blog/tags/day03/</link>
+    <link>/tags/day03/</link>
     <description>Recent content in Day03 on ohda blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sat, 27 Jan 2018 23:00:33 +0900</lastBuildDate>
     
-	<atom:link href="/blog/tags/day03/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/day03/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>100Challenge:day03</title>
-      <link>/blog/posts/20180127/</link>
+      <link>/posts/20180127/</link>
       <pubDate>Sat, 27 Jan 2018 23:00:33 +0900</pubDate>
       
-      <guid>/blog/posts/20180127/</guid>
+      <guid>/posts/20180127/</guid>
       <description>100 Days Of Code Day 3 Today&amp;rsquo;s Progress clone subscription form from The Intercept 폼과 친해지기 3 The Intercept 사이트에 있는 메일링 폼을 연습했다.항상 다른 공부하다가 10시가 넘어서야 시작하니 완성도가 떨어지는 느낌</description>
     </item>
     

@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Network on ohda blog</title>
-    <link>/blog/tags/network/</link>
+    <link>/tags/network/</link>
     <description>Recent content in Network on ohda blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 11 Mar 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/blog/tags/network/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/network/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>HTTPS and TLS</title>
-      <link>/blog/posts/20180311/</link>
+      <link>/posts/20180311/</link>
       <pubDate>Sun, 11 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/posts/20180311/</guid>
+      <guid>/posts/20180311/</guid>
       <description> HTTPS </description>
     </item>
     
     <item>
       <title>HTTPS and TLS</title>
-      <link>/blog/posts/20180306/</link>
+      <link>/posts/20180306/</link>
       <pubDate>Tue, 06 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/posts/20180306/</guid>
+      <guid>/posts/20180306/</guid>
       <description>HTTPS 드디어 도메인을 구입해 깃헙페이지와 연결했다. 연결하는 방법은 간단한데 https로 연결하려면 공인 인증절차를 거쳐야 한다. 하지만 역시나 구글링을 통해 손</description>
     </item>
     
     <item>
       <title>lecture 4-network</title>
-      <link>/blog/posts/day04/</link>
+      <link>/posts/day04/</link>
       <pubDate>Thu, 11 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/posts/day04/</guid>
+      <guid>/posts/day04/</guid>
       <description>NetWork 802.11 != wifi - 802.11 는 와이파이가 아니다. - 와이파이는 802 기술을 사용한 상품 normal wifi is 2.4hz 2.4g hz -&amp;gt; 2.4g per 1second 주파수 높을수록 거리는 짧고 FM 주파수 짧을수록 거리는 넓고 품질은 저</description>
     </item>
     

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Day07 on ohda blog</title>
-    <link>/blog/tags/day07/</link>
+    <link>/tags/day07/</link>
     <description>Recent content in Day07 on ohda blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Fri, 02 Feb 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/blog/tags/day07/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/day07/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>100Challenge:day07</title>
-      <link>/blog/posts/20180131/</link>
+      <link>/posts/20180131/</link>
       <pubDate>Fri, 02 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/posts/20180131/</guid>
+      <guid>/posts/20180131/</guid>
       <description>100 Days Of Code Day 7 Today&amp;rsquo;s Progress
 
 Link to work</description>
