@@ -39,11 +39,6 @@ table {
     box-sizing: border-box;
 }
 
-code {
-    background-color: #888;
-    color: black;
-}
-
 /* Clearfix */
 
 .clearfix:after {
@@ -1038,4 +1033,10 @@ a.symbol:hover {
 }
 .page-tags ul li a:hover {
     color: #37bd3c;
+}
+
+code {
+    background: #e2e4da !important;
+    border-radius: 2px !important;
+    color: #673AB7 !important;
 }
