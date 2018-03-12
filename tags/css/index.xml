@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Css on ohda blog</title>
-    <link>/tags/css/</link>
+    <link>/blog/tags/css/</link>
     <description>Recent content in Css on ohda blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Mon, 22 Jan 2018 23:00:00 +0900</lastBuildDate>
     
-	<atom:link href="/tags/css/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/blog/tags/css/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>margin collapsing</title>
-      <link>/posts/20180122/</link>
+      <link>/blog/posts/20180122/</link>
       <pubDate>Mon, 22 Jan 2018 23:00:00 +0900</pubDate>
       
-      <guid>/posts/20180122/</guid>
+      <guid>/blog/posts/20180122/</guid>
       <description>What is margin collapsing? When two elements are touching each other in a vertical way, margin collapsing occurs.
 let&amp;rsquo;s assume there are two box elements vertically aligned. Box A - margin bottom : 20px Box B - margin top : 60px
 It’s easy to think that the outcome would be 80px but that’s not correct. The resulting margin would be 60px. The largest margin remains the same and smallest margin collapses to 0.</description>
@@ -24,28 +24,28 @@ It’s easy to think that the outcome would be 80px but that’s not correct. Th
     
     <item>
       <title>css menu study 101</title>
-      <link>/posts/20180118/</link>
+      <link>/blog/posts/20180118/</link>
       <pubDate>Thu, 18 Jan 2018 23:00:00 +0900</pubDate>
       
-      <guid>/posts/20180118/</guid>
+      <guid>/blog/posts/20180118/</guid>
       <description>Stuff I should know about Headings 웹페이지의 기본적이고 중요한 헤딩영역을 배웠다.우리가 무심코 방문하는 웹사이트에는 눈에는 보이지 않는 스크린 리더기와 키보드접근성을 위한 요소</description>
     </item>
     
     <item>
       <title>Road to Flexbox 1</title>
-      <link>/posts/20180116-1/</link>
+      <link>/blog/posts/20180116-1/</link>
       <pubDate>Wed, 17 Jan 2018 01:00:11 +0900</pubDate>
       
-      <guid>/posts/20180116-1/</guid>
+      <guid>/blog/posts/20180116-1/</guid>
       <description>What is Flexbox? Flexbox를 정복하자. 내용은 각종 블로그, 동영상, 그리고 W3C에 명시된 Flexbox스펙을 참고하였음.(링크는 하단 참조) Flexbo</description>
     </item>
     
     <item>
       <title>CSS Box Model</title>
-      <link>/posts/20180116/</link>
+      <link>/blog/posts/20180116/</link>
       <pubDate>Tue, 16 Jan 2018 18:47:11 +0900</pubDate>
       
-      <guid>/posts/20180116/</guid>
+      <guid>/blog/posts/20180116/</guid>
       <description>CSS:Cascading Style Sheets 오늘은 기본적인 CSS를 공부했다. 특히 그중에서도 기본으로 짚고 넘어갈 css box model에 대해 정리하고자 한다. The CSS Box Model HTML의 요소들은 하나의 박</description>
     </item>
     

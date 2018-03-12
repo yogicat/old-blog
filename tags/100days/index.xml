@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>100days on ohda blog</title>
-    <link>/tags/100days/</link>
+    <link>/blog/tags/100days/</link>
     <description>Recent content in 100days on ohda blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Fri, 02 Feb 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/100days/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/blog/tags/100days/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>100Challenge:day07</title>
-      <link>/posts/20180131/</link>
+      <link>/blog/posts/20180131/</link>
       <pubDate>Fri, 02 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/posts/20180131/</guid>
+      <guid>/blog/posts/20180131/</guid>
       <description>100 Days Of Code Day 7 Today&amp;rsquo;s Progress
 
 Link to work</description>
@@ -24,55 +24,55 @@ Link to work</description>
     
     <item>
       <title>100Challenge:day06</title>
-      <link>/posts/20180130-1/</link>
+      <link>/blog/posts/20180130-1/</link>
       <pubDate>Wed, 31 Jan 2018 01:00:33 +0900</pubDate>
       
-      <guid>/posts/20180130-1/</guid>
+      <guid>/blog/posts/20180130-1/</guid>
       <description>100 Days Of Code Day 6 Today&amp;rsquo;s Progress clone survey form from one share house survey 폼과 친해지기 6 오늘은 시간을 들여서 폼 마크업을 공부했다.그리고 라디오 버튼 생김새를 바꾸는 것도 덤으로 배웠다. MDN:input radio type 은</description>
     </item>
     
     <item>
       <title>100Challenge:day05</title>
-      <link>/posts/20180129/</link>
+      <link>/blog/posts/20180129/</link>
       <pubDate>Mon, 29 Jan 2018 23:55:33 +0900</pubDate>
       
-      <guid>/posts/20180129/</guid>
+      <guid>/blog/posts/20180129/</guid>
       <description>100 Days Of Code Day 5 Today&amp;rsquo;s Progress clone subscription form from oui will 폼과 친해지기 5 복습 예습하느라, 후딱 해치우기 급급한 데일리 챌린지 (하는데 의의를..) 노트 : [ 버튼 + 아이콘 ] 일때 pointer 영역</description>
     </item>
     
     <item>
       <title>100Challenge:day04</title>
-      <link>/posts/20180128/</link>
+      <link>/blog/posts/20180128/</link>
       <pubDate>Sun, 28 Jan 2018 23:55:33 +0900</pubDate>
       
-      <guid>/posts/20180128/</guid>
+      <guid>/blog/posts/20180128/</guid>
       <description>100 Days Of Code Day 4 Today&amp;rsquo;s Progress clone subscription form from VICE 폼과 친해지기 4 You Don&amp;rsquo;t Know JS 읽고 모든 에너지를 뺏겨 오늘도 뒤늦게 시간해서 조급함으로 마무리 했다. text를 form에 넣어야하는</description>
     </item>
     
     <item>
       <title>100Challenge:day03</title>
-      <link>/posts/20180127/</link>
+      <link>/blog/posts/20180127/</link>
       <pubDate>Sat, 27 Jan 2018 23:00:33 +0900</pubDate>
       
-      <guid>/posts/20180127/</guid>
+      <guid>/blog/posts/20180127/</guid>
       <description>100 Days Of Code Day 3 Today&amp;rsquo;s Progress clone subscription form from The Intercept 폼과 친해지기 3 The Intercept 사이트에 있는 메일링 폼을 연습했다.항상 다른 공부하다가 10시가 넘어서야 시작하니 완성도가 떨어지는 느낌</description>
     </item>
     
     <item>
       <title>100Challenge:day02</title>
-      <link>/posts/20180126/</link>
+      <link>/blog/posts/20180126/</link>
       <pubDate>Fri, 26 Jan 2018 21:00:33 +0900</pubDate>
       
-      <guid>/posts/20180126/</guid>
+      <guid>/blog/posts/20180126/</guid>
       <description>100 Days Of Code Day 2 Today&amp;rsquo;s Progress clone &amp;lt;form&amp;gt; element from Airbnb 폼과 친해지기 2 에어비앤비에 메인 검색 화면을 만들어 보았다. 오늘 배운 calc() 속성을 사용해서 input 상자를 조절했다. 아직도 어디에 wid</description>
     </item>
     
     <item>
       <title>100Challenge:day01</title>
-      <link>/posts/20180125/</link>
+      <link>/blog/posts/20180125/</link>
       <pubDate>Thu, 25 Jan 2018 23:10:33 +0900</pubDate>
       
-      <guid>/posts/20180125/</guid>
+      <guid>/blog/posts/20180125/</guid>
       <description>100 Days Of Code Day 1 Today&amp;rsquo;s Progress
 Studied &amp;lt;form&amp;gt; element and made simple signin page.Inspired by Virgin America Airlines
 
@@ -82,10 +82,10 @@ I was having hard time understanding and using proper form element. I visited th
     
     <item>
       <title>100 Days of Code</title>
-      <link>/posts/20180124/</link>
+      <link>/blog/posts/20180124/</link>
       <pubDate>Wed, 24 Jan 2018 22:10:33 +0900</pubDate>
       
-      <guid>/posts/20180124/</guid>
+      <guid>/blog/posts/20180124/</guid>
       <description>100 days of code Main Commitment I will code for at least an hour every day for the next 100 days.
 For the next 100 days I will code and design something new everyday. The project goal is not only to become familiar with html/css/js but also to maintain my design abilities.
 Start Date 2018-01-25

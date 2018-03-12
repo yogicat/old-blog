@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Html on ohda blog</title>
-    <link>/tags/html/</link>
+    <link>/blog/tags/html/</link>
     <description>Recent content in Html on ohda blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Mon, 12 Mar 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/html/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/blog/tags/html/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Attribute vs Property</title>
-      <link>/posts/20180312/</link>
+      <link>/blog/posts/20180312/</link>
       <pubDate>Mon, 12 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>/posts/20180312/</guid>
+      <guid>/blog/posts/20180312/</guid>
       <description>&amp;lsquo;HTML attribute&amp;rsquo; and &amp;lsquo;DOM property&amp;rsquo; HTML을 작성할 때, attribute를 HTML요소에 직접 정의할 수 있다. 이렇게 작성한 코드를 브라우저는 파싱을 통해 그에 맞는 DOM노드를</description>
     </item>
     
     <item>
       <title>FORM Markup 2</title>
-      <link>/posts/20180130/</link>
+      <link>/blog/posts/20180130/</link>
       <pubDate>Tue, 30 Jan 2018 22:05:33 +0900</pubDate>
       
-      <guid>/posts/20180130/</guid>
+      <guid>/blog/posts/20180130/</guid>
       <description>Form Markup 2 친구가 데일리 챌린지 중 마크업 잘못 사용된 부분의 올바른 사용법을 알려주었다. 이론을 공부하고 정리하는 것과 실제로 만들어보고 배우는 것은 정말 다른 것 같다</description>
     </item>
     
     <item>
       <title>margin collapsing</title>
-      <link>/posts/20180122/</link>
+      <link>/blog/posts/20180122/</link>
       <pubDate>Mon, 22 Jan 2018 23:00:00 +0900</pubDate>
       
-      <guid>/posts/20180122/</guid>
+      <guid>/blog/posts/20180122/</guid>
       <description>What is margin collapsing? When two elements are touching each other in a vertical way, margin collapsing occurs.
 let&amp;rsquo;s assume there are two box elements vertically aligned. Box A - margin bottom : 20px Box B - margin top : 60px
 It’s easy to think that the outcome would be 80px but that’s not correct. The resulting margin would be 60px. The largest margin remains the same and smallest margin collapses to 0.</description>
@@ -42,10 +42,10 @@ It’s easy to think that the outcome would be 80px but that’s not correct. Th
     
     <item>
       <title>semantic markup</title>
-      <link>/posts/20180121/</link>
+      <link>/blog/posts/20180121/</link>
       <pubDate>Sun, 21 Jan 2018 20:30:00 +0900</pubDate>
       
-      <guid>/posts/20180121/</guid>
+      <guid>/blog/posts/20180121/</guid>
       <description>Semantic Markups Semantics is the use of HTML tags for their meaning rather than their aesthetics. It’s also useful for making sure that your web page is easily understood by both search engine machines and people browsing without stylesheets, such as the viably impaired.
 Easy way to make sure that your markup has proper structure is to write it without a stylesheet.
 Benefits  more accessibility good for search engine optimization.</description>
@@ -53,19 +53,19 @@ Benefits  more accessibility good for search engine optimization.</description>
     
     <item>
       <title>css menu study 101</title>
-      <link>/posts/20180118/</link>
+      <link>/blog/posts/20180118/</link>
       <pubDate>Thu, 18 Jan 2018 23:00:00 +0900</pubDate>
       
-      <guid>/posts/20180118/</guid>
+      <guid>/blog/posts/20180118/</guid>
       <description>Stuff I should know about Headings 웹페이지의 기본적이고 중요한 헤딩영역을 배웠다.우리가 무심코 방문하는 웹사이트에는 눈에는 보이지 않는 스크린 리더기와 키보드접근성을 위한 요소</description>
     </item>
     
     <item>
       <title>Markup for all</title>
-      <link>/posts/20180115/</link>
+      <link>/blog/posts/20180115/</link>
       <pubDate>Mon, 15 Jan 2018 18:47:11 +0900</pubDate>
       
-      <guid>/posts/20180115/</guid>
+      <guid>/blog/posts/20180115/</guid>
       <description>The importance of naming in Web 의미있는 이름짓기의 중요성(네이밍&amp;amp;마크업) There are only two hard problems in Computer Science: cache invalidation and naming things — Phil Karlton Web technologies for all Accessibility &amp;amp; Web Standards = BETTER WORLD 웹표준과 접근성 그리고 호</description>
     </item>
     
