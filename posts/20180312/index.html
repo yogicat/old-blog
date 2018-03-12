@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+		<meta name="author" content="ohda">
+		
+		<meta name="generator" content="Hugo 0.36.1" />
+		<title> &middot; ohda blog</title>
+		<link rel="shortcut icon" href="/blog/images/favicon.ico">
+		<link rel="stylesheet" href="/blog/css/style.css">
+		<link rel="stylesheet" href="/blog/css/highlight.css">
+
+		
+		<link rel="stylesheet" href="/blog/css/font-awesome.min.css">
+		
+
+		
+
+		
+
+	</head>
+
+    <body>
+       <nav class="main-nav" id="nav">
+	<a href="#nav" id="goTop"></a>
+	
+	
+		<a href='/blog/'> <span class="arrow">←</span>Home</a>
+	
+	<a href='/blog/posts'>Archive</a>
+	<a href='/blog/tags'>Tags</a>
+	<a href='/blog/about'>About</a>
+
+	
+
+	
+</nav>
+
+
+        <section id="wrapper" class="post">
+            <article>
+                <header>
+                    <h1>
+                        
+                    </h1>
+                    <h2 class="headline">
+                    Mar 12, 2018 00:00
+                    · 1330 words
+                    · 3 minute read
+                      <span class="tags">
+                      
+                      
+                          
+                              <a href="/blog/tags/til">til</a>
+                          
+                              <a href="/blog/tags/html">html</a>
+                          
+                              <a href="/blog/tags/dom">dom</a>
+                          
+                              <a href="/blog/tags/javascript">javascript</a>
+                          
+                      
+                      
+                      </span>
+                    </h2>
+                </header>
+                
+                <section id="post-body">
+                    
+
+<h3 id="html-attribute-and-dom-property">&lsquo;HTML attribute&rsquo; and &lsquo;DOM property&rsquo;</h3>
+
+<p>HTML을 작성할 때, attribute를 HTML요소에 직접 정의할 수 있다. 이렇게 작성한 코드를 브라우저는 파싱을 통해 그에 맞는 DOM노드를 만든다. 이렇게 만들어진 노드는 객체이고, 객체이기 때문에 property를 가진다.</p>
+
+<p>예를 들어, HTML요소 <code>&lt;input type=&quot;text&quot; value=&quot;name&quot;&gt;</code> 는 type, value 2개의 attribute를 가지고 있다. 이 코드는 브라우저 파싱을 통해 HTMLInputElement 객체로 생성되고 다양한 property를 포함하게 된다.(attributes, autofocus, baseURI, checked, childElementCount, childNodes, children, classList, className,&hellip;)
+여기에서 이 DOM노드 객체가 가진 property는 객체의 property이고, attribute는 객체의 attribute라는 property에 속한 객체들이다.</p>
+
+<p>HTML요소가 DOM노드로 변환되어 생성될 때, DOM노드 객체의 property들은 이전 html요소의 attribute와 연관된 것들로 비슷하거나 같다. 하지만 모든 attribute가 property와 1대 1로 매칭 되지는 않는다.</p>
+
+<hr />
+
+<p><code>&lt;input type=&quot;text&quot; id=&quot;the-input&quot; value=&quot;name&quot;&gt;</code>로 형성된 DOM노드 객체는 <code>id</code>, <code>type</code>, <code>value</code>의 attribute와 연관된 property를 가진다.</p>
+
+<ul>
+<li><code>id</code> <strong>property</strong>는 attribute의 반영으로, 같은 값을 나타낸다.</li>
+<li><code>type</code> property는 <code>type</code> attribute의 반영이지만 알 수 있는 타입에 한해서만 작동한다. input type=&ldquo;foo&rdquo; 일 때는 attribute는 foo를 나타내지만 property로 접근하면 text를 나타낸다.</li>
+<li><code>value</code> property는 <code>value</code> attribute의 반영이 아니다. property는 현재 input값을 나타낸다. 사용자에 의해 변화된 값을 반영한다. 따라서 property와 attribute값이 일치하지 않는다. value attribute는 초기 값을 나타낸다.</li>
+</ul>
+
+<p>이와 같이 DOM 노드 객체의 property와 HTML요소의 attribute는 요소에 따라 같을 수도 있고 다를 수도 있으므로 주의하자.
+기본적으로는 객체 property를 사용하도록 한다.</p>
+
+<hr />
+
+<h3 id="attribute">attribute</h3>
+
+<ul>
+<li>attribute는 HTML자체가 가진것.</li>
+<li>attribute의 값은 항상 <strong>string(문자열)</strong>이다.</li>
+<li><code>&lt;div id=&quot;test&quot; class=&quot;button&quot;&gt;&lt;/div&gt;</code> HTML태그 안에 표현되는 것들을 attr라고 한다.</li>
+<li><code>getAttribute('value')</code>, <code>setAttribute('class','header')</code>
+&mdash;</li>
+</ul>
+
+<h3 id="property">property</h3>
+
+<ul>
+<li>파싱을 통해 형성된 DOM노드 객체가 가진 것. (객체니까 property 있음)</li>
+<li>property 중에 attributes라는 property가 있고, 이안에 attribute와 연관된 property들이 생긴다.</li>
+<li>이는 상황에 따라, 요소에 따라 같을 수도 있고, 다를 수도 있다.</li>
+<li><code>element.id</code>, <code>element.className</code>, <code>element.value</code></li>
+</ul>
+
+<hr />
+
+<h3 id="type-differences">type differences</h3>
+
+<ul>
+<li>DOM property는 attribute와 달리 값이 항상 문자열이 아니다.</li>
+</ul>
+
+<pre><code class="language-html">&lt;input id=&quot;input&quot; type=&quot;checkbox&quot; checked&gt; 
+</code></pre>
+
+<pre><code class="language-js">alert(input.getAttribute('checked')); // 값은 empty string
+alert(input.checked); // the property 값은 true
+</code></pre>
+
+<p>위와 같이, <code>checked</code>의 attribute값은 빈문자열이고, <code>checked</code>라는 property의 값은 Boolean의 true이다.</p>
+
+<hr />
+
+<pre><code class="language-html">&lt;div id=&quot;div&quot; style=&quot;color:red;font-size:120%&quot;&gt;Hello&lt;/div&gt;
+</code></pre>
+
+<pre><code class="language-js">// string
+alert(div.getAttribute('style')); // color:red;font-size:120%
+
+// object
+alert(div.style); // [object CSSStyleDeclaration]
+alert(div.style.color); // red
+</code></pre>
+
+<p>style attribute는 문자열인 반면 style property는 object를 나타낸다.</p>
+
+<hr />
+
+<h3 id="summary">summary</h3>
+
+<ul>
+<li>attribute는 HTML에 쓰인 것!</li>
+
+<li><p>property는 DOM객체에 들어있는 것!</p></li>
+
+<li><p>DOM property를 사용하고, 필요한 경우에만 attribute를 사용 권장.</p></li>
+
+<li><p>스탠더드가 아닌 attribute가 필요한 경우 : dataset attr사용</p></li>
+
+<li><p>href나 value처럼 html에 쓰인 값이 필요한 경우 attr사용.</p></li>
+</ul>
+
+<hr />
+
+<p><strong>참고링크</strong>
+- <a href="https://javascript.info/dom-attributes-and-properties">javascript info - dom attributes and properties</a>
+- <a href="https://stackoverflow.com/questions/6003819/what-is-the-difference-between-properties-and-attributes-in-html">attribute and property</a>
+- <a href="http://joji.me/en-us/blog/html-attribute-vs-dom-property">html attribute vs dom property</a></p>
+
+                </section>
+            </article>
+
+            
+
+            
+                <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'yogicat'; 
+
+     
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+            
+
+            
+
+            <footer id="footer">
+    
+    <p class="small">
+    
+       made with love💚 2018  ohda
+    
+    </p>
+    
+</footer>
+
+        </section>
+
+        <script src="/blog/js/jquery-3.3.1.min.js"></script>
+<script src="/blog/js/main.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+  
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-112494454-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+
+
+
+    </body>
+</html>
