@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="kor">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+		<meta name="author" content="ohda">
+		
+		<meta name="generator" content="Hugo 0.36.1" />
+		<title>깃헙에 HTTPS 도메인 연결하기 &middot; ohda blog</title>
+		<link rel="shortcut icon" href="/blog/images/favicon.ico">
+		<link rel="stylesheet" href="/blog/css/style.css">
+		<link rel="stylesheet" href="/blog/css/highlight.css">
+
+		
+		<link rel="stylesheet" href="/blog/css/font-awesome.min.css">
+		
+
+		
+
+		
+
+	</head>
+
+    <body>
+       <nav class="main-nav" id="nav">
+	<a href="#nav" id="goTop"></a>
+	
+	
+		<a href='/blog/'> <span class="arrow">←</span>Home</a>
+	
+	<a href='/blog/posts'>Archive</a>
+	<a href='/blog/tags'>Tags</a>
+	<a href='/blog/about'>About</a>
+
+	
+
+	
+</nav>
+
+
+        <section id="wrapper" class="post">
+            <article>
+                <header>
+                    <h1>
+                        깃헙에 HTTPS 도메인 연결하기
+                    </h1>
+                    <h2 class="headline">
+                    Mar 13, 2018 00:00
+                    · 1583 words
+                    · 4 minute read
+                      <span class="tags">
+                      
+                      
+                          
+                              <a href="/blog/tags/til">til</a>
+                          
+                              <a href="/blog/tags/network">network</a>
+                          
+                              <a href="/blog/tags/https">https</a>
+                          
+                              <a href="/blog/tags/security">security</a>
+                          
+                              <a href="/blog/tags/tls">TLS</a>
+                          
+                      
+                      
+                      </span>
+                    </h2>
+                </header>
+                
+                <section id="post-body">
+                    
+
+<h3 id="github에-도메인-https로-연결하기">github에 도메인 https로 연결하기</h3>
+
+<p>개인 도메인과 깃헙블로그를 연결하고 https로 접속할 수 있는 방법을 알아보자.
+기본 준비 사항은 다음과 같다.</p>
+
+<ol>
+<li>도메인 - goDaddy, nameCheap, bluehost,&hellip;</li>
+<li>아이디. github.io로 접속할 수 있는 블로그 사이트</li>
+</ol>
+
+<p>연결 절차는,</p>
+
+<ol>
+<li>깃허브에 도메인을 연결한다.</li>
+<li>Cloudflare에 가입한 뒤 도메인을 연결한다.</li>
+<li>도메인을 구입한 사이트로 가서 Nameserver를 Cloudflare로 연결한다.</li>
+<li>잠시 후 https로 접속해본다!</li>
+</ol>
+
+<p>인증을 받기 위해서는 인증기관을 거쳐야 하는데 <strong><a href="https://www.cloudflare.com/">Cloudflare</a></strong>사이트를 통하면 손쉽게 무료로 인증을 받을 수 있다. <a href="https://www.cloudflare.com/">Cloudflare</a>는 도메인 관리 서비스를 제공 기업으로, https을 위한 기능 외에도 브라우저 캐시 기간 설정 등 사이트 최적화를 위한 다양한 기능들을 제공한다.</p>
+
+<hr />
+
+<h3 id="step-1-도메인과-깃헙-페이지를-연결한다">step 1. 도메인과 깃헙 페이지를 연결한다</h3>
+
+<p><img src="../images/https-domain/capture01.png" alt="" />
+- 깃헙 블로그가 만들어진 repository의 세팅메뉴로 이동한다.</p>
+
+<p><img src="../images/https-domain/capture02.png" alt="" />
+- 하단에 GitHub Pages로 이동해 Custom domain 입력창에 구매한 도메인 주소를 적는다.
+- 이때 Enforce HTTPS가 비활성화되는 것을 볼 수 있다. 이는 <code>id.gitHub.io</code>를 사용할 때 선택할 수 있는 옵션으로 개인적으로 구매한 도메인은 따로 인증을 해줘야 한다.  다음 단계를 통해 인증을 해보자.</p>
+
+<hr />
+
+<h3 id="step-2-cloudflare에-가입하기">step 2 . Cloudflare에 가입하기.</h3>
+
+<p><img src="../images/https-domain/capture00.png" alt="" />
+- 링크로 가서 무료 회원가입을 한다. <a href="https://www.cloudflare.com/">Cloudflare</a></p>
+
+<p><img src="../images/https-domain/capture03.png" alt="" /></p>
+
+<ul>
+<li>로그인을 하고 상단에 <strong>+Add Site</strong>를 선택한다</li>
+<li>개인도메인 주소를 입력한다.</li>
+</ul>
+
+<p><img src="../images/https-domain/Screen%20Shot%202018-03-13%20at%2020.45.22.png" alt="" />
+- 무료 버전을 선택한다</p>
+
+<hr />
+
+<h3 id="step3-dns-레코드-세팅하기">step3. DNS 레코드 세팅하기</h3>
+
+<ul>
+<li>Cloudflare에 가입과 도메인 연결에 성공하면 DNS Records 페이지가 나타난다.</li>
+</ul>
+
+<p><img src="../images/https-domain/capture06.png" alt="" />
+<img src="../images/https-domain/capture06-1.png" alt="" /></p>
+
+<ul>
+<li>총 3개의 레코드를 작성한다.</li>
+<li>깃헙 서버 주소로 연결할 2개의 A 레코드와 www 접속을 연결해줄 1개의 CNAME 레코드를 입력한다.</li>
+<li>A 레코드 연결시, Name에는 도메인주소를 Value에는 깃헙의 <strong>서버 주소</strong>를 써준다.(깃헙도메인아닌 IP주소!)</li>
+<li>CNAME레코드 연결시, Name에는 www를 Value에는 구매한 도메인주소를 입력한다.</li>
+</ul>
+
+<p><strong>깃헙 서버 IP주소는 다음과 같다</strong>
+1. 192.30.252.153
+2. 192.30.252.154</p>
+
+<p><strong>참고 : 깃헙 서버 주소는 깃헙 help 사이트에서 찾아 볼 수 있다</strong>
+- 깃헙 help  <a href="https://help.github.com/articles/setting-up-an-apex-domain/#configuring-a-records-with-your-dns-provider">Setting up an apex domain - User Documentation</a></p>
+
+<p>apex domain 이라고 하면 <strong>root domain</strong> 으로 서브 도메인이 없는 <strong>베이스 도메인</strong>이다.
+예를 들어,  <code>example.com</code> 은 apex domain 이고 <code>www.apex.com</code> 은 <code>www</code>가 붙으므로 서브 도메인이라고 한다.</p>
+
+<p><img src="../images/https-domain/capture04.png" alt="" /></p>
+
+<p><img src="../images/https-domain/capture05.png" alt="" /></p>
+
+<hr />
+
+<h3 id="step-4-활성화를-위해-nameserver-설정하기">step 4. 활성화를 위해 Nameserver 설정하기</h3>
+
+<p><img src="../images/https-domain/capture07-1.png" alt="" />
+- Continue를 누르면 Nameserver를 변경하라는 이런 비슷한 종류의 메세지가 뜬다.
+- 이 두개의 주소를 기억해 두었다가 도메인을 구입한 서비스로 이동해 업데이트를 해주면 된다. (다음 단계)</p>
+
+<hr />
+
+<h3 id="step-5-네임서버를-업데이트한다">step 5. 네임서버를 업데이트한다.</h3>
+
+<p>Cloudflare에 연결이 끝나면, 이제 도메인을 구입한 서비스 사이트(goDaddy, Namecheap등)로 가서 Nameserver를 Cloudflare로 업데이트 해주는 작업이 필요하다.</p>
+
+<p><img src="../images/https-domain/capture07.png" alt="" />
+<img src="../images/https-domain/capture07-2.png" alt="" /></p>
+
+<ul>
+<li>도메인 세팅 페이지로 이동해 <code>Nameserver</code> 세팅하는 곳을 찾는다. 여기서 <code>Custom DNS</code>를 선택한다.</li>
+<li>이렇게 하면 다른 곳에서 구매한 도메인도  Cloudflare에서 관리할 수 있게 된다.</li>
+</ul>
+
+<p><img src="../images/https-domain/capture08.png" alt="" />
+- 잠시 후 Cloudflare로 이동해 확인 해보면 status가 <strong>active</strong>로 바뀐것을 확인할 수 있다. (시간이 걸릴 수도 있음)</p>
+
+<hr />
+
+<h3 id="step-6-cloudflare에서-각종-설정하기">step 6. Cloudflare에서 각종 설정하기</h3>
+
+<p>이제 https로의 연결이 잘 되었으면 redirect해주는 기능을 설정해보자.
+Cloudflare에서는 http로  접속했을 경우 자동으로 https로 연결해 주는 기능을 제공한다.</p>
+
+<p><img src="../images/https-domain/capture09.png" alt="" />
+- Cloudflare에서 <code>Page Rules</code>메뉴로 이동한다.
+- <code>Create Page Rule</code>를 선택해 새로운 룰을 만들어 보자.</p>
+
+<p><img src="dcapture09-1.png" alt="" />
+- <code>도메인 주소/*</code> 를 입력해 모든 페이지에서 동작하게 할 수 있다.
+- 세팅에서 <code>Always Use HTTPS</code>를 선택한다.</p>
+
+<hr />
+
+<p>일부 인증서의 경우 expiration date가 있어서 미리미리 갱신을 해줘야 하는데 아직까지 알아본 바에 의하면 Cloudflare에서는 자동으로 알아서 갱신을 제공해주는 것 같다. Cloudflare에 보면 무료 버전으로도 일반 블로그에서 관리하기엔 충분한 다양한 서비스들을 제공하니 https 인증 목적 외에도 사용하기 좋은 서비스인 것 같다.</p>
+
+<p>나에게 도움을 준 사이트</p>
+
+<ul>
+<li><a href="https://medium.freecodecamp.org/an-illustrated-guide-for-setting-up-your-website-using-github-cloudflare-5a7a11ca9465">An Illustrated Guide for Setting Up Your Website Using Github &amp; Cloudflare</a></li>
+</ul>
+
+<hr />
+
+                </section>
+            </article>
+
+            
+
+            
+                <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'yogicat'; 
+
+     
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+            
+
+            
+
+            <footer id="footer">
+    
+    <p class="small">
+    
+       made with love💚 2018  ohda
+    
+    </p>
+    
+</footer>
+
+        </section>
+
+        <script src="/blog/js/jquery-3.3.1.min.js"></script>
+<script src="/blog/js/main.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+
+  
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-112494454-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+
+
+
+    </body>
+</html>
