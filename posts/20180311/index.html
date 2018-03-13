@@ -48,7 +48,7 @@
                     </h1>
                     <h2 class="headline">
                     Mar 13, 2018 00:00
-                    · 1574 words
+                    · 1584 words
                     · 4 minute read
                       <span class="tags">
                       
@@ -83,11 +83,14 @@
 <li>아이디. github.io로 접속할 수 있는 블로그 사이트</li>
 </ol>
 
-<p>연결 절차는,
-1. 깃허브에 도메인을 연결한다.
-2. Cloudflare에 가입한 뒤 도메인을 연결한다.
-3. 도메인을 구입한 사이트로 가서 Nameserver를 Cloudflare로 연결한다.
-4. 잠시 후 https로 접속해본다!</p>
+<p>연결 절차는,</p>
+
+<ol>
+<li>깃허브에 도메인을 연결한다.</li>
+<li>Cloudflare에 가입한 뒤 도메인을 연결한다.</li>
+<li>도메인을 구입한 사이트로 가서 Nameserver를 Cloudflare로 연결한다.</li>
+<li>잠시 후 https로 접속해본다!</li>
+</ol>
 
 <p>인증을 받기 위해서는 인증기관을 거쳐야 하는데 <strong><a href="https://www.cloudflare.com/">Cloudflare</a></strong>사이트를 통하면 손쉽게 무료로 인증을 받을 수 있다. <a href="https://www.cloudflare.com/">Cloudflare</a>는 도메인 관리 서비스를 제공 기업으로, https을 위한 기능 외에도 브라우저 캐시 기간 설정 등 사이트 최적화를 위한 다양한 기능들을 제공한다.</p>
 
@@ -101,6 +104,8 @@
 <p><img src="../images/https-domain/capture02.png" alt="" />
 - 하단에 GitHub Pages로 이동해 Custom domain 입력창에 구매한 도메인 주소를 적는다.
 - 이때 Enforce HTTPS가 비활성화되는 것을 볼 수 있다. 이는 <code>id.gitHub.io</code>를 사용할 때 선택할 수 있는 옵션으로 개인적으로 구매한 도메인은 따로 인증을 해줘야 한다.  다음 단계를 통해 인증을 해보자.</p>
+
+<hr />
 
 <h3 id="step-2-cloudflare에-가입하기">step 2 . Cloudflare에 가입하기.</h3>
 
@@ -117,6 +122,8 @@
 <p><img src="../images/https-domain/Screen%20Shot%202018-03-13%20at%2020.45.22.png" alt="" />
 - 무료 버전을 선택한다</p>
 
+<hr />
+
 <h3 id="step3-dns-레코드-세팅하기">step3. DNS 레코드 세팅하기</h3>
 
 <ul>
@@ -129,7 +136,7 @@
 <ul>
 <li>총 3개의 레코드를 작성한다.</li>
 <li>깃헙 서버 주소로 연결할 2개의 A 레코드와 www 접속을 연결해줄 1개의 CNAME 레코드를 입력한다.</li>
-<li>A 레코드 연결시, Name에는 도메인주소를 Value에는 깃헙의 서버 주소를 써준다.</li>
+<li>A 레코드 연결시, Name에는 도메인주소를 Value에는 깃헙의 <strong>서버 주소</strong>를 써준다.(깃헙도메인아닌 IP주소!)</li>
 <li>CNAME레코드 연결시, Name에는 www를 Value에는 구매한 도메인주소를 입력한다.</li>
 </ul>
 
@@ -144,11 +151,15 @@
 <img src="../images/https-domain/capture04.png" alt="" />
 <img src="../images/https-domain/capture05.png" alt="" /></p>
 
+<hr />
+
 <h3 id="step-4-활성화를-위해-nameserver-설정하기">step 4. 활성화를 위해 Nameserver 설정하기</h3>
 
 <p><img src="../images/https-domain/capture07-1.png" alt="" />
 - Continue를 누르면 Nameserver를 변경하라는 이런 비슷한 종류의 메세지가 뜬다.
 - 이 두개의 주소를 기억해 두었다가 도메인을 구입한 서비스로 이동해 업데이트를 해주면 된다. (다음 단계)</p>
+
+<hr />
 
 <h3 id="step-5-네임서버를-업데이트한다">step 5. 네임서버를 업데이트한다.</h3>
 
@@ -164,6 +175,8 @@
 
 <p><img src="../images/https-domain/capture08.png" alt="" />
 - 잠시 후 Cloudflare로 이동해 확인 해보면 status가 <strong>active</strong>로 바뀐것을 확인할 수 있다. (시간이 걸릴 수도 있음)</p>
+
+<hr />
 
 <h3 id="step-6-cloudflare에서-각종-설정하기">step 6. Cloudflare에서 각종 설정하기</h3>
 
