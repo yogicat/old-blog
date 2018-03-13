@@ -6,10 +6,19 @@
     <description>Recent content in Posts on ohda blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>kor</language>
-    <lastBuildDate>Mon, 12 Mar 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Mar 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/blog/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>깃헙에 HTTPS 도메인 연결하기</title>
+      <link>/blog/posts/20180311/</link>
+      <pubDate>Tue, 13 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/posts/20180311/</guid>
+      <description>github에 도메인 https로 연결하기 개인 도메인과 깃헙블로그를 연결하고 https로 접속할 수 있는 방법을 알아보자. 기본 준비 사항은 다음과 같다. 도</description>
+    </item>
     
     <item>
       <title>Attribute vs Property</title>
@@ -18,15 +27,6 @@
       
       <guid>/blog/posts/20180312/</guid>
       <description>&amp;lsquo;HTML attribute&amp;rsquo; and &amp;lsquo;DOM property&amp;rsquo; HTML을 작성할 때, attribute를 HTML요소에 직접 정의할 수 있다. 이렇게 작성한 코드를 브라우저는 파싱을 통해 그에 맞는 DOM노드를</description>
-    </item>
-    
-    <item>
-      <title>HTTPS and TLS</title>
-      <link>/blog/posts/20180311/</link>
-      <pubDate>Sun, 11 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/posts/20180311/</guid>
-      <description> HTTPS </description>
     </item>
     
     <item>
