@@ -6,10 +6,19 @@
     <description>Recent content in Posts on ohda blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>kor</language>
-    <lastBuildDate>Tue, 13 Mar 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 24 Mar 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/blog/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title></title>
+      <link>/blog/posts/20180324/</link>
+      <pubDate>Sat, 24 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/posts/20180324/</guid>
+      <description>You have to know what you want 오랜만에 이른 새벽녘에 눈이 떠졌고 고요함 속에서 그동안 나를 잃어버리고, 또는 나를 잊어버리고 달려온 거 같은 기분이 들었다. 내가 시작한 이유, 내</description>
+    </item>
     
     <item>
       <title>깃헙에 HTTPS 도메인 연결하기</title>
