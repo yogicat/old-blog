@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/blog/posts/20180410/</loc>
+    <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/blog/posts/20180402/</loc>
     <lastmod>2018-04-02T00:00:00+00:00</lastmod>
   </url>
@@ -424,6 +429,12 @@
   </url>
   
   <url>
+    <loc>/blog/tags/inspiration/</loc>
+    <lastmod>2018-04-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/blog/tags/internet/</loc>
     <lastmod>2018-02-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -503,13 +514,19 @@
   
   <url>
     <loc>/blog/posts/</loc>
-    <lastmod>2018-04-02T00:00:00+00:00</lastmod>
+    <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/blog/tags/probability/</loc>
     <lastmod>2018-02-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/blog/tags/programming/</loc>
+    <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -569,7 +586,7 @@
   
   <url>
     <loc>/blog/tags/til/</loc>
-    <lastmod>2018-04-02T00:00:00+00:00</lastmod>
+    <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -599,13 +616,13 @@
   
   <url>
     <loc>/blog/tags/youtube/</loc>
-    <lastmod>2018-01-14T22:30:11+09:00</lastmod>
+    <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/blog/</loc>
-    <lastmod>2018-04-02T00:00:00+00:00</lastmod>
+    <lastmod>2018-04-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

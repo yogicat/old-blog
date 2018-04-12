@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programming on ohda blog</title>
+    <link>/blog/tags/programming/</link>
+    <description>Recent content in Programming on ohda blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>kor</language>
+    <lastBuildDate>Wed, 11 Apr 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/blog/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>I am not smart enough</title>
+      <link>/blog/posts/20180410/</link>
+      <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/posts/20180410/</guid>
+      <description>not smart enough 잔머리와 구글링과 눈칫밥으로 살아온 지난 나의 커리어 히스토리를 청산하고 싶었다. 지난날의 나는 재빠른 구글링, 잔머리, 온갖 도구들을 짧은 시간에 흡수해</description>
+    </item>
+    
+  </channel>
+</rss>
