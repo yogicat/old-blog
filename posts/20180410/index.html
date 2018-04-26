@@ -8,7 +8,7 @@
 		<meta name="author" content="ohda">
 		
 		<meta name="generator" content="Hugo 0.36.1" />
-		<title>I am not smart enough &middot; ohda blog</title>
+		<title>Observing the Observables &middot; ohda blog</title>
 		<link rel="shortcut icon" href="/blog/images/favicon.ico">
 		<link rel="stylesheet" href="/blog/css/style.css">
 		<link rel="stylesheet" href="/blog/css/highlight.css">
@@ -44,11 +44,11 @@
             <article>
                 <header>
                     <h1>
-                        I am not smart enough
+                        Observing the Observables
                     </h1>
                     <h2 class="headline">
                     Apr 11, 2018 00:00
-                    · 963 words
+                    · 693 words
                     · 2 minute read
                       <span class="tags">
                       
@@ -56,11 +56,11 @@
                           
                               <a href="/blog/tags/til">til</a>
                           
-                              <a href="/blog/tags/programming">programming</a>
+                              <a href="/blog/tags/angular">angular</a>
                           
-                              <a href="/blog/tags/youtube">youtube</a>
+                              <a href="/blog/tags/rxjs">rxjs</a>
                           
-                              <a href="/blog/tags/inspiration">inspiration</a>
+                              <a href="/blog/tags/observable">observable</a>
                           
                       
                       
@@ -71,61 +71,54 @@
                 <section id="post-body">
                     
 
-<h2 id="not-smart-enough">not smart enough</h2>
+<h2 id="observing-the-observables">Observing the Observables</h2>
 
-<p>잔머리와 구글링과 눈칫밥으로 살아온 지난 나의 커리어 히스토리를 청산하고 싶었다. 지난날의 나는 재빠른 구글링, 잔머리, 온갖 도구들을 짧은 시간에 흡수해 있어보이는 일들을 할 수 있었다. 하지만 하나하나 까보면 나는 빈 껍데기였다. 각종 3D툴이나 드로잉 툴등을 활용해 결과물은 현란하게 만들어 냈지만 단기간에 구글과 유투브와의 합작품일 뿐이었다. 인터넷이 끊어진다면 나는 내가 그동안 해온 모든 작업들 한개도 다시 만들 수 없을 정도의 빈 껍데기였다.</p>
-
-<p>패캠을 다니면서 첫날부터 과거의 내가 가진 안좋은 습관들을 끊고 새롭게 태어나기? 위해 정말 피나는 노력을 했다. 하루하루를 쪼개고 또 쪼개서 정말 일주일 같은 하루하루를 보냈다. 그만큼 알찼고 그만큼 힘들었다.
-그렇게 이제 학원의 끝을 향해 달리고 있는 요즘, 실력도 3개월 전에 비하면 말도 못하게 늘었고, 시야도 넓어졌고 목표도 점점 뚜렷해졌다. 하지만 더불어 설명할 수 없는 불안감과 부족함도 점점 더 커져감을 느낀다.</p>
-
-<p>문제를 해결하려고 파보니, 그 해결책 안에 내가 모르는 더 큰 세상이 담겨있고, 그안에 더 깊은 영역이 펼쳐지고, 그렇게 끝없이 꼬리에 꼬리를 물고 미지의 세계가 펼쳐지고 &hellip; 그렇게 오늘도 나의 무지의 세계는 점점 넓어진다.</p>
-
-<p>그건 왠지 내가 부족해서 인것 같고, 그건 왠지 내가 수학을 못해서 인거 같고, 그건 왠지 내가 디자인 전공이라서 인거 같고, 그건 왠지 내가 이해력이 떨어져서 인거 같고, 그건 왠지 내가 학원출신이라서 그런것 같고, 그건 왠지 내가 바보라서!!! 인거 같고, 등등등</p>
-
-<p>그러던 중 북마크 해 놓은 공부 자료를 모아놓은 레포를 방문했고 거기서 뜻밖의 위안을 얻을 수 있었다.</p>
-
-<p><code>Don't feel you aren't smart enough</code> 이라는 제목의 글에는 많은 개발자들이 스스로 부족하다고 느끼는 불안감을 가지고 있고 당연한 거라며 그럴때 이런 자료를 봐라! 라는 말과 함께 몇가지 유투브와 블로그 글을 추천해주었다.</p>
+<p>수업을 들을때는 무슨 소린지 몰랐던 Observable을 프로젝트를 하면서 직접 내 손으로 이런 저런 기능을 만들다 보니 필수적으로 공부하게 된 Rxjs와 Observable에 대해 필요에 의해 정리해 보았다.
+아직도 너무너무 어렵고 헷갈리는 observable이지만, 어제보다 오늘, 오늘보다 내일 한줄 더 이해할 수 있길 바라며.</p>
 
 <hr />
 
-<h3 id="the-myth-of-the-genius-programmer-https-www-youtube-com-watch-v-0sarbwvhupq"><a href="https://www.youtube.com/watch?v=0SARbwvhupQ">The myth of the Genius Programmer</a></h3>
+<h3 id="reactive-x-rxjs">Reactive X - Rxjs</h3>
 
-<ul>
-<li><p>2009년 구글 I/O 에서 두명의 프로그래머가 전하는 재치있고 진심어린 토크</p></li>
+<p>Observable은 RxJs의 주요 기능? 중 하나이다. RxJS는 &ldquo;reactive programming&rdquo;을 위한 자바스크립트 라이브러리이다. RxJS는 이벤트와 데이터의 흐름을 손쉽게 조작하고 형성 할 수 있도록 도와주는 일종의 async 데이터 처리를 위한 lodash(혹은 underscore)라고 생각할 수 있다.</p>
 
-<li><p>drop the ego</p></li>
-
-<li><p>criticism is <strong>not</strong> EVIL</p></li>
-</ul>
-
-<p>&lsquo;you are not a beautiful or unique snowflake.
-you are the same decaying organic matter ad everything else.&rsquo;
-- Fight Club</p>
+<p>큰 규모의 비동기 어플리케이션을 만드는 것은 쉬운 일이 아니다. &ldquo;콜백 헬&rdquo;등의 문제점을 보안하기 위해 자바스크립트의 비동기 세상에서는 promises, generators, 그리고 최근의 async/await등의 다양한 노력들이 생겨났고 그런 다양한 해결 방법 중에 하나가 RxJs라는 라이브러리인 것이다.</p>
 
 <hr />
 
-<h3 id="it-s-dangerous-to-go-alone-battling-the-invisible-monsters-in-tech-https-www-youtube-com-watch-v-1i8ylq4j-ey"><a href="https://www.youtube.com/watch?v=1i8ylq4j_EY">It&rsquo;s Dangerous to Go Alone: Battling the Invisible Monsters in Tech</a></h3>
+<h3 id="streams">Streams?</h3>
+
+<p>stream이란,시간에 흐름에 따른 값들의 흐름.
+stream은 마우스 키 포지션이 될 수도 있고, 폼에 입력한 값이 될 수도 있고, 키보드 이벤트가 될 수 도 있다.웹 어플리케이션에서 우리가 하는 대부분의 행위들은 stream으로 나타날 수 있다.</p>
+
+<p><code>[0, 1, 2, 3, 4, 5]</code>
+<code>[(0,1), (10,20), (40,13)]</code>
+<code>[&quot;O&quot;, &quot;H&quot;, &quot;D&quot;, &quot;A&quot;]</code>
+<code>[{&quot;name&quot;: &quot;o}, {&quot;name&quot;: &quot;oh&quot;}, {&quot;name&quot;:&quot;ohd&quot;}]</code></p>
+
+<hr />
+
+<h3 id="observable">Observable?</h3>
 
 <ul>
-<li>2014년 PyCon 컨퍼런스에서 Julie Pagano라는 개발자가 보이지 않는 몬스터와 싸우는 것에 대해 이야기한 영상</li>
+<li>Observable is just a function that takes an observer and returns a function.</li>
+<li>To connect the observer to something that produces values, and return a means to tear down that connection to the producer.</li>
 </ul>
 
 <hr />
 
-<h3 id="believe-you-can-change-http-www-aaronsw-com-weblog-dweck"><a href="http://www.aaronsw.com/weblog/dweck">Believe you can change</a></h3>
-
-<ul>
-<li>긍정을 심어주는 블로그 포스팅</li>
-</ul>
+<h3 id="operations">Operations?</h3>
 
 <hr />
 
-<p>아 나는 혼자가 아니구나!
-흑흑 나는 제대로 가고 있었구나! 이럴때 이런 기분이 다들 드는구나 를 느끼며.</p>
+<h3 id="angular-and-observables">Angular and Observables</h3>
 
-<p>나는 많이 모른다.하지만 무지를 두려워 하지 않겠다.
-무지와 미지를, 내가 가진 이 넘치는 호기심으로 기꺼이 껴안고 가야지.
-어제보다 나은 코딩을 했다면 오늘도 잘 살았다.</p>
+<p>Reactive programming is about conceptualising our application as streams and operations that are performed on those streams.
+Observables are a blueprint for creating streams and plumbing them together with operators to create observable chains.
+RxJS is a library that lets us create and work with observables.
+Angular has a few public facing APIs that use Observables, the EventEmitter, Forms and HTTP.</p>
+
+<p>앵귤러는 HTTPClient, EventEmitter, 그리고 Reactive Forms에서 내부적으로 Observable을 사용한다.</p>
 
                 </section>
             </article>

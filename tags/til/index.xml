@@ -6,18 +6,27 @@
     <description>Recent content in Til on ohda blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>kor</language>
-    <lastBuildDate>Wed, 11 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Apr 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/blog/tags/til/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>I am not smart enough</title>
+      <title>end is the new beginning</title>
+      <link>/blog/posts/20180426/</link>
+      <pubDate>Thu, 26 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/posts/20180426/</guid>
+      <description>끝은 새로운 시작 한 달 조금 안 되는 기간 동안 진행된 팀 프로젝트가 끝났다. 어떤 때는 이상하리 만큼 여유로웠고 어떤 때는 하루 24시간이 부족할 만큼 흘러갔다. 프로젝</description>
+    </item>
+    
+    <item>
+      <title>Observing the Observables</title>
       <link>/blog/posts/20180410/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/blog/posts/20180410/</guid>
-      <description>not smart enough 잔머리와 구글링과 눈칫밥으로 살아온 지난 나의 커리어 히스토리를 청산하고 싶었다. 지난날의 나는 재빠른 구글링, 잔머리, 온갖 도구들을 짧은 시간에 흡수해</description>
+      <description>Observing the Observables 수업을 들을때는 무슨 소린지 몰랐던 Observable을 프로젝트를 하면서 직접 내 손으로 이런 저런 기능을 만들다 보니 필수적으로 공부하게 된 Rxjs와</description>
     </item>
     
     <item>
