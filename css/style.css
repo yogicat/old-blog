@@ -7,7 +7,7 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     vertical-align: baseline;
     margin: 0;
     padding: 0;
-    font-family: 'Gothic A1', 'Karla', sans-serif !important;
+    font-family: 'Gothic A1', sans-serif !important;
     word-break: keep-all !important;
 }
 
@@ -123,7 +123,7 @@ html, body {
 }
 
 body {
-    font: 16px/1 'Karla', 'Nanum Gothic', Helvetica, Arial, sans-serif;
+    font: 16px/1 'Gothic A1', sans-serif;
     color: #666;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
@@ -411,18 +411,18 @@ em, i {
     text-decoration-line: overline;
     text-decoration-style: wavy;
     color: #37bd3c;
-    font: 700 40px/1.4em 'Karla', 'Nanum Gothic', Helvetica, Arial, sans-serif;
+    font: 700 40px/1.4em 'Gothic A1', Helvetica, Arial, sans-serif;
 }
 
 .post h2 {
     margin-top: 20px;
     margin-bottom: 30px;
-    font: 300 24px/1.5 'Karla', 'Nanum Gothic', Helvetica, Arial, sans-serif;
+    font: 300 24px/1.5 'Gothic A1', Helvetica, Arial, sans-serif;
     color: #333;
 }
 
 .post h2.headline {
-    font: normal 13px/1.5em 'Karla', 'Nanum Gothic', Helvetica, Arial, sans-serif;
+    font: normal 13px/1.5em 'Gothic A1', Helvetica, Arial, sans-serif;
     margin: -5px 0 60px 0;
     color: #666;
     font-size: 13px;
@@ -431,7 +431,7 @@ em, i {
 }
 
 .post h2.headline .tags {
-    font: normal 13px/1.5em 'Karla', 'Nanum Gothic', Helvetica, Arial, sans-serif;
+    font: normal 13px/1.5em 'Gothic A1', Helvetica, Arial, sans-serif;
     margin: -5px 0 40px 0;
     color: #b2b9be;
     font-size: 13px;
@@ -455,7 +455,7 @@ em, i {
 }
 
 #post-list h2 {
-    font: normal 17px/1.5em 'Karla', 'Nanum Gothic', Helvetica, Arial, sans-serif;
+    font: normal 17px/1.5em 'Gothic A1', Helvetica, Arial, sans-serif;
     color: #555;
     margin-top: 2px;
 }
@@ -588,7 +588,7 @@ Post List
 #post-list a {
     color: #333;
     display: block;
-    font: 300 24px/2.5 'Karla', 'Nanum Gothic', helvetica, Arial, sans-serif;
+    font: 300 24px/2.5 'Gothic A1', helvetica, Arial, sans-serif;
 }
 
 #post-list .dates {
@@ -598,7 +598,7 @@ Post List
     right: 0px;
     font-size: 12px;
     padding: 2px 6px;
-    /* font: 300 18px/2.5 'Karla', 'Nanum Gothic', helvetica, Arial, sans-serif; */
+    /* font: 300 18px/2.5 'Gothic A1', helvetica, Arial, sans-serif; */
     color: #333333;
     background-color: #ffda51;
 }
@@ -750,7 +750,7 @@ h1.archive {
 
 h2.month {
     width: 100%;
-    font: bold 15px/1.2 'Karla', 'Nanum Gothic', helvetica, Arial, sans-serif;
+    font: bold 15px/1.2 'Gothic A1', helvetica, Arial, sans-serif;
     text-transform: uppercase;
     margin-top: 40px;
     margin-bottom: 10px;
@@ -764,7 +764,7 @@ h2.month {
 
 #archive-list a {
     display: block;
-    font: bold 17px/1.7 'Karla', 'Nanum Gothic', helvetica, Arial, sans-serif;
+    font: bold 17px/1.7 'Gothic A1', helvetica, Arial, sans-serif;
     color: #333;
 }
 
@@ -772,7 +772,7 @@ h2.month {
     float: right;
     position: relative;
     top: 1px;
-    font: 300 17px/1.7 'Karla', 'Nanum Gothic', helvetica, Arial, sans-serif;
+    font: 300 17px/1.7 'Gothic A1', helvetica, Arial, sans-serif;
     color: #bbb;
 }
 
@@ -797,12 +797,12 @@ h2.month {
     margin-bottom: 0px;
 }
 #post-list.archive.readmore h3 {
-    font: 400 20px 'Karla', 'Nanum Gothic', Helvetica, Arial, sans-serif;
+    font: 400 20px 'Gothic A1', Helvetica, Arial, sans-serif;
     margin-bottom: 30px;
 }
 
 #post-list.archive.readmore a {
-    font: 400 16px/1.6 'Karla', 'Nanum Gothic', helvetica, Arial, sans-serif;
+    font: 400 16px/1.6 'Gothic A1', helvetica, Arial, sans-serif;
     color: #37bd3c;
 }
 
@@ -811,7 +811,7 @@ h2.month {
 }
 
 #post-list.archive.readmore .dates {
-    font: 300 16px/1.6 'Karla', 'Nanum Gothic', helvetica, Arial, sans-serif;
+    font: 300 16px/1.6 'Gothic A1', helvetica, Arial, sans-serif;
 }
 
 #disqus_thread, #ds-thread {
