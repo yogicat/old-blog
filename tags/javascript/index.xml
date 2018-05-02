@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Javascript on ohda blog</title>
-    <link>/blog/tags/javascript/</link>
+    <link>/tags/javascript/</link>
     <description>Recent content in Javascript on ohda blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>kor</language>
     <lastBuildDate>Mon, 12 Mar 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/blog/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Attribute vs Property</title>
-      <link>/blog/posts/20180312/</link>
+      <link>/posts/20180312/</link>
       <pubDate>Mon, 12 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/posts/20180312/</guid>
+      <guid>/posts/20180312/</guid>
       <description>&amp;lsquo;HTML attribute&amp;rsquo; and &amp;lsquo;DOM property&amp;rsquo; HTML을 작성할 때, attribute를 HTML요소에 직접 정의할 수 있다. 이렇게 작성한 코드를 브라우저는 파싱을 통해 그에 맞는 DOM노드를</description>
     </item>
     
     <item>
       <title>DOM Cheatsheet</title>
-      <link>/blog/posts/20180224/</link>
+      <link>/posts/20180224/</link>
       <pubDate>Mon, 26 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/posts/20180224/</guid>
+      <guid>/posts/20180224/</guid>
       <description>Working with DOM 바닐라 자바스크립트로 DOM사용하기 치트시트 DOM Enligntment Vanilla JavaScript Quick Reference Understanding the DOM Basics All items in the Dom are defined as nodes DOM의 구성요소를 node라고 하고 node는 다양한 타입</description>
     </item>
     
     <item>
       <title>Execution context and more..</title>
-      <link>/blog/posts/20180211/</link>
+      <link>/posts/20180211/</link>
       <pubDate>Sun, 11 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/posts/20180211/</guid>
+      <guid>/posts/20180211/</guid>
       <description>Execution context and more.. 시작에 앞서서.. execution context를 배우고 나서 나만의 언어로 다시 정리하고 싶었고, 주말 내내 계속 작업했지만 도무지 끝이 나질 않았다. 내 생각을 글로</description>
     </item>
     
     <item>
       <title>converting types</title>
-      <link>/blog/posts/20180206/</link>
+      <link>/posts/20180206/</link>
       <pubDate>Wed, 07 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/posts/20180206/</guid>
+      <guid>/posts/20180206/</guid>
       <description>number to string, string to number 자바스크립트에는 타입을 변경시키는 다양한 방법들이 있다. 숫자를 문자로, 문자를 숫자로 바꾸는 여러가지 방법들을 알아보자 convert a string to a number num = Number(str) //</description>
     </item>
     
     <item>
       <title>on writing well</title>
-      <link>/blog/posts/20180204/</link>
+      <link>/posts/20180204/</link>
       <pubDate>Sun, 04 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/posts/20180204/</guid>
+      <guid>/posts/20180204/</guid>
       <description>On writing well&amp;hellip; 코딩의 세계는 그동안 내가 거쳐온 세계들 중에서 discipline 이 가장 중요시되는 세계인 거 같다. 그리고 그렇기 때문에 참 매력적인 것 같다. 어제 javascript 역사 관련된 글을 읽다가</description>
     </item>
     
     <item>
       <title>History of JS</title>
-      <link>/blog/posts/20180203/</link>
+      <link>/posts/20180203/</link>
       <pubDate>Sat, 03 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/posts/20180203/</guid>
+      <guid>/posts/20180203/</guid>
       <description>Brief history of JavaScript I started studying Javascript this week and the background story of development in javascript really got me interested. Most of the info came from the Wikipedia and it&amp;rsquo;s just a summary version for myself.
 Javascript Wikipedia Netscape vs NCSA Mosaic more about Netscape at Wikipedia
 NCSA Mosaic was the first popular graphical Web browser, which played an important part in expanding the growth of the nascent World Wide Web.</description>

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Books on ohda blog</title>
-    <link>/blog/tags/books/</link>
+    <link>/tags/books/</link>
     <description>Recent content in Books on ohda blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>kor</language>
     <lastBuildDate>Mon, 02 Apr 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/blog/tags/books/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/books/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>think like a designer</title>
-      <link>/blog/posts/20180402/</link>
+      <link>/posts/20180402/</link>
       <pubDate>Mon, 02 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/posts/20180402/</guid>
+      <guid>/posts/20180402/</guid>
       <description>위대한 그래픽 디자이너의 사유 How to think like a great graphic designer / 위대한 그래픽 디자이너의 사유, 데미 밀만 해외 여러 팟캐스트를 통해 알게된 책으로, 국내에는 절판되어 출판사에</description>
     </item>
     

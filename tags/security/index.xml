@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Security on ohda blog</title>
-    <link>/blog/tags/security/</link>
+    <link>/tags/security/</link>
     <description>Recent content in Security on ohda blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>kor</language>
     <lastBuildDate>Tue, 13 Mar 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/blog/tags/security/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/security/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>깃헙에 HTTPS 도메인 연결하기</title>
-      <link>/blog/posts/20180313/</link>
+      <link>/posts/20180313/</link>
       <pubDate>Tue, 13 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/posts/20180313/</guid>
+      <guid>/posts/20180313/</guid>
       <description>github에 도메인 https로 연결하기 개인 도메인과 깃헙블로그를 연결하고 https로 접속할 수 있는 방법을 알아보자. 기본 준비 사항은 다음과 같다. 도</description>
     </item>
     
     <item>
       <title>HTTPS and TLS</title>
-      <link>/blog/posts/20180306/</link>
+      <link>/posts/20180306/</link>
       <pubDate>Tue, 06 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/posts/20180306/</guid>
+      <guid>/posts/20180306/</guid>
       <description>HTTPS 드디어 도메인을 구입해 깃헙페이지와 연결했다. 연결하는 방법은 간단한데 https로 연결하려면 공인 인증절차를 거쳐야 한다. 하지만 역시나 구글링을 통해 손</description>
     </item>
     

@@ -2,192 +2,192 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ohda blog</title>
-    <link>/blog/</link>
+    <link>/</link>
     <description>Recent content on ohda blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>kor</language>
     <lastBuildDate>Thu, 26 Apr 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>end is the new beginning</title>
-      <link>/blog/posts/20180426/</link>
+      <link>/posts/20180426/</link>
       <pubDate>Thu, 26 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/posts/20180426/</guid>
+      <guid>/posts/20180426/</guid>
       <description>끝은 새로운 시작 한 달 조금 안 되는 기간 동안 진행된 팀 프로젝트가 끝났다. 어떤 때는 이상하리 만큼 여유로웠고 어떤 때는 하루 24시간이 부족할 만큼 흘러갔다. 프로젝</description>
     </item>
     
     <item>
       <title>Observing the Observables</title>
-      <link>/blog/posts/20180410/</link>
+      <link>/posts/20180410/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/posts/20180410/</guid>
+      <guid>/posts/20180410/</guid>
       <description>Observing the Observables 수업을 들을때는 무슨 소린지 몰랐던 Observable을 프로젝트를 하면서 직접 내 손으로 이런 저런 기능을 만들다 보니 필수적으로 공부하게 된 Rxjs와</description>
     </item>
     
     <item>
       <title>think like a designer</title>
-      <link>/blog/posts/20180402/</link>
+      <link>/posts/20180402/</link>
       <pubDate>Mon, 02 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/posts/20180402/</guid>
+      <guid>/posts/20180402/</guid>
       <description>위대한 그래픽 디자이너의 사유 How to think like a great graphic designer / 위대한 그래픽 디자이너의 사유, 데미 밀만 해외 여러 팟캐스트를 통해 알게된 책으로, 국내에는 절판되어 출판사에</description>
     </item>
     
     <item>
       <title>Know Your Outcome</title>
-      <link>/blog/posts/20180324/</link>
+      <link>/posts/20180324/</link>
       <pubDate>Sat, 24 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/posts/20180324/</guid>
+      <guid>/posts/20180324/</guid>
       <description>You have to know what you want 오랜만에 이른 새벽녘에 눈이 떠졌고 고요함 속에서 그동안 나를 잃어버리고, 또는 나를 잊어버리고 달려온 거 같은 기분이 들었다. 내가 시작한 이유, 내</description>
     </item>
     
     <item>
       <title>깃헙에 HTTPS 도메인 연결하기</title>
-      <link>/blog/posts/20180313/</link>
+      <link>/posts/20180313/</link>
       <pubDate>Tue, 13 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/posts/20180313/</guid>
+      <guid>/posts/20180313/</guid>
       <description>github에 도메인 https로 연결하기 개인 도메인과 깃헙블로그를 연결하고 https로 접속할 수 있는 방법을 알아보자. 기본 준비 사항은 다음과 같다. 도</description>
     </item>
     
     <item>
       <title>Attribute vs Property</title>
-      <link>/blog/posts/20180312/</link>
+      <link>/posts/20180312/</link>
       <pubDate>Mon, 12 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/posts/20180312/</guid>
+      <guid>/posts/20180312/</guid>
       <description>&amp;lsquo;HTML attribute&amp;rsquo; and &amp;lsquo;DOM property&amp;rsquo; HTML을 작성할 때, attribute를 HTML요소에 직접 정의할 수 있다. 이렇게 작성한 코드를 브라우저는 파싱을 통해 그에 맞는 DOM노드를</description>
     </item>
     
     <item>
       <title>HTTPS and TLS</title>
-      <link>/blog/posts/20180306/</link>
+      <link>/posts/20180306/</link>
       <pubDate>Tue, 06 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/posts/20180306/</guid>
+      <guid>/posts/20180306/</guid>
       <description>HTTPS 드디어 도메인을 구입해 깃헙페이지와 연결했다. 연결하는 방법은 간단한데 https로 연결하려면 공인 인증절차를 거쳐야 한다. 하지만 역시나 구글링을 통해 손</description>
     </item>
     
     <item>
       <title>DOM Cheatsheet</title>
-      <link>/blog/posts/20180224/</link>
+      <link>/posts/20180224/</link>
       <pubDate>Mon, 26 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/posts/20180224/</guid>
+      <guid>/posts/20180224/</guid>
       <description>Working with DOM 바닐라 자바스크립트로 DOM사용하기 치트시트 DOM Enligntment Vanilla JavaScript Quick Reference Understanding the DOM Basics All items in the Dom are defined as nodes DOM의 구성요소를 node라고 하고 node는 다양한 타입</description>
     </item>
     
     <item>
       <title>IP, Byte and Human..</title>
-      <link>/blog/posts/20180219/</link>
+      <link>/posts/20180219/</link>
       <pubDate>Fri, 23 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/posts/20180219/</guid>
+      <guid>/posts/20180219/</guid>
       <description>IP주소와 바이트와 &amp;hellip; 순수하게 나의 궁금증 해결을 위한 쉬는시간 틈새 공부. 네트워크 공부하다가 마주친 IP주소에서 시작된 잡포스팅. IP주소는 Internet Proto</description>
     </item>
     
     <item>
       <title>DOM Intro</title>
-      <link>/blog/posts/20180218/</link>
+      <link>/posts/20180218/</link>
       <pubDate>Mon, 19 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/posts/20180218/</guid>
+      <guid>/posts/20180218/</guid>
       <description>What is DOM? Brief history of DOM 오늘은 그동안 배운 자바스크립트에서 한단계 더 나아가는, 기다리고 기다리던 DOM을 배웠다. DOM의 역사는 90대말 일어난 &amp;lsquo;브</description>
     </item>
     
     <item>
       <title>Recursion &amp; DP</title>
-      <link>/blog/posts/20180216/</link>
+      <link>/posts/20180216/</link>
       <pubDate>Fri, 16 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/posts/20180216/</guid>
+      <guid>/posts/20180216/</guid>
       <description>Recursion and DP 알고리즘 과제를 풀다가 알게된 recursion에 대해 공부해 보았다. 나아가 Recursion과 함께 나오는 Dynamic Programming(DP)에</description>
     </item>
     
     <item>
       <title>make some sounds</title>
-      <link>/blog/posts/20180214/</link>
+      <link>/posts/20180214/</link>
       <pubDate>Wed, 14 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/posts/20180214/</guid>
+      <guid>/posts/20180214/</guid>
       <description>Make some sound : JavaScript30 이론공부와 수학공부로 두뇌에 과부하가 걸릴때 쯤, 쉬면서 해볼 수 있는 흥미로운 프로젝트를 발견했다. JavaScrip30이라는 무료 챌린지이고</description>
     </item>
     
     <item>
       <title>Vanilla JavaScript</title>
-      <link>/blog/posts/20180213/</link>
+      <link>/posts/20180213/</link>
       <pubDate>Tue, 13 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/posts/20180213/</guid>
+      <guid>/posts/20180213/</guid>
       <description>Vanilla JavaScript is awesome 웹에서 알게된 JavaScript30 이라는 무료 자바스크립트 챌린지에서 vanlla js를 사용한다고 해서 처음에는 라이브러리는 쓰는 건 줄 알고 지나칠 뻔했다. 자세히 보니 그게 아니</description>
     </item>
     
     <item>
       <title>Math, Countings</title>
-      <link>/blog/posts/20180212/</link>
+      <link>/posts/20180212/</link>
       <pubDate>Mon, 12 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/posts/20180212/</guid>
+      <guid>/posts/20180212/</guid>
       <description>Permutations and combinations 지난주 부터 고등학교 수학을 다시 공부하고 있다. EBS인터넷 강의와 Khan Academy의 자료가 큰 도움이 되고 있다. 오늘은 코딩 알고리즘 과제 할때 특히 자</description>
     </item>
     
     <item>
       <title>Execution context and more..</title>
-      <link>/blog/posts/20180211/</link>
+      <link>/posts/20180211/</link>
       <pubDate>Sun, 11 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/posts/20180211/</guid>
+      <guid>/posts/20180211/</guid>
       <description>Execution context and more.. 시작에 앞서서.. execution context를 배우고 나서 나만의 언어로 다시 정리하고 싶었고, 주말 내내 계속 작업했지만 도무지 끝이 나질 않았다. 내 생각을 글로</description>
     </item>
     
     <item>
       <title>Growth Mindset</title>
-      <link>/blog/posts/20180208/</link>
+      <link>/posts/20180208/</link>
       <pubDate>Thu, 08 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/posts/20180208/</guid>
+      <guid>/posts/20180208/</guid>
       <description>Mindset: The New Psychology of Success by Carol S. Dweck Amazon link 번역본 : 마인드셋 이 책은 각종 팟캐스트와 책에서 수없이 언급된 책으로 아마존에서는 이미 오래된 스테디 베스트셀러로 유명한 책이었고 우</description>
     </item>
     
     <item>
       <title>converting types</title>
-      <link>/blog/posts/20180206/</link>
+      <link>/posts/20180206/</link>
       <pubDate>Wed, 07 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/posts/20180206/</guid>
+      <guid>/posts/20180206/</guid>
       <description>number to string, string to number 자바스크립트에는 타입을 변경시키는 다양한 방법들이 있다. 숫자를 문자로, 문자를 숫자로 바꾸는 여러가지 방법들을 알아보자 convert a string to a number num = Number(str) //</description>
     </item>
     
     <item>
       <title>Becoming a math person</title>
-      <link>/blog/posts/20180205/</link>
+      <link>/posts/20180205/</link>
       <pubDate>Mon, 05 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/posts/20180205/</guid>
+      <guid>/posts/20180205/</guid>
       <description>I decided to become a math person “I’m just not a math person.” We hear it all the time. And we’ve had enough. Because we believe that the idea of “math people” is the most self-destructive idea in America today. The truth is, you probably are</description>
     </item>
     
     <item>
       <title>on writing well</title>
-      <link>/blog/posts/20180204/</link>
+      <link>/posts/20180204/</link>
       <pubDate>Sun, 04 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/posts/20180204/</guid>
+      <guid>/posts/20180204/</guid>
       <description>On writing well&amp;hellip; 코딩의 세계는 그동안 내가 거쳐온 세계들 중에서 discipline 이 가장 중요시되는 세계인 거 같다. 그리고 그렇기 때문에 참 매력적인 것 같다. 어제 javascript 역사 관련된 글을 읽다가</description>
     </item>
     
     <item>
       <title>History of JS</title>
-      <link>/blog/posts/20180203/</link>
+      <link>/posts/20180203/</link>
       <pubDate>Sat, 03 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/posts/20180203/</guid>
+      <guid>/posts/20180203/</guid>
       <description>Brief history of JavaScript I started studying Javascript this week and the background story of development in javascript really got me interested. Most of the info came from the Wikipedia and it&amp;rsquo;s just a summary version for myself.
 Javascript Wikipedia Netscape vs NCSA Mosaic more about Netscape at Wikipedia
 NCSA Mosaic was the first popular graphical Web browser, which played an important part in expanding the growth of the nascent World Wide Web.</description>
@@ -195,10 +195,10 @@ NCSA Mosaic was the first popular graphical Web browser, which played an importa
     
     <item>
       <title>100Challenge:day07</title>
-      <link>/blog/posts/20180131/</link>
+      <link>/posts/20180131/</link>
       <pubDate>Fri, 02 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/posts/20180131/</guid>
+      <guid>/posts/20180131/</guid>
       <description>100 Days Of Code Day 7 Today&amp;rsquo;s Progress
 
 Link to work</description>
@@ -206,73 +206,73 @@ Link to work</description>
     
     <item>
       <title>100Challenge:day06</title>
-      <link>/blog/posts/20180130-1/</link>
+      <link>/posts/20180130-1/</link>
       <pubDate>Wed, 31 Jan 2018 01:00:33 +0900</pubDate>
       
-      <guid>/blog/posts/20180130-1/</guid>
+      <guid>/posts/20180130-1/</guid>
       <description>100 Days Of Code Day 6 Today&amp;rsquo;s Progress clone survey form from one share house survey 폼과 친해지기 6 오늘은 시간을 들여서 폼 마크업을 공부했다.그리고 라디오 버튼 생김새를 바꾸는 것도 덤으로 배웠다. MDN:input radio type 은</description>
     </item>
     
     <item>
       <title>FORM Markup 2</title>
-      <link>/blog/posts/20180130/</link>
+      <link>/posts/20180130/</link>
       <pubDate>Tue, 30 Jan 2018 22:05:33 +0900</pubDate>
       
-      <guid>/blog/posts/20180130/</guid>
+      <guid>/posts/20180130/</guid>
       <description>Form Markup 2 친구가 데일리 챌린지 중 마크업 잘못 사용된 부분의 올바른 사용법을 알려주었다. 이론을 공부하고 정리하는 것과 실제로 만들어보고 배우는 것은 정말 다른 것 같다</description>
     </item>
     
     <item>
       <title>Who I Want To Become?</title>
-      <link>/blog/posts/20180129-1/</link>
+      <link>/posts/20180129-1/</link>
       <pubDate>Tue, 30 Jan 2018 00:05:33 +0900</pubDate>
       
-      <guid>/blog/posts/20180129-1/</guid>
+      <guid>/posts/20180129-1/</guid>
       <description>My Goal These are the actual job requirements and responsibilities from various tech companies. and this list should be my own learning goals and inspirations as well. these will work as great daily mantra! 실제 내노라하는 실리콘벨리 스타트업의 구직란에서 요구하는 사항들을 찾아보았다.</description>
     </item>
     
     <item>
       <title>100Challenge:day05</title>
-      <link>/blog/posts/20180129/</link>
+      <link>/posts/20180129/</link>
       <pubDate>Mon, 29 Jan 2018 23:55:33 +0900</pubDate>
       
-      <guid>/blog/posts/20180129/</guid>
+      <guid>/posts/20180129/</guid>
       <description>100 Days Of Code Day 5 Today&amp;rsquo;s Progress clone subscription form from oui will 폼과 친해지기 5 복습 예습하느라, 후딱 해치우기 급급한 데일리 챌린지 (하는데 의의를..) 노트 : [ 버튼 + 아이콘 ] 일때 pointer 영역</description>
     </item>
     
     <item>
       <title>100Challenge:day04</title>
-      <link>/blog/posts/20180128/</link>
+      <link>/posts/20180128/</link>
       <pubDate>Sun, 28 Jan 2018 23:55:33 +0900</pubDate>
       
-      <guid>/blog/posts/20180128/</guid>
+      <guid>/posts/20180128/</guid>
       <description>100 Days Of Code Day 4 Today&amp;rsquo;s Progress clone subscription form from VICE 폼과 친해지기 4 You Don&amp;rsquo;t Know JS 읽고 모든 에너지를 뺏겨 오늘도 뒤늦게 시간해서 조급함으로 마무리 했다. text를 form에 넣어야하는</description>
     </item>
     
     <item>
       <title>100Challenge:day03</title>
-      <link>/blog/posts/20180127/</link>
+      <link>/posts/20180127/</link>
       <pubDate>Sat, 27 Jan 2018 23:00:33 +0900</pubDate>
       
-      <guid>/blog/posts/20180127/</guid>
+      <guid>/posts/20180127/</guid>
       <description>100 Days Of Code Day 3 Today&amp;rsquo;s Progress clone subscription form from The Intercept 폼과 친해지기 3 The Intercept 사이트에 있는 메일링 폼을 연습했다.항상 다른 공부하다가 10시가 넘어서야 시작하니 완성도가 떨어지는 느낌</description>
     </item>
     
     <item>
       <title>100Challenge:day02</title>
-      <link>/blog/posts/20180126/</link>
+      <link>/posts/20180126/</link>
       <pubDate>Fri, 26 Jan 2018 21:00:33 +0900</pubDate>
       
-      <guid>/blog/posts/20180126/</guid>
+      <guid>/posts/20180126/</guid>
       <description>100 Days Of Code Day 2 Today&amp;rsquo;s Progress clone &amp;lt;form&amp;gt; element from Airbnb 폼과 친해지기 2 에어비앤비에 메인 검색 화면을 만들어 보았다. 오늘 배운 calc() 속성을 사용해서 input 상자를 조절했다. 아직도 어디에 wid</description>
     </item>
     
     <item>
       <title>100Challenge:day01</title>
-      <link>/blog/posts/20180125/</link>
+      <link>/posts/20180125/</link>
       <pubDate>Thu, 25 Jan 2018 23:10:33 +0900</pubDate>
       
-      <guid>/blog/posts/20180125/</guid>
+      <guid>/posts/20180125/</guid>
       <description>100 Days Of Code Day 1 Today&amp;rsquo;s Progress
 Studied &amp;lt;form&amp;gt; element and made simple signin page.Inspired by Virgin America Airlines
 
@@ -282,10 +282,10 @@ I was having hard time understanding and using proper form element. I visited th
     
     <item>
       <title>100 Days of Code</title>
-      <link>/blog/posts/20180124/</link>
+      <link>/posts/20180124/</link>
       <pubDate>Wed, 24 Jan 2018 22:10:33 +0900</pubDate>
       
-      <guid>/blog/posts/20180124/</guid>
+      <guid>/posts/20180124/</guid>
       <description>100 days of code Main Commitment I will code for at least an hour every day for the next 100 days.
 For the next 100 days I will code and design something new everyday. The project goal is not only to become familiar with html/css/js but also to maintain my design abilities.
 Start Date 2018-01-25
@@ -294,19 +294,19 @@ Additional Rules  I will tweet about my progress every day (using the hashtag #1
     
     <item>
       <title>No Interface</title>
-      <link>/blog/posts/20180123/</link>
+      <link>/posts/20180123/</link>
       <pubDate>Tue, 23 Jan 2018 23:13:33 +0900</pubDate>
       
-      <guid>/blog/posts/20180123/</guid>
+      <guid>/posts/20180123/</guid>
       <description>The Best Interface is No Interface by Golden Krishna (The simple path to brilliant technology.) Kindle E-book으로 읽음 / 5 stars for me / 많은 부분 나에게 생각할거리와 공감을 안겨준 책이다. UX,UI 분야에서 일을 할때, Krish</description>
     </item>
     
     <item>
       <title>margin collapsing</title>
-      <link>/blog/posts/20180122/</link>
+      <link>/posts/20180122/</link>
       <pubDate>Mon, 22 Jan 2018 23:00:00 +0900</pubDate>
       
-      <guid>/blog/posts/20180122/</guid>
+      <guid>/posts/20180122/</guid>
       <description>What is margin collapsing? When two elements are touching each other in a vertical way, margin collapsing occurs.
 let&amp;rsquo;s assume there are two box elements vertically aligned. Box A - margin bottom : 20px Box B - margin top : 60px
 It’s easy to think that the outcome would be 80px but that’s not correct. The resulting margin would be 60px. The largest margin remains the same and smallest margin collapses to 0.</description>
@@ -314,10 +314,10 @@ It’s easy to think that the outcome would be 80px but that’s not correct. Th
     
     <item>
       <title>semantic markup</title>
-      <link>/blog/posts/20180121/</link>
+      <link>/posts/20180121/</link>
       <pubDate>Sun, 21 Jan 2018 20:30:00 +0900</pubDate>
       
-      <guid>/blog/posts/20180121/</guid>
+      <guid>/posts/20180121/</guid>
       <description>Semantic Markups Semantics is the use of HTML tags for their meaning rather than their aesthetics. It’s also useful for making sure that your web page is easily understood by both search engine machines and people browsing without stylesheets, such as the viably impaired.
 Easy way to make sure that your markup has proper structure is to write it without a stylesheet.
 Benefits  more accessibility good for search engine optimization.</description>
@@ -325,118 +325,118 @@ Benefits  more accessibility good for search engine optimization.</description>
     
     <item>
       <title>title</title>
-      <link>/blog/posts/default/</link>
+      <link>/posts/default/</link>
       <pubDate>Fri, 19 Jan 2018 23:00:00 +0900</pubDate>
       
-      <guid>/blog/posts/default/</guid>
+      <guid>/posts/default/</guid>
       <description></description>
     </item>
     
     <item>
       <title>css menu study 101</title>
-      <link>/blog/posts/20180118/</link>
+      <link>/posts/20180118/</link>
       <pubDate>Thu, 18 Jan 2018 23:00:00 +0900</pubDate>
       
-      <guid>/blog/posts/20180118/</guid>
+      <guid>/posts/20180118/</guid>
       <description>Stuff I should know about Headings 웹페이지의 기본적이고 중요한 헤딩영역을 배웠다.우리가 무심코 방문하는 웹사이트에는 눈에는 보이지 않는 스크린 리더기와 키보드접근성을 위한 요소</description>
     </item>
     
     <item>
       <title>World a better place</title>
-      <link>/blog/posts/20180117/</link>
+      <link>/posts/20180117/</link>
       <pubDate>Wed, 17 Jan 2018 23:00:00 +0900</pubDate>
       
-      <guid>/blog/posts/20180117/</guid>
+      <guid>/posts/20180117/</guid>
       <description>Git-it 검색 중 알게된 git을 재밌게 배울 수 있는 레포 GIT-IT 데스크탑용 앱을 다운로드해서 따라 하다 보니까 금세 깃이랑 친해질 수 있었다. 예전에 건축, 인테리어 일을 할 때도</description>
     </item>
     
     <item>
       <title>Road to Flexbox 1</title>
-      <link>/blog/posts/20180116-1/</link>
+      <link>/posts/20180116-1/</link>
       <pubDate>Wed, 17 Jan 2018 01:00:11 +0900</pubDate>
       
-      <guid>/blog/posts/20180116-1/</guid>
+      <guid>/posts/20180116-1/</guid>
       <description>What is Flexbox? Flexbox를 정복하자. 내용은 각종 블로그, 동영상, 그리고 W3C에 명시된 Flexbox스펙을 참고하였음.(링크는 하단 참조) Flexbo</description>
     </item>
     
     <item>
       <title>CSS Box Model</title>
-      <link>/blog/posts/20180116/</link>
+      <link>/posts/20180116/</link>
       <pubDate>Tue, 16 Jan 2018 18:47:11 +0900</pubDate>
       
-      <guid>/blog/posts/20180116/</guid>
+      <guid>/posts/20180116/</guid>
       <description>CSS:Cascading Style Sheets 오늘은 기본적인 CSS를 공부했다. 특히 그중에서도 기본으로 짚고 넘어갈 css box model에 대해 정리하고자 한다. The CSS Box Model HTML의 요소들은 하나의 박</description>
     </item>
     
     <item>
       <title>Markup for all</title>
-      <link>/blog/posts/20180115/</link>
+      <link>/posts/20180115/</link>
       <pubDate>Mon, 15 Jan 2018 18:47:11 +0900</pubDate>
       
-      <guid>/blog/posts/20180115/</guid>
+      <guid>/posts/20180115/</guid>
       <description>The importance of naming in Web 의미있는 이름짓기의 중요성(네이밍&amp;amp;마크업) There are only two hard problems in Computer Science: cache invalidation and naming things — Phil Karlton Web technologies for all Accessibility &amp;amp; Web Standards = BETTER WORLD 웹표준과 접근성 그리고 호</description>
     </item>
     
     <item>
       <title>Harvard CS50</title>
-      <link>/blog/posts/20180114/</link>
+      <link>/posts/20180114/</link>
       <pubDate>Sun, 14 Jan 2018 22:30:11 +0900</pubDate>
       
-      <guid>/blog/posts/20180114/</guid>
+      <guid>/posts/20180114/</guid>
       <description>going to Harvard at night. I&amp;rsquo;ve been studying computer science since last week and while I was looking for some stuff I found great foundation lectures on CS at Harvard.In fact I was able to watch the whole lectures throughout the weekend and It was really helpful for someone like me(no background in computer science). 하버드에 가지않고 하버드에 다녀오</description>
     </item>
     
     <item>
       <title>lecture 5-web</title>
-      <link>/blog/posts/day05/</link>
+      <link>/posts/day05/</link>
       <pubDate>Fri, 12 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/posts/day05/</guid>
+      <guid>/posts/day05/</guid>
       <description>tl;dr : week summary Quicksort Stack / Queue TCP / UDP (가래떡) OSI 7 Layers Coockie 브라우저상에 남는 것 Session 몇분동안 유지해서 정보를 잡아두는 것 연속적인 정보를 쌓기위해 쓰는 것 Client vs Server URI / URL / URN RESTFul :</description>
     </item>
     
     <item>
       <title>lecture 4-network</title>
-      <link>/blog/posts/day04/</link>
+      <link>/posts/day04/</link>
       <pubDate>Thu, 11 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/posts/day04/</guid>
+      <guid>/posts/day04/</guid>
       <description>NetWork 802.11 != wifi - 802.11 는 와이파이가 아니다. - 와이파이는 802 기술을 사용한 상품 normal wifi is 2.4hz 2.4g hz -&amp;gt; 2.4g per 1second 주파수 높을수록 거리는 짧고 FM 주파수 짧을수록 거리는 넓고 품질은 저</description>
     </item>
     
     <item>
       <title>lecture 3-git</title>
-      <link>/blog/posts/day03/</link>
+      <link>/posts/day03/</link>
       <pubDate>Wed, 10 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/posts/day03/</guid>
+      <guid>/posts/day03/</guid>
       <description>CLI : Command line interface terminal Getting to Know the Command Line | David Baumgold $ : ready to shell 쉘커맨드 입력 준비 됬음 $ npm install ~~~~ : shell을 이용해서 nom install입력해라 ~$ : login user’s top priority folder (</description>
     </item>
     
     <item>
       <title>lecture 2-algorithms</title>
-      <link>/blog/posts/day02/</link>
+      <link>/posts/day02/</link>
       <pubDate>Tue, 09 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/posts/day02/</guid>
+      <guid>/posts/day02/</guid>
       <description>Markdown readme.md Markdown Cheatsheet · adam-p/markdown-here Wiki · GitHub Mastering Markdown · GitHub Guides 의사코드 . 알고리즘 . 자료구조 Pseudocode / Algorithm / Data Structure Pseudocode like coding ideation , sketch Pseudocode - Wikipedia no guide line but your own guide line is needed (i think) 1. 올드폰 == true 2. 폰이 망가졌다면,</description>
     </item>
     
     <item>
       <title>lecture 1-computer</title>
-      <link>/blog/posts/day01/</link>
+      <link>/posts/day01/</link>
       <pubDate>Mon, 08 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/posts/day01/</guid>
+      <guid>/posts/day01/</guid>
       <description>link 최우영 선생님 강의자료 초보몽키의 개발공부로그 ::매일매일 글 쓰고 정리하는것 중요.:: 컴퓨터 설계 -&amp;gt; 전자 공학 컴퓨터의 활용 -&amp;gt; 컴퓨터 공학 CS ALU -&amp;gt; Arithmetic Logic Unit? +</description>
     </item>
     
     <item>
       <title></title>
-      <link>/blog/posts/20180227/</link>
+      <link>/posts/20180227/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/blog/posts/20180227/</guid>
+      <guid>/posts/20180227/</guid>
       <description>title = &amp;ldquo;Execution Context and Scope&amp;rdquo; description = &amp;ldquo;&amp;rdquo; tags = [ &amp;ldquo;til&amp;rdquo;, &amp;ldquo;JavaScript&amp;rdquo;, &amp;ldquo;Execution Context&amp;rdquo;, &amp;ldquo;Scope&amp;rdquo;, &amp;ldquo;Closure&amp;rdquo; ] date = &amp;ldquo;2018-02-27&amp;rdquo; categories = [ ] menu = &amp;ldquo;main&amp;rdquo; hidden = &amp;ldquo;true&amp;rdquo; +++ Execution Context 유용한 아티클과 동영상! 어려운부분은 동영상이 이해하는데 최고인것 같다. 한가</description>
     </item>
     

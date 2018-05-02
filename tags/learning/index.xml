@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Learning on ohda blog</title>
-    <link>/blog/tags/learning/</link>
+    <link>/tags/learning/</link>
     <description>Recent content in Learning on ohda blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>kor</language>
     <lastBuildDate>Fri, 23 Feb 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/blog/tags/learning/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/learning/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>IP, Byte and Human..</title>
-      <link>/blog/posts/20180219/</link>
+      <link>/posts/20180219/</link>
       <pubDate>Fri, 23 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/posts/20180219/</guid>
+      <guid>/posts/20180219/</guid>
       <description>IP주소와 바이트와 &amp;hellip; 순수하게 나의 궁금증 해결을 위한 쉬는시간 틈새 공부. 네트워크 공부하다가 마주친 IP주소에서 시작된 잡포스팅. IP주소는 Internet Proto</description>
     </item>
     
     <item>
       <title>make some sounds</title>
-      <link>/blog/posts/20180214/</link>
+      <link>/posts/20180214/</link>
       <pubDate>Wed, 14 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/posts/20180214/</guid>
+      <guid>/posts/20180214/</guid>
       <description>Make some sound : JavaScript30 이론공부와 수학공부로 두뇌에 과부하가 걸릴때 쯤, 쉬면서 해볼 수 있는 흥미로운 프로젝트를 발견했다. JavaScrip30이라는 무료 챌린지이고</description>
     </item>
     
     <item>
       <title>Vanilla JavaScript</title>
-      <link>/blog/posts/20180213/</link>
+      <link>/posts/20180213/</link>
       <pubDate>Tue, 13 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/posts/20180213/</guid>
+      <guid>/posts/20180213/</guid>
       <description>Vanilla JavaScript is awesome 웹에서 알게된 JavaScript30 이라는 무료 자바스크립트 챌린지에서 vanlla js를 사용한다고 해서 처음에는 라이브러리는 쓰는 건 줄 알고 지나칠 뻔했다. 자세히 보니 그게 아니</description>
     </item>
     
     <item>
       <title>Becoming a math person</title>
-      <link>/blog/posts/20180205/</link>
+      <link>/posts/20180205/</link>
       <pubDate>Mon, 05 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/posts/20180205/</guid>
+      <guid>/posts/20180205/</guid>
       <description>I decided to become a math person “I’m just not a math person.” We hear it all the time. And we’ve had enough. Because we believe that the idea of “math people” is the most self-destructive idea in America today. The truth is, you probably are</description>
     </item>
     
     <item>
       <title>on writing well</title>
-      <link>/blog/posts/20180204/</link>
+      <link>/posts/20180204/</link>
       <pubDate>Sun, 04 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/posts/20180204/</guid>
+      <guid>/posts/20180204/</guid>
       <description>On writing well&amp;hellip; 코딩의 세계는 그동안 내가 거쳐온 세계들 중에서 discipline 이 가장 중요시되는 세계인 거 같다. 그리고 그렇기 때문에 참 매력적인 것 같다. 어제 javascript 역사 관련된 글을 읽다가</description>
     </item>
     
     <item>
       <title>History of JS</title>
-      <link>/blog/posts/20180203/</link>
+      <link>/posts/20180203/</link>
       <pubDate>Sat, 03 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/posts/20180203/</guid>
+      <guid>/posts/20180203/</guid>
       <description>Brief history of JavaScript I started studying Javascript this week and the background story of development in javascript really got me interested. Most of the info came from the Wikipedia and it&amp;rsquo;s just a summary version for myself.
 Javascript Wikipedia Netscape vs NCSA Mosaic more about Netscape at Wikipedia
 NCSA Mosaic was the first popular graphical Web browser, which played an important part in expanding the growth of the nascent World Wide Web.</description>

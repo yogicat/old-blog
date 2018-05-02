@@ -2,48 +2,48 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Js on ohda blog</title>
-    <link>/blog/tags/js/</link>
+    <link>/tags/js/</link>
     <description>Recent content in Js on ohda blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>kor</language>
     <lastBuildDate>Mon, 19 Feb 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/blog/tags/js/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/js/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>DOM Intro</title>
-      <link>/blog/posts/20180218/</link>
+      <link>/posts/20180218/</link>
       <pubDate>Mon, 19 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/posts/20180218/</guid>
+      <guid>/posts/20180218/</guid>
       <description>What is DOM? Brief history of DOM 오늘은 그동안 배운 자바스크립트에서 한단계 더 나아가는, 기다리고 기다리던 DOM을 배웠다. DOM의 역사는 90대말 일어난 &amp;lsquo;브</description>
     </item>
     
     <item>
       <title>Recursion &amp; DP</title>
-      <link>/blog/posts/20180216/</link>
+      <link>/posts/20180216/</link>
       <pubDate>Fri, 16 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/posts/20180216/</guid>
+      <guid>/posts/20180216/</guid>
       <description>Recursion and DP 알고리즘 과제를 풀다가 알게된 recursion에 대해 공부해 보았다. 나아가 Recursion과 함께 나오는 Dynamic Programming(DP)에</description>
     </item>
     
     <item>
       <title>make some sounds</title>
-      <link>/blog/posts/20180214/</link>
+      <link>/posts/20180214/</link>
       <pubDate>Wed, 14 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/posts/20180214/</guid>
+      <guid>/posts/20180214/</guid>
       <description>Make some sound : JavaScript30 이론공부와 수학공부로 두뇌에 과부하가 걸릴때 쯤, 쉬면서 해볼 수 있는 흥미로운 프로젝트를 발견했다. JavaScrip30이라는 무료 챌린지이고</description>
     </item>
     
     <item>
       <title>Vanilla JavaScript</title>
-      <link>/blog/posts/20180213/</link>
+      <link>/posts/20180213/</link>
       <pubDate>Tue, 13 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/posts/20180213/</guid>
+      <guid>/posts/20180213/</guid>
       <description>Vanilla JavaScript is awesome 웹에서 알게된 JavaScript30 이라는 무료 자바스크립트 챌린지에서 vanlla js를 사용한다고 해서 처음에는 라이브러리는 쓰는 건 줄 알고 지나칠 뻔했다. 자세히 보니 그게 아니</description>
     </item>
     

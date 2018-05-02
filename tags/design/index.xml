@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Design on ohda blog</title>
-    <link>/blog/tags/design/</link>
+    <link>/tags/design/</link>
     <description>Recent content in Design on ohda blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>kor</language>
     <lastBuildDate>Mon, 02 Apr 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/blog/tags/design/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/design/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>think like a designer</title>
-      <link>/blog/posts/20180402/</link>
+      <link>/posts/20180402/</link>
       <pubDate>Mon, 02 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/posts/20180402/</guid>
+      <guid>/posts/20180402/</guid>
       <description>위대한 그래픽 디자이너의 사유 How to think like a great graphic designer / 위대한 그래픽 디자이너의 사유, 데미 밀만 해외 여러 팟캐스트를 통해 알게된 책으로, 국내에는 절판되어 출판사에</description>
     </item>
     
     <item>
       <title>No Interface</title>
-      <link>/blog/posts/20180123/</link>
+      <link>/posts/20180123/</link>
       <pubDate>Tue, 23 Jan 2018 23:13:33 +0900</pubDate>
       
-      <guid>/blog/posts/20180123/</guid>
+      <guid>/posts/20180123/</guid>
       <description>The Best Interface is No Interface by Golden Krishna (The simple path to brilliant technology.) Kindle E-book으로 읽음 / 5 stars for me / 많은 부분 나에게 생각할거리와 공감을 안겨준 책이다. UX,UI 분야에서 일을 할때, Krish</description>
     </item>
     

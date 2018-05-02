@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Angular on ohda blog</title>
-    <link>/blog/tags/angular/</link>
+    <link>/tags/angular/</link>
     <description>Recent content in Angular on ohda blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>kor</language>
     <lastBuildDate>Wed, 11 Apr 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/blog/tags/angular/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/angular/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Observing the Observables</title>
-      <link>/blog/posts/20180410/</link>
+      <link>/posts/20180410/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/blog/posts/20180410/</guid>
+      <guid>/posts/20180410/</guid>
       <description>Observing the Observables 수업을 들을때는 무슨 소린지 몰랐던 Observable을 프로젝트를 하면서 직접 내 손으로 이런 저런 기능을 만들다 보니 필수적으로 공부하게 된 Rxjs와</description>
     </item>
     
