@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Goal on ohda blog</title>
-    <link>/tags/goal/</link>
+    <link>https://blog.ohda.fun/tags/goal/</link>
     <description>Recent content in Goal on ohda blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>kor</language>
     <lastBuildDate>Tue, 30 Jan 2018 00:05:33 +0900</lastBuildDate>
     
-	<atom:link href="/tags/goal/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.ohda.fun/tags/goal/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Who I Want To Become?</title>
-      <link>/posts/20180129-1/</link>
+      <link>https://blog.ohda.fun/posts/20180129-1/</link>
       <pubDate>Tue, 30 Jan 2018 00:05:33 +0900</pubDate>
       
-      <guid>/posts/20180129-1/</guid>
+      <guid>https://blog.ohda.fun/posts/20180129-1/</guid>
       <description>My Goal These are the actual job requirements and responsibilities from various tech companies. and this list should be my own learning goals and inspirations as well. these will work as great daily mantra! 실제 내노라하는 실리콘벨리 스타트업의 구직란에서 요구하는 사항들을 찾아보았다.</description>
     </item>
     

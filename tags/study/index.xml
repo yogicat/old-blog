@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Study on ohda blog</title>
-    <link>/tags/study/</link>
+    <link>https://blog.ohda.fun/tags/study/</link>
     <description>Recent content in Study on ohda blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>kor</language>
     <lastBuildDate>Thu, 26 Apr 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/study/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.ohda.fun/tags/study/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>end is the new beginning</title>
-      <link>/posts/20180426/</link>
+      <link>https://blog.ohda.fun/posts/20180426/</link>
       <pubDate>Thu, 26 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/posts/20180426/</guid>
+      <guid>https://blog.ohda.fun/posts/20180426/</guid>
       <description>끝은 새로운 시작 한 달 조금 안 되는 기간 동안 진행된 팀 프로젝트가 끝났다. 어떤 때는 이상하리 만큼 여유로웠고 어떤 때는 하루 24시간이 부족할 만큼 흘러갔다. 프로젝</description>
     </item>
     

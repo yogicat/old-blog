@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Thoughts on ohda blog</title>
-    <link>/tags/thoughts/</link>
+    <link>https://blog.ohda.fun/tags/thoughts/</link>
     <description>Recent content in Thoughts on ohda blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>kor</language>
     <lastBuildDate>Thu, 26 Apr 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/thoughts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.ohda.fun/tags/thoughts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>end is the new beginning</title>
-      <link>/posts/20180426/</link>
+      <link>https://blog.ohda.fun/posts/20180426/</link>
       <pubDate>Thu, 26 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/posts/20180426/</guid>
+      <guid>https://blog.ohda.fun/posts/20180426/</guid>
       <description>끝은 새로운 시작 한 달 조금 안 되는 기간 동안 진행된 팀 프로젝트가 끝났다. 어떤 때는 이상하리 만큼 여유로웠고 어떤 때는 하루 24시간이 부족할 만큼 흘러갔다. 프로젝</description>
     </item>
     
     <item>
       <title>Who I Want To Become?</title>
-      <link>/posts/20180129-1/</link>
+      <link>https://blog.ohda.fun/posts/20180129-1/</link>
       <pubDate>Tue, 30 Jan 2018 00:05:33 +0900</pubDate>
       
-      <guid>/posts/20180129-1/</guid>
+      <guid>https://blog.ohda.fun/posts/20180129-1/</guid>
       <description>My Goal These are the actual job requirements and responsibilities from various tech companies. and this list should be my own learning goals and inspirations as well. these will work as great daily mantra! 실제 내노라하는 실리콘벨리 스타트업의 구직란에서 요구하는 사항들을 찾아보았다.</description>
     </item>
     

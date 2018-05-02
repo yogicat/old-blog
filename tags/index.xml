@@ -2,606 +2,606 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on ohda blog</title>
-    <link>/tags/</link>
+    <link>https://blog.ohda.fun/tags/</link>
     <description>Recent content in Tags on ohda blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>kor</language>
     <lastBuildDate>Fri, 02 Feb 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.ohda.fun/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>100days</title>
-      <link>/tags/100days/</link>
+      <link>https://blog.ohda.fun/tags/100days/</link>
       <pubDate>Fri, 02 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/100days/</guid>
+      <guid>https://blog.ohda.fun/tags/100days/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Accessibility</title>
-      <link>/tags/accessibility/</link>
+      <link>https://blog.ohda.fun/tags/accessibility/</link>
       <pubDate>Wed, 17 Jan 2018 23:00:00 +0900</pubDate>
       
-      <guid>/tags/accessibility/</guid>
+      <guid>https://blog.ohda.fun/tags/accessibility/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Algorithm</title>
-      <link>/tags/algorithm/</link>
+      <link>https://blog.ohda.fun/tags/algorithm/</link>
       <pubDate>Fri, 16 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/algorithm/</guid>
+      <guid>https://blog.ohda.fun/tags/algorithm/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Algorithms</title>
-      <link>/tags/algorithms/</link>
+      <link>https://blog.ohda.fun/tags/algorithms/</link>
       <pubDate>Tue, 09 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/algorithms/</guid>
+      <guid>https://blog.ohda.fun/tags/algorithms/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Angular</title>
-      <link>/tags/angular/</link>
+      <link>https://blog.ohda.fun/tags/angular/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/angular/</guid>
+      <guid>https://blog.ohda.fun/tags/angular/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Article</title>
-      <link>/tags/article/</link>
+      <link>https://blog.ohda.fun/tags/article/</link>
       <pubDate>Tue, 13 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/article/</guid>
+      <guid>https://blog.ohda.fun/tags/article/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Book</title>
-      <link>/tags/book/</link>
+      <link>https://blog.ohda.fun/tags/book/</link>
       <pubDate>Thu, 08 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/book/</guid>
+      <guid>https://blog.ohda.fun/tags/book/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Books</title>
-      <link>/tags/books/</link>
+      <link>https://blog.ohda.fun/tags/books/</link>
       <pubDate>Mon, 02 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/books/</guid>
+      <guid>https://blog.ohda.fun/tags/books/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Box Model</title>
-      <link>/tags/box-model/</link>
+      <link>https://blog.ohda.fun/tags/box-model/</link>
       <pubDate>Tue, 16 Jan 2018 18:47:11 +0900</pubDate>
       
-      <guid>/tags/box-model/</guid>
+      <guid>https://blog.ohda.fun/tags/box-model/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Challenge</title>
-      <link>/tags/challenge/</link>
+      <link>https://blog.ohda.fun/tags/challenge/</link>
       <pubDate>Wed, 14 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/challenge/</guid>
+      <guid>https://blog.ohda.fun/tags/challenge/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Coding Convention</title>
-      <link>/tags/coding-convention/</link>
+      <link>https://blog.ohda.fun/tags/coding-convention/</link>
       <pubDate>Sun, 04 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/coding-convention/</guid>
+      <guid>https://blog.ohda.fun/tags/coding-convention/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Computer</title>
-      <link>/tags/computer/</link>
+      <link>https://blog.ohda.fun/tags/computer/</link>
       <pubDate>Mon, 08 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/computer/</guid>
+      <guid>https://blog.ohda.fun/tags/computer/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Css</title>
-      <link>/tags/css/</link>
+      <link>https://blog.ohda.fun/tags/css/</link>
       <pubDate>Mon, 22 Jan 2018 23:00:00 +0900</pubDate>
       
-      <guid>/tags/css/</guid>
+      <guid>https://blog.ohda.fun/tags/css/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Daily</title>
-      <link>/tags/daily/</link>
+      <link>https://blog.ohda.fun/tags/daily/</link>
       <pubDate>Fri, 02 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/daily/</guid>
+      <guid>https://blog.ohda.fun/tags/daily/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Day01</title>
-      <link>/tags/day01/</link>
+      <link>https://blog.ohda.fun/tags/day01/</link>
       <pubDate>Thu, 25 Jan 2018 23:10:33 +0900</pubDate>
       
-      <guid>/tags/day01/</guid>
+      <guid>https://blog.ohda.fun/tags/day01/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Day02</title>
-      <link>/tags/day02/</link>
+      <link>https://blog.ohda.fun/tags/day02/</link>
       <pubDate>Fri, 26 Jan 2018 21:00:33 +0900</pubDate>
       
-      <guid>/tags/day02/</guid>
+      <guid>https://blog.ohda.fun/tags/day02/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Day03</title>
-      <link>/tags/day03/</link>
+      <link>https://blog.ohda.fun/tags/day03/</link>
       <pubDate>Sat, 27 Jan 2018 23:00:33 +0900</pubDate>
       
-      <guid>/tags/day03/</guid>
+      <guid>https://blog.ohda.fun/tags/day03/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Day04</title>
-      <link>/tags/day04/</link>
+      <link>https://blog.ohda.fun/tags/day04/</link>
       <pubDate>Sun, 28 Jan 2018 23:55:33 +0900</pubDate>
       
-      <guid>/tags/day04/</guid>
+      <guid>https://blog.ohda.fun/tags/day04/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Day05</title>
-      <link>/tags/day05/</link>
+      <link>https://blog.ohda.fun/tags/day05/</link>
       <pubDate>Mon, 29 Jan 2018 23:55:33 +0900</pubDate>
       
-      <guid>/tags/day05/</guid>
+      <guid>https://blog.ohda.fun/tags/day05/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Day06</title>
-      <link>/tags/day06/</link>
+      <link>https://blog.ohda.fun/tags/day06/</link>
       <pubDate>Wed, 31 Jan 2018 01:00:33 +0900</pubDate>
       
-      <guid>/tags/day06/</guid>
+      <guid>https://blog.ohda.fun/tags/day06/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Day07</title>
-      <link>/tags/day07/</link>
+      <link>https://blog.ohda.fun/tags/day07/</link>
       <pubDate>Fri, 02 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/day07/</guid>
+      <guid>https://blog.ohda.fun/tags/day07/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Design</title>
-      <link>/tags/design/</link>
+      <link>https://blog.ohda.fun/tags/design/</link>
       <pubDate>Mon, 02 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/design/</guid>
+      <guid>https://blog.ohda.fun/tags/design/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Dom</title>
-      <link>/tags/dom/</link>
+      <link>https://blog.ohda.fun/tags/dom/</link>
       <pubDate>Mon, 12 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/dom/</guid>
+      <guid>https://blog.ohda.fun/tags/dom/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Dp</title>
-      <link>/tags/dp/</link>
+      <link>https://blog.ohda.fun/tags/dp/</link>
       <pubDate>Fri, 16 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/dp/</guid>
+      <guid>https://blog.ohda.fun/tags/dp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Dream</title>
-      <link>/tags/dream/</link>
+      <link>https://blog.ohda.fun/tags/dream/</link>
       <pubDate>Sat, 24 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/dream/</guid>
+      <guid>https://blog.ohda.fun/tags/dream/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Flexbox</title>
-      <link>/tags/flexbox/</link>
+      <link>https://blog.ohda.fun/tags/flexbox/</link>
       <pubDate>Wed, 17 Jan 2018 01:00:11 +0900</pubDate>
       
-      <guid>/tags/flexbox/</guid>
+      <guid>https://blog.ohda.fun/tags/flexbox/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Form</title>
-      <link>/tags/form/</link>
+      <link>https://blog.ohda.fun/tags/form/</link>
       <pubDate>Tue, 30 Jan 2018 22:05:33 +0900</pubDate>
       
-      <guid>/tags/form/</guid>
+      <guid>https://blog.ohda.fun/tags/form/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Git</title>
-      <link>/tags/git/</link>
+      <link>https://blog.ohda.fun/tags/git/</link>
       <pubDate>Wed, 17 Jan 2018 23:00:00 +0900</pubDate>
       
-      <guid>/tags/git/</guid>
+      <guid>https://blog.ohda.fun/tags/git/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Goal</title>
-      <link>/tags/goal/</link>
+      <link>https://blog.ohda.fun/tags/goal/</link>
       <pubDate>Tue, 30 Jan 2018 00:05:33 +0900</pubDate>
       
-      <guid>/tags/goal/</guid>
+      <guid>https://blog.ohda.fun/tags/goal/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Guideline</title>
-      <link>/tags/guideline/</link>
+      <link>https://blog.ohda.fun/tags/guideline/</link>
       <pubDate>Sun, 04 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/guideline/</guid>
+      <guid>https://blog.ohda.fun/tags/guideline/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Harvard</title>
-      <link>/tags/harvard/</link>
+      <link>https://blog.ohda.fun/tags/harvard/</link>
       <pubDate>Sun, 14 Jan 2018 22:30:11 +0900</pubDate>
       
-      <guid>/tags/harvard/</guid>
+      <guid>https://blog.ohda.fun/tags/harvard/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Html</title>
-      <link>/tags/html/</link>
+      <link>https://blog.ohda.fun/tags/html/</link>
       <pubDate>Mon, 12 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/html/</guid>
+      <guid>https://blog.ohda.fun/tags/html/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Https</title>
-      <link>/tags/https/</link>
+      <link>https://blog.ohda.fun/tags/https/</link>
       <pubDate>Tue, 13 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/https/</guid>
+      <guid>https://blog.ohda.fun/tags/https/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Internet</title>
-      <link>/tags/internet/</link>
+      <link>https://blog.ohda.fun/tags/internet/</link>
       <pubDate>Fri, 23 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/internet/</guid>
+      <guid>https://blog.ohda.fun/tags/internet/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Javascript</title>
-      <link>/tags/javascript/</link>
+      <link>https://blog.ohda.fun/tags/javascript/</link>
       <pubDate>Mon, 12 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/javascript/</guid>
+      <guid>https://blog.ohda.fun/tags/javascript/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Javascript30</title>
-      <link>/tags/javascript30/</link>
+      <link>https://blog.ohda.fun/tags/javascript30/</link>
       <pubDate>Wed, 14 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/javascript30/</guid>
+      <guid>https://blog.ohda.fun/tags/javascript30/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Js</title>
-      <link>/tags/js/</link>
+      <link>https://blog.ohda.fun/tags/js/</link>
       <pubDate>Mon, 19 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/js/</guid>
+      <guid>https://blog.ohda.fun/tags/js/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Learning</title>
-      <link>/tags/learning/</link>
+      <link>https://blog.ohda.fun/tags/learning/</link>
       <pubDate>Fri, 23 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/learning/</guid>
+      <guid>https://blog.ohda.fun/tags/learning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Lecture</title>
-      <link>/tags/lecture/</link>
+      <link>https://blog.ohda.fun/tags/lecture/</link>
       <pubDate>Fri, 12 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/lecture/</guid>
+      <guid>https://blog.ohda.fun/tags/lecture/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Lint</title>
-      <link>/tags/lint/</link>
+      <link>https://blog.ohda.fun/tags/lint/</link>
       <pubDate>Sun, 04 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/lint/</guid>
+      <guid>https://blog.ohda.fun/tags/lint/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Markup</title>
-      <link>/tags/markup/</link>
+      <link>https://blog.ohda.fun/tags/markup/</link>
       <pubDate>Tue, 30 Jan 2018 22:05:33 +0900</pubDate>
       
-      <guid>/tags/markup/</guid>
+      <guid>https://blog.ohda.fun/tags/markup/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Math</title>
-      <link>/tags/math/</link>
+      <link>https://blog.ohda.fun/tags/math/</link>
       <pubDate>Fri, 16 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/math/</guid>
+      <guid>https://blog.ohda.fun/tags/math/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Menu</title>
-      <link>/tags/menu/</link>
+      <link>https://blog.ohda.fun/tags/menu/</link>
       <pubDate>Thu, 18 Jan 2018 23:00:00 +0900</pubDate>
       
-      <guid>/tags/menu/</guid>
+      <guid>https://blog.ohda.fun/tags/menu/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Mindset</title>
-      <link>/tags/mindset/</link>
+      <link>https://blog.ohda.fun/tags/mindset/</link>
       <pubDate>Thu, 08 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/mindset/</guid>
+      <guid>https://blog.ohda.fun/tags/mindset/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Motivation</title>
-      <link>/tags/motivation/</link>
+      <link>https://blog.ohda.fun/tags/motivation/</link>
       <pubDate>Sat, 24 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/motivation/</guid>
+      <guid>https://blog.ohda.fun/tags/motivation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Network</title>
-      <link>/tags/network/</link>
+      <link>https://blog.ohda.fun/tags/network/</link>
       <pubDate>Tue, 13 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/network/</guid>
+      <guid>https://blog.ohda.fun/tags/network/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Observable</title>
-      <link>/tags/observable/</link>
+      <link>https://blog.ohda.fun/tags/observable/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/observable/</guid>
+      <guid>https://blog.ohda.fun/tags/observable/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Probability</title>
-      <link>/tags/probability/</link>
+      <link>https://blog.ohda.fun/tags/probability/</link>
       <pubDate>Mon, 12 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/probability/</guid>
+      <guid>https://blog.ohda.fun/tags/probability/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Project</title>
-      <link>/tags/project/</link>
+      <link>https://blog.ohda.fun/tags/project/</link>
       <pubDate>Fri, 02 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/project/</guid>
+      <guid>https://blog.ohda.fun/tags/project/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Radical Coding</title>
-      <link>/tags/radical-coding/</link>
+      <link>https://blog.ohda.fun/tags/radical-coding/</link>
       <pubDate>Wed, 17 Jan 2018 23:00:00 +0900</pubDate>
       
-      <guid>/tags/radical-coding/</guid>
+      <guid>https://blog.ohda.fun/tags/radical-coding/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Recursion</title>
-      <link>/tags/recursion/</link>
+      <link>https://blog.ohda.fun/tags/recursion/</link>
       <pubDate>Fri, 16 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/recursion/</guid>
+      <guid>https://blog.ohda.fun/tags/recursion/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Rxjs</title>
-      <link>/tags/rxjs/</link>
+      <link>https://blog.ohda.fun/tags/rxjs/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/rxjs/</guid>
+      <guid>https://blog.ohda.fun/tags/rxjs/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Scope</title>
-      <link>/tags/scope/</link>
+      <link>https://blog.ohda.fun/tags/scope/</link>
       <pubDate>Sun, 11 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/scope/</guid>
+      <guid>https://blog.ohda.fun/tags/scope/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Security</title>
-      <link>/tags/security/</link>
+      <link>https://blog.ohda.fun/tags/security/</link>
       <pubDate>Tue, 13 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/security/</guid>
+      <guid>https://blog.ohda.fun/tags/security/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Semantic</title>
-      <link>/tags/semantic/</link>
+      <link>https://blog.ohda.fun/tags/semantic/</link>
       <pubDate>Sun, 21 Jan 2018 20:30:00 +0900</pubDate>
       
-      <guid>/tags/semantic/</guid>
+      <guid>https://blog.ohda.fun/tags/semantic/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Statistics</title>
-      <link>/tags/statistics/</link>
+      <link>https://blog.ohda.fun/tags/statistics/</link>
       <pubDate>Mon, 12 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/statistics/</guid>
+      <guid>https://blog.ohda.fun/tags/statistics/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Study</title>
-      <link>/tags/study/</link>
+      <link>https://blog.ohda.fun/tags/study/</link>
       <pubDate>Thu, 26 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/study/</guid>
+      <guid>https://blog.ohda.fun/tags/study/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Thoughts</title>
-      <link>/tags/thoughts/</link>
+      <link>https://blog.ohda.fun/tags/thoughts/</link>
       <pubDate>Thu, 26 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/thoughts/</guid>
+      <guid>https://blog.ohda.fun/tags/thoughts/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Til</title>
-      <link>/tags/til/</link>
+      <link>https://blog.ohda.fun/tags/til/</link>
       <pubDate>Thu, 26 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/til/</guid>
+      <guid>https://blog.ohda.fun/tags/til/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tls</title>
-      <link>/tags/tls/</link>
+      <link>https://blog.ohda.fun/tags/tls/</link>
       <pubDate>Tue, 13 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/tls/</guid>
+      <guid>https://blog.ohda.fun/tags/tls/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Tony Robbins</title>
-      <link>/tags/tony-robbins/</link>
+      <link>https://blog.ohda.fun/tags/tony-robbins/</link>
       <pubDate>Sat, 24 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/tony-robbins/</guid>
+      <guid>https://blog.ohda.fun/tags/tony-robbins/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Types</title>
-      <link>/tags/types/</link>
+      <link>https://blog.ohda.fun/tags/types/</link>
       <pubDate>Wed, 07 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/types/</guid>
+      <guid>https://blog.ohda.fun/tags/types/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Web</title>
-      <link>/tags/web/</link>
+      <link>https://blog.ohda.fun/tags/web/</link>
       <pubDate>Fri, 12 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/web/</guid>
+      <guid>https://blog.ohda.fun/tags/web/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Youtube</title>
-      <link>/tags/youtube/</link>
+      <link>https://blog.ohda.fun/tags/youtube/</link>
       <pubDate>Sun, 14 Jan 2018 22:30:11 +0900</pubDate>
       
-      <guid>/tags/youtube/</guid>
+      <guid>https://blog.ohda.fun/tags/youtube/</guid>
       <description></description>
     </item>
     
     <item>
       <title>경우의 수</title>
-      <link>/tags/%EA%B2%BD%EC%9A%B0%EC%9D%98-%EC%88%98/</link>
+      <link>https://blog.ohda.fun/tags/%EA%B2%BD%EC%9A%B0%EC%9D%98-%EC%88%98/</link>
       <pubDate>Mon, 12 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/%EA%B2%BD%EC%9A%B0%EC%9D%98-%EC%88%98/</guid>
+      <guid>https://blog.ohda.fun/tags/%EA%B2%BD%EC%9A%B0%EC%9D%98-%EC%88%98/</guid>
       <description></description>
     </item>
     
     <item>
       <title>순열과 조합</title>
-      <link>/tags/%EC%88%9C%EC%97%B4%EA%B3%BC-%EC%A1%B0%ED%95%A9/</link>
+      <link>https://blog.ohda.fun/tags/%EC%88%9C%EC%97%B4%EA%B3%BC-%EC%A1%B0%ED%95%A9/</link>
       <pubDate>Mon, 12 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/%EC%88%9C%EC%97%B4%EA%B3%BC-%EC%A1%B0%ED%95%A9/</guid>
+      <guid>https://blog.ohda.fun/tags/%EC%88%9C%EC%97%B4%EA%B3%BC-%EC%A1%B0%ED%95%A9/</guid>
       <description></description>
     </item>
     
