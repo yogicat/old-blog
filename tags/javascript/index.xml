@@ -6,10 +6,19 @@
     <description>Recent content in Javascript on ohda blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>kor</language>
-    <lastBuildDate>Mon, 12 Mar 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 03 May 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://blog.ohda.fun/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Execution Context</title>
+      <link>https://blog.ohda.fun/posts/20180503/</link>
+      <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.ohda.fun/posts/20180503/</guid>
+      <description>Execution Context in JS 처음부터 자바스크립트 개념과 이론을 정리하고 있다. 오늘은 자바스크립트의 실행컨텍스트 execution context에 대해 알아보자. 자바스크립트에서는 코드</description>
+    </item>
     
     <item>
       <title>Attribute vs Property</title>

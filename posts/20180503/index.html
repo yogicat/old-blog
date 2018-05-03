@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="kor">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+		<meta name="author" content="ohda">
+		
+		<meta name="generator" content="Hugo 0.36.1" />
+		<title>Execution Context &middot; ohda blog</title>
+		<link rel="shortcut icon" href="https://blog.ohda.fun/images/favicon.ico">
+		<link rel="stylesheet" href="https://blog.ohda.fun/css/style.css">
+		<link rel="stylesheet" href="https://blog.ohda.fun/css/highlight.css">
+		
+		
+		<link rel="stylesheet" href="https://blog.ohda.fun/css/font-awesome.min.css">
+		 
+
+		 
+
+		
+
+
+		
+
+	</head>
+
+    <body>
+       <nav class="main-nav" id="nav">
+	<a href="#nav" id="goTop"></a>
+	
+	
+		<a href='https://blog.ohda.fun/'><span class="arrow">←</span>Home</a>
+	
+<a href='https://blog.ohda.fun/posts'>Archive</a>
+<a href='https://blog.ohda.fun/about'>About</a>
+
+	
+
+	
+</nav>
+
+
+        <section id="wrapper" class="post">
+            <article>
+                <header>
+                    <h1>
+                        Execution Context
+                    </h1>
+                    <h2 class="headline">
+                    May 3, 2018 00:00
+                    · 1290 words
+                    · 3 minute read
+                      <span class="tags">
+                      
+                      
+                          
+                              <a href="/tags/til">til</a>
+                          
+                              <a href="/tags/javascript">JavaScript</a>
+                          
+                              <a href="/tags/study">study</a>
+                          
+                      
+                      
+                      </span>
+                    </h2>
+                </header>
+                
+                <section id="post-body">
+                    
+
+<h2 id="execution-context-in-js">Execution Context in JS</h2>
+
+<p>처음부터 자바스크립트 개념과 이론을 정리하고 있다. 오늘은 자바스크립트의 실행컨텍스트 <code>execution context</code>에 대해 알아보자.</p>
+
+<hr />
+
+<p>자바스크립트에서는 <strong>코드가 실행되는 환경</strong>이 매우 중요하게 여겨진다. 이 환경은 다음 중 1개로 나타난다.</p>
+
+<ul>
+<li>Global code - 전역에 존재하는 코드 (가장 처음 실행 되어지는 기본 환경, 단 1개만 존재)</li>
+<li>Function code - 함수 내 실행되는 코드 (실행의 흐름이 함수 내부로 들어올 때 실행되는 코드)</li>
+<li>Eval code - Eval함수로 실행되는 코드</li>
+</ul>
+
+<p>자바스크립트는 단 하나의 <code>global context</code> 를 가지며, 함수를 실행할 때마다 새로운 <code>function context(local context)</code>를 생성하며 자기만의 private scope를 가지기 때문에 내부에서 선언된 것은 현재 함수 스코프 밖에서 직접 접근할 수 없다.</p>
+
+<hr />
+
+<h2 id="call-stack-execution-context-stack">Call Stack (Execution Context Stack)</h2>
+
+<p>브라우저내에 JS 인터프리터는 싱글쓰레드(single thread)로 동작한다. 싱글쓰레드이기 때문에 브라우저에서는 한번에 한가지 일만 일어나며 이때 다른 이벤트들은 콜스택에 쌓여있는 채로 순차적으로 처리된다.</p>
+
+<p><img src="../images/ecstack.jpg" alt="" /></p>
+
+<p>(Image from David Shariff Blog)</p>
+
+<p><strong>콜스택의 주요 특징은,</strong></p>
+
+<ol>
+<li>싱글쓰레드이다.</li>
+<li>동기식 처리를 한다. (Synchronous execution)</li>
+<li>단하나의 global context를 가진다.</li>
+<li>원하는만큼의? function context를 가질 수 있다.</li>
+<li>각각의 함수 호출은 새로운 execution context를 생성한다. (recursive function포함)</li>
+</ol>
+
+<hr />
+
+<h2 id="execution-context-in-detail">Execution Context in Detail</h2>
+
+<p>좀 더 자세히 살펴보면, 모든 <code>execution context</code>는 2가지의 단계를 거치게 된다.</p>
+
+<ol>
+<li><p>Creation Stage 생성 단계 (함수가 호출되고 내부 코드를 실행하기 직전 단계)</p>
+
+<ul>
+<li>Scope Chain 을 만든다.</li>
+<li>변수, 함수들 과 인자(arguments)를 만든다.</li>
+<li><code>this</code>에 대한 값을 결정한다.
+(→ execution context object 생성)</li>
+</ul></li>
+
+<li><p>Activation / Code Execution Stage (코드 실행 단계)</p>
+
+<ul>
+<li>값을 할당하고 코드를 실행한다.</li>
+</ul></li>
+</ol>
+
+<hr />
+
+<h2 id="execution-context-object">Execution Context Object</h2>
+
+<p>모든 각각의 <code>execution context</code>는 추상적으로(컨셉적으로) 3가지의 프로퍼티를 가진 객체로 나타낼 수 있다.</p>
+
+<ul>
+<li><code>scope chain</code> : variable object + all parent execution context&rsquo;s variable object</li>
+<li><code>variable object</code> : function arguments, parameters, inner variable, &hellip;</li>
+<li><code>this</code> : {}</li>
+</ul>
+
+<hr />
+
+<h2 id="activation-variable-object-ao-vo">Activation / Variable Object (AO/VO)</h2>
+
+<p>execution context object는 함수가 호출되고 내부 코드를 실행하기 전에 만들어진다. (위에 스테이지 1단계)  인터프리터가 함수의 매개변수(parameter)와 인자(arguments)를 스캔하고, 로컬 함수 선언식과 로컬 변수들을 스캔하게 된다. 이 결과들이 객체의 프로퍼티 중 하나인 variable object가 된다.</p>
+
+<ol>
+<li>scope chain을 설정한다.</li>
+<li>variable object를 생성한다
+
+<ol>
+<li>arguments object를 생성하고, 매개변수 이름과 값을 설정하고 레퍼런스 카피를 생성한다. (array like object로 length를 가진다.)</li>
+<li>함수 선언식을 찾아 vo내부에 함수 이름의 프로퍼티를 생성한다. 이 프로퍼티는 메모리의 함수를 가르키는 레퍼런스 포인터를 가진다. (함수명이 이미 존재하면 레퍼런스를 덮어쓴다.)</li>
+<li>변수 선언을 찾아 vo내부 프로퍼티로 생성한다. 값은 undefined로 초기화 한다. (변수명 이미 존재하면 아무것도 하지않고 건너뛴다.)</li>
+</ol></li>
+<li>this의 값을 결정한다.</li>
+</ol>
+
+<hr />
+
+<h2 id="hoisting">Hoisting</h2>
+
+<p>호이스팅의 동작 원리, 어떻게 변수 선언 라인 이전에도 변수가 존재할 수 있는지?</p>
+
+<ul>
+<li>위에서 알아본 <code>creation stage(1단계)</code>를 따라 가보면, 변수는 이미 <code>execution stage(2단계)</code>이전에 생성됨을 알 수 있다. 따라서 실제 함수가 실행될 때는 변수는 이미 <code>activation object (variable object)</code>에 등록된 상태이다.</li>
+</ul>
+
+<hr />
+
+<p><em>훌륭한 리소스인 <a href="http://davidshariff.com/blog/what-is-the-execution-context-in-javascript/#first-article">David Shariff의 블로그</a> 글을 스스로 읽고 공부 하면서 정리한 내용입니다.</em></p>
+
+<p><em>다음 포스팅에는 동일 블로그의 글인 Scope Chain에 대해서 공부해 보도록 하겠습니다.</em></p>
+
+                </section>
+            </article>
+
+            
+
+            
+                <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'yogicat'; 
+
+     
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+
+            
+
+            
+
+            <footer id="footer">
+    
+    <p class="small">
+    
+       made with love💚 2018  ohda
+    
+    </p>
+    
+</footer>
+
+        </section>
+
+        <script src="https://blog.ohda.fun/js/jquery-3.3.1.min.js"></script>
+<script src="https://blog.ohda.fun/js/main.js"></script>
+<script src="https://blog.ohda.fun/js/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+  
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-112494454-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+
+
+
+    </body>
+</html>
