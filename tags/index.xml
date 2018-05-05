@@ -318,6 +318,15 @@
     </item>
     
     <item>
+      <title>Interview</title>
+      <link>https://blog.ohda.fun/tags/interview/</link>
+      <pubDate>Sat, 05 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.ohda.fun/tags/interview/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Javascript</title>
       <link>https://blog.ohda.fun/tags/javascript/</link>
       <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
@@ -518,9 +527,18 @@
     <item>
       <title>Study</title>
       <link>https://blog.ohda.fun/tags/study/</link>
-      <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 05 May 2018 00:00:00 +0000</pubDate>
       
       <guid>https://blog.ohda.fun/tags/study/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Thought</title>
+      <link>https://blog.ohda.fun/tags/thought/</link>
+      <pubDate>Sat, 05 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.ohda.fun/tags/thought/</guid>
       <description></description>
     </item>
     
@@ -536,7 +554,7 @@
     <item>
       <title>Til</title>
       <link>https://blog.ohda.fun/tags/til/</link>
-      <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 05 May 2018 00:00:00 +0000</pubDate>
       
       <guid>https://blog.ohda.fun/tags/til/</guid>
       <description></description>

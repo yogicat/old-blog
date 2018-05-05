@@ -6,10 +6,19 @@
     <description>Recent content in Study on ohda blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>kor</language>
-    <lastBuildDate>Thu, 03 May 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 05 May 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://blog.ohda.fun/tags/study/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Cracking? the interview</title>
+      <link>https://blog.ohda.fun/posts/20180505/</link>
+      <pubDate>Sat, 05 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://blog.ohda.fun/posts/20180505/</guid>
+      <description>Cracking? the Interview &amp;hellip;?? 학원의 프로젝트가 끝나고, 아직도 프로젝트의 늪에서 허덕이고 있던때 나의 개발자로써의 첫 면접을 보게 되었다. 인터뷰 당일, 내가 개발자로 면접을 보러 간</description>
+    </item>
     
     <item>
       <title>Execution Context</title>

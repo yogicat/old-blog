@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://blog.ohda.fun/posts/20180505/</loc>
+    <lastmod>2018-05-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://blog.ohda.fun/posts/20180503/</loc>
     <lastmod>2018-05-03T00:00:00+00:00</lastmod>
   </url>
@@ -451,6 +456,12 @@
   </url>
   
   <url>
+    <loc>https://blog.ohda.fun/tags/interview/</loc>
+    <lastmod>2018-05-05T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.ohda.fun/tags/javascript/</loc>
     <lastmod>2018-05-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -530,7 +541,7 @@
   
   <url>
     <loc>https://blog.ohda.fun/posts/</loc>
-    <lastmod>2018-05-03T00:00:00+00:00</lastmod>
+    <lastmod>2018-05-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -590,13 +601,19 @@
   
   <url>
     <loc>https://blog.ohda.fun/tags/study/</loc>
-    <lastmod>2018-05-03T00:00:00+00:00</lastmod>
+    <lastmod>2018-05-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://blog.ohda.fun/tags/</loc>
     <lastmod>2018-02-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ohda.fun/tags/thought/</loc>
+    <lastmod>2018-05-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -608,7 +625,7 @@
   
   <url>
     <loc>https://blog.ohda.fun/tags/til/</loc>
-    <lastmod>2018-05-03T00:00:00+00:00</lastmod>
+    <lastmod>2018-05-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -644,7 +661,7 @@
   
   <url>
     <loc>https://blog.ohda.fun/</loc>
-    <lastmod>2018-05-03T00:00:00+00:00</lastmod>
+    <lastmod>2018-05-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
